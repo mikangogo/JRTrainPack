@@ -1,0 +1,8 @@
+..\..\..\..\Plugin\ATSN.dll
+..\..\..\..\Plugin\MC53.dll
+..\..\..\..\Plugin\ME38.dll
+..\..\..\..\Plugin\B1.dll
+..\..\..\..\Plugin\EB.dll
+..\..\..\..\Plugin\ATS_S.dll
+..\..\..\..\Plugin\DIR.dll
+..\..\..\..\Plugin\CS15F_485Q.dll

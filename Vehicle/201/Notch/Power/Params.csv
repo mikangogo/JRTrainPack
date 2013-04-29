@@ -1,0 +1,13 @@
+BveTs Vehicle Performance Table 1.00,,,,
+#,,,,
+jerkregulation_up,0,680,680,680
+jerkregulation_down,0,680,680,680
+currentlimitingtime,0,0,0,0
+requirednotch_up,2,3,4,5
+requirednotch_down,-1,-1,-1,-1
+stepdelay_up,0,0,0,0
+stepdelay_down,0,0,0,0
+cutoffcurrent_empty,500,500,500,500
+cutoffcurrent_full,680,680,680,680
+BreakerDelay_On,0,0,0,0
+BreakerDelay_Off,0,1,1,1

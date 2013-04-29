@@ -1,0 +1,11 @@
+bvets vehicle performance table 0.01,,,,,,,,,,,,,
+#,S1,S2,S3,S4,S5,S6,S7,S8,S9,S10,S11,S12,S13
+jerkregulation_up,0,0,0,0,0,0,0,0,0,0,0,0,0
+jerkregulation_down,0,0,0,0,0,0,0,0,0,0,0,0,0
+currentlimitingtime,0,0,0,0,0,0,0,0,0,0,0,0,0
+requirednotch_up,2,3,4,5,0,0,0,0,0,0,0,0,0
+requirednotch_down,-1,1,2,3,-1,-1,-1,-1,-1,-1,-1,-1,-1
+stepdelay_up,0.315,0.315,0.315,0.315,0.315,0.315,0.315,0.315,0.315,0.315,0.315,0.315,1
+stepdelay_down,0,0,0,0,0,0,0,0,0,0,0,0,0
+cutoffcurrent_empty,265,265,265,265,265,265,265,265,265,265,265,265,265
+cutoffcurrent_full,265,265,265,265,265,265,265,265,265,265,265,265,265

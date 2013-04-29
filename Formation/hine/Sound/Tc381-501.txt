@@ -1,0 +1,55 @@
+Version 1.0
+
+[Run]
+0 = ..\..\..\Vehicle\381\Sound\Run0.wav
+1 = ..\..\..\Vehicle\381\Sound\Run0.wav
+2 = ..\..\..\Vehicle\381\Sound\Run4.wav
+3 = ..\..\..\Vehicle\381\Sound\Run2.wav
+4 = ..\..\..\Vehicle\381\Sound\Run3.wav
+
+[Flange]
+0 = ..\..\..\Vehicle\381\Sound\Flange0.wav
+;1 = ..\..\..\Vehicle\381\Sound\Flange1.wav
+
+[Motor]
+0 = ..\..\..\Vehicle\381\Sound\Motor0.wav
+1 = ..\..\..\Vehicle\381\Sound\Motor1.wav
+2 = ..\..\..\Vehicle\381\Sound\Motor2.wav
+3 = ..\..\..\Vehicle\381\Sound\Motor3.wav
+
+[Switch]
+0 = ..\..\..\Vehicle\381\Sound\Point.wav
+
+[Brake]
+BC Release High = ..\..\..\Vehicle\381\Sound\Air.wav
+BC Release Full = ..\..\..\Vehicle\381\Sound\AirZero.wav
+BC Release = ..\..\..\Vehicle\381\Sound\Air.wav
+Emergency = ..\..\..\Vehicle\381\Sound\EmrBrk.wav
+
+[Horn]
+Primary = ..\..\..\Vehicle\381\Sound\horn.wav
+PrimaryRelease = ..\..\..\Vehicle\381\Sound\hornrelease.wav
+
+[Door]
+Open Left = ..\..\..\Vehicle\381\Sound\DoorOpn.wav
+Open Right = ..\..\..\Vehicle\381\Sound\DoorOpn.wav
+Close Left = ..\..\..\Vehicle\381\Sound\DoorCls.wav
+Close Right = ..\..\..\Vehicle\381\Sound\DoorCls.wav
+
+[Pilot Lamp]
+On = ..\..\..\Vehicle\381\Sound\leave_buzzer.wav
+
+[Ats]
+0 = ..\..\..\Vehicle\381\Sound\Ats.wav
+2 = ..\..\..\Vehicle\381\Sound\P.wav
+3 = ..\..\..\Vehicle\381\Sound\Eb.wav
+4 = ..\..\..\Vehicle\381\Sound\P.wav
+20 = ..\..\..\Vehicle\381\Sound\BellOff.wav
+21 = ..\..\..\Vehicle\381\Sound\ATSCnt_L.wav
+22 = ..\..\..\Vehicle\381\Sound\ATSCnt_R.wav
+221 = ..\..\..\Vehicle\381\Sound\Brake.wav
+222 = ..\..\..\Vehicle\381\Sound\Brake2.wav
+213 = ..\..\..\Vehicle\381\Sound\dc.wav
+
+[Buzzer]
+Correct = ..\..\..\Vehicle\381\Sound\Adjust.wav

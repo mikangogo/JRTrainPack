@@ -1,0 +1,8 @@
+..\..\..\..\Plugin\ATSN.dll
+..\..\..\..\Plugin\MC53.dll
+..\..\..\..\Plugin\ME48.dll
+..\..\..\..\Plugin\B1.dll
+..\..\..\..\Plugin\EB.dll
+..\..\..\..\Plugin\ATS_East\snp.dll
+..\..\..\..\Plugin\DIR.dll
+..\..\..\..\Plugin\CS43_381.dll

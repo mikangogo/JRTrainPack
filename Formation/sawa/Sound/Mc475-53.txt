@@ -1,0 +1,83 @@
+Version 1.0
+
+[Run]
+0 = ..\..\..\Vehicle\165\Sound\Run0.wav
+1 = ..\..\..\Vehicle\165\Sound\Run0.wav
+2 = ..\..\..\Vehicle\165\Sound\Run4.wav
+3 = ..\..\..\Vehicle\165\Sound\Run2.wav
+4 = ..\..\..\Vehicle\165\Sound\Run3.wav
+
+[Flange]
+0 = ..\..\..\Vehicle\165\Sound\Flange0.wav
+;1 = ..\..\..\Vehicle\165\Sound\Flange1.wav
+
+[Motor]
+0 = ..\..\..\Vehicle\165\Sound\Motor0.wav
+1 = ..\..\..\Vehicle\165\Sound\Motor1.wav
+2 = ..\..\..\Vehicle\165\Sound\Motor2.wav
+3 = ..\..\..\Vehicle\165\Sound\Motor3.wav
+4 = ..\..\..\Vehicle\165\Sound\Motor4.wav
+5 = ..\..\..\Vehicle\165\Sound\Motor5.wav
+
+[Switch]
+0 = ..\..\..\Vehicle\165\Sound\Point.wav
+
+[Master Controller]
+Max = ..\..\..\Vehicle\165\Sound\mcfull.wav
+Min = ..\..\..\Vehicle\165\Sound\mcoff.wav
+Up = ..\..\..\Vehicle\165\Sound\mcup.wav
+Down = ..\..\..\Vehicle\165\Sound\mcdown.wav
+
+[Brake]
+BC Release High = ..\..\..\Vehicle\165\Sound\Air.wav
+BC Release Full = ..\..\..\Vehicle\165\Sound\AirZero.wav
+BC Release = ..\..\..\Vehicle\165\Sound\Air.wav
+Emergency = ..\..\..\Vehicle\165\Sound\EmrBrk.wav
+
+
+[Horn]
+Primary = ..\..\..\Vehicle\165\Sound\horn.wav
+PrimaryRelease = ..\..\..\Vehicle\165\Sound\hornrelease.wav
+
+[Door]
+Open Left = ..\..\..\Vehicle\165\Sound\DoorOpn.wav
+Open Right = ..\..\..\Vehicle\165\Sound\DoorOpn.wav
+Close Left = ..\..\..\Vehicle\165\Sound\DoorCls.wav
+Close Right = ..\..\..\Vehicle\165\Sound\DoorCls.wav
+
+[Brake Handle]
+;Apply = ..\..\..\Vehicle\165\Sound\Brake3.wav
+;Release = ..\..\..\Vehicle\165\Sound\Brake2.wav
+;Min = ..\..\..\Vehicle\165\Sound\Brake.wav
+
+[Others]
+Noise = ..\..\..\Vehicle\165\Sound\Loop.wav
+Shoe = ..\..\..\Vehicle\165\Sound\Rub.wav
+
+[Ats]
+0 = ..\..\..\Vehicle\165\Sound\Ats.wav
+;1 = ..\..\..\Vehicle\165\Sound\AtsCnt.wav
+2 = ..\..\..\Vehicle\165\Sound\P.wav
+3 = ..\..\..\Vehicle\165\Sound\Eb.wav
+4 = ..\..\..\Vehicle\165\Sound\P.wav
+;10 = ..\..\..\Vehicle\165\Sound\Spp1.wav
+;11 = ..\..\..\Vehicle\165\Sound\Spp2.wav
+20 = ..\..\..\Vehicle\165\Sound\BellOff.wav
+21 = ..\..\..\Vehicle\165\Sound\ATSCnt_L.wav
+22 = ..\..\..\Vehicle\165\Sound\ATSCnt_R.wav
+200 = ..\..\..\Vehicle\165\Sound\cooler.wav
+211 = ..\..\..\Vehicle\165\Sound\LbOn.wav
+212 = ..\..\..\Vehicle\165\Sound\LbOff.wav
+216 = ..\..\..\Vehicle\475\Sound\trans60.wav
+;220 = ..\..\..\Vehicle\165\Sound\Brake.wav
+221 = ..\..\..\Vehicle\165\Sound_ME38\Brake_2.wav
+222 = ..\..\..\Vehicle\165\Sound_ME38\Brake_2.wav
+230 = ..\..\..\Vehicle\165\Sound\bm_on.wav
+231 = ..\..\..\Vehicle\165\Sound\bm_off.wav
+233 = ..\..\..\Vehicle\165\Sound\bm_loop.wav
+
+[Pilot Lamp]
+On = ..\..\..\Vehicle\165\Sound\leave_buzzer.wav
+
+[Buzzer]
+Correct = ..\..\..\Vehicle\165\Sound\Adjust.wav

@@ -1,0 +1,83 @@
+Version 1.0
+
+[Run]
+0 = ..\..\..\Vehicle\115\Sound\Run0.wav
+1 = ..\..\..\Vehicle\115\Sound\Run0.wav
+2 = ..\..\..\Vehicle\115\Sound\Run4.wav
+3 = ..\..\..\Vehicle\115\Sound\Run2.wav
+4 = ..\..\..\Vehicle\115\Sound_niigata\Run3.wav
+
+[Flange]
+0 = ..\..\..\Vehicle\115\Sound\Flange0.wav
+;1 = ..\..\..\Vehicle\115\Sound\Flange1.wav
+
+[Motor]
+1 = ..\..\..\Vehicle\115\Sound\Motor1.wav
+2 = ..\..\..\Vehicle\115\Sound\Motor2.wav
+3 = ..\..\..\Vehicle\115\Sound\Motor3.wav
+
+[Switch]
+0 = ..\..\..\Vehicle\115\Sound\Point.wav
+
+[Master Controller]
+;Max = ..\..\..\Vehicle\115\Sound\mcfull.wav
+;Min = ..\..\..\Vehicle\115\Sound\mcoff.wav
+;Up = ..\..\..\Vehicle\115\Sound\mcup.wav
+;Down = ..\..\..\Vehicle\115\Sound\mcdown.wav
+
+[Brake]
+BC Release High = ..\..\..\Vehicle\115\Sound_niigata\Air.wav
+BC Release Full = ..\..\..\Vehicle\115\Sound_niigata\AirZero.wav
+BC Release = ..\..\..\Vehicle\115\Sound_niigata\Air.wav
+Emergency = ..\..\..\Vehicle\115\Sound\EmrBrk.wav
+
+[Compressor]
+Attack = ..\..\..\Vehicle\115\Sound\CpStart.wav
+Loop = ..\..\..\Vehicle\115\Sound\CpLoop.wav
+Release = ..\..\..\Vehicle\115\Sound\CpEnd.wav
+
+[Horn]
+Primary = ..\..\..\Vehicle\115\Sound\horn.wav
+PrimaryRelease = ..\..\..\Vehicle\115\Sound\hornrelease.wav
+
+[Door]
+Open Left = ..\..\..\Vehicle\115\Sound_takasaki\DoorOpn.wav
+Open Right = ..\..\..\Vehicle\115\Sound_takasaki\DoorOpn.wav
+Close Left = ..\..\..\Vehicle\115\Sound_takasaki\DoorCls.wav
+Close Right = ..\..\..\Vehicle\115\Sound_takasaki\DoorCls.wav
+
+[Brake Handle]
+;Apply = ..\..\..\Vehicle\115\Sound\Brake3.wav
+;Release = ..\..\..\Vehicle\115\Sound\Brake.wav
+;Min = ..\..\..\Vehicle\115\Sound\Brake2.wav
+
+[Others]
+;Noise = ..\..\..\Vehicle\115\Sound\Loop.wav
+Shoe = ..\..\..\Vehicle\115\Sound\Rub.wav
+
+[Ats]
+0 = ..\..\..\Vehicle\115\Sound\Ats.wav
+;1 = ..\..\..\Vehicle\115\Sound\AtsCnt.wav
+2 = ..\..\..\Vehicle\115\Sound\P.wav
+3 = ..\..\..\Vehicle\115\Sound\Eb.wav
+4 = ..\..\..\Vehicle\115\Sound\P.wav
+;10 = ..\..\..\Vehicle\115\Sound\Spp1.wav
+;11 = ..\..\..\Vehicle\115\Sound\Spp2.wav
+20 = ..\..\..\Vehicle\115\Sound\BellOff.wav
+21 = ..\..\..\Vehicle\115\Sound\ATSCnt_L.wav
+22 = ..\..\..\Vehicle\115\Sound\ATSCnt_R.wav
+200 = ..\..\..\Vehicle\115\Sound\Shock0.wav
+201 = ..\..\..\Vehicle\115\Sound\Shock1.wav
+202 = ..\..\..\Vehicle\115\Sound\Shock2.wav
+;210 = ..\..\..\Vehicle\115\Sound\k.wav
+;211 = ..\..\..\Vehicle\115\Sound\LbOn.wav
+;212 = ..\..\..\Vehicle\115\Sound\LbOff.wav
+;220 = ..\..\..\Vehicle\115\Sound_takasaki\Brake.wav
+221 = ..\..\..\Vehicle\115\Sound_N\Brake2.wav
+222 = ..\..\..\Vehicle\115\Sound_N\Brake.wav
+230 = ..\..\..\Vehicle\115\Sound\bm_on.wav
+231 = ..\..\..\Vehicle\115\Sound\bm_off.wav
+232 = ..\..\..\Vehicle\115\Sound\bm_loop.wav
+
+[Buzzer]
+Correct = ..\..\..\Vehicle\115\Sound\Adjust.wav

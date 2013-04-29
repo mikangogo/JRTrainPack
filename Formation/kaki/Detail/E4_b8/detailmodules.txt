@@ -1,0 +1,8 @@
+..\..\..\..\Plugin\ATSN_iida.dll
+..\..\..\..\Plugin\B1.dll
+..\..\..\..\Plugin\ME48.dll
+..\..\..\..\Plugin\ATS_S.dll
+..\..\..\..\Plugin\DIR.dll
+..\..\..\..\Plugin\CR2.dll
+..\..\..\..\Plugin\Shock.dll
+..\..\..\..\Plugin\Speedometer.dll
