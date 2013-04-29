@@ -205,7 +205,7 @@ Radius = 67
 InitialAngle = -115
 LastAngle = 115
 Minimum = 0
-Maximum = 3000
+Maximum = 2000
 NaturalFreq = 6.3
 DampingRatio = 0.5
 
