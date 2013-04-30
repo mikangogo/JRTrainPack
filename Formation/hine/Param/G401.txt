@@ -1,5 +1,5 @@
 Bvets Vehicle Parameters 0.04
-FirstCar = M
+FirstCar = T
 LoadCompensating = true
 [Compressor]
 UpperPressure = 784000
