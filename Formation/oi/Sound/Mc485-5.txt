@@ -62,6 +62,7 @@ On = ..\..\..\Vehicle\485\Sound\leave.wav
 20 = ..\..\..\Vehicle\485\Sound\BellOff.wav
 21 = ..\..\..\Vehicle\485\Sound\ATSCnt_L.wav
 22 = ..\..\..\Vehicle\485\Sound\ATSCnt_R.wav
+180 = ..\..\..\Vehicle\common\sound\buzzer.wav
 213 = ..\..\..\Vehicle\485\Sound\dc.wav
 214 = ..\..\..\Vehicle\485\Sound\ac60hz.wav
 215 = ..\..\..\Vehicle\485\Sound\ac50hz.wav
