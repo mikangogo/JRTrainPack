@@ -52,7 +52,7 @@ PrimaryRelease = ..\..\..\Vehicle\485\Sound\hornrelease.wav
 ;Shoe = ..\..\..\Vehicle\485\Sound\Rub.wav
 
 [Pilot Lamp]
-On = ..\..\..\Vehicle\485\Sound\leave_buzzer.wav
+On = ..\..\..\Vehicle\485\Sound\leave.wav
 
 [Ats]
 0 = ..\..\..\Vehicle\485\Sound\Ats.wav

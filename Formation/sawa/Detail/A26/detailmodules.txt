@@ -6,5 +6,6 @@
 ..\..\..\..\Plugin\EB.dll
 ..\..\..\..\Plugin\ATS_East\sn.dll
 ..\..\..\..\Plugin\DIR.dll
+..\..\..\..\Plugin\Conductor.dll
 ..\..\..\..\Plugin\CS15F_475.dll
 ..\..\..\..\Plugin\Shock.dll

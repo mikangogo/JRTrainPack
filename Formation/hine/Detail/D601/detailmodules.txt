@@ -5,4 +5,5 @@
 ..\..\..\..\Plugin\EB.dll
 ..\..\..\..\Plugin\ATS_East\snp.dll
 ..\..\..\..\Plugin\DIR.dll
+..\..\..\..\Plugin\Conductor.dll
 ..\..\..\..\Plugin\CS43_381.dll

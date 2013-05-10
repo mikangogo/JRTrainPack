@@ -6,5 +6,6 @@
 ..\..\..\..\Plugin\ATS_West\swp2.dll
 ..\..\..\..\Plugin\B1.dll
 ..\..\..\..\Plugin\DIR.dll
+..\..\..\..\Plugin\Conductor.dll
 ..\..\..\..\Plugin\CS12_113.dll
 ..\..\..\..\Plugin\Shock.dll

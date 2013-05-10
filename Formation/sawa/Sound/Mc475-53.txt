@@ -65,6 +65,7 @@ Shoe = ..\..\..\Vehicle\165\Sound\Rub.wav
 20 = ..\..\..\Vehicle\165\Sound\BellOff.wav
 21 = ..\..\..\Vehicle\165\Sound\ATSCnt_L.wav
 22 = ..\..\..\Vehicle\165\Sound\ATSCnt_R.wav
+180 = ..\..\..\Vehicle\common\sound\buzzer.wav
 200 = ..\..\..\Vehicle\165\Sound\cooler.wav
 211 = ..\..\..\Vehicle\165\Sound\LbOn.wav
 212 = ..\..\..\Vehicle\165\Sound\LbOff.wav
@@ -77,7 +78,7 @@ Shoe = ..\..\..\Vehicle\165\Sound\Rub.wav
 233 = ..\..\..\Vehicle\165\Sound\bm_loop.wav
 
 [Pilot Lamp]
-On = ..\..\..\Vehicle\165\Sound\leave_buzzer.wav
+On = ..\..\..\Vehicle\165\Sound\leave.wav
 
 [Buzzer]
 Correct = ..\..\..\Vehicle\165\Sound\Adjust.wav

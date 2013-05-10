@@ -37,7 +37,7 @@ Close Left = ..\..\..\Vehicle\381\Sound\DoorCls.wav
 Close Right = ..\..\..\Vehicle\381\Sound\DoorCls.wav
 
 [Pilot Lamp]
-On = ..\..\..\Vehicle\381\Sound\leave_buzzer.wav
+On = ..\..\..\Vehicle\381\Sound\leave.wav
 
 [Ats]
 0 = ..\..\..\Vehicle\381\Sound\Ats.wav
@@ -47,6 +47,7 @@ On = ..\..\..\Vehicle\381\Sound\leave_buzzer.wav
 20 = ..\..\..\Vehicle\381\Sound\BellOff.wav
 21 = ..\..\..\Vehicle\381\Sound\ATSCnt_L.wav
 22 = ..\..\..\Vehicle\381\Sound\ATSCnt_R.wav
+180 = ..\..\..\Vehicle\common\sound\buzzer.wav
 221 = ..\..\..\Vehicle\381\Sound\Brake.wav
 222 = ..\..\..\Vehicle\381\Sound\Brake2.wav
 213 = ..\..\..\Vehicle\381\Sound\dc.wav
