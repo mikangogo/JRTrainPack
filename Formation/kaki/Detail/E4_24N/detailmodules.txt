@@ -7,3 +7,4 @@
 ..\..\..\..\Plugin\CR2.dll
 ..\..\..\..\Plugin\Shock.dll
 ..\..\..\..\Plugin\Speedometer.dll
+..\..\..\..\Plugin\Communication\Communication.dll
