@@ -35,7 +35,7 @@ SapBcRatio = 0.97
 RegenerationLimit = 0
 NotchDelay = 0
 [Dynamics]
-MotorcarWeight = 43900		; ‹óÔ
+MotorcarWeight = 43800		; ‹óÔ
 ;MotorcarWeight = 50390		; ÏÔ (’èˆõ)
 MotorcarCount = 4
 TrailerWeight = 34000		; ‹óÔ
