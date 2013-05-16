@@ -1,0 +1,53 @@
+Bvets Vehicle Parameters 0.04
+FirstCar = T
+LoadCompensating = true
+[Compressor]
+UpperPressure = 784000
+LowerPressure = 686000
+CompressionSpeed = 5300
+[Bc]
+ApplyStart = 20000
+ApplyStop = 0
+ReleaseStart = 20000
+ReleaseStop = 0
+ApplySpeed = 623.1827
+ReleaseSpeed = 190
+PistonArea = 0.47
+VolumeRatio = 20
+[Sap]
+ApplySpeed = 180.7957
+ReleaseSpeed = 239.4975
+[Bp]
+ApplySpeed = 52.42742
+ReleaseSpeed = 990.2853
+[LockoutValve]
+InitialPressure = 40000
+MaximumPressure = 440000
+RegenerationLimit = 0
+[SMEE]
+MaximumPressure = 440000
+PressureRates = 0, 0, 0, 0, 0, 0.045454545, 0.090909091, 0.136363636, 0.181818182, 0.227272727, 0.272727273, 0.318181818, 0.363636364, 0.409090909, 0.454545455, 0.5, 0.545454545, 0.590909091, 0.636363636, 0.681818182, 0.727272727, 0.772727273, 0.848484848, 0.924242424, 1, 1
+;PressureRates = 0, 0.11038961, 0.220779221, 0.331168831, 0.441558442, 0.551948052, 0.662337662, 0.772727273, 1, 1
+LeverDelay = 0.6
+SapBcOffset = 0
+SapBcRatio = 0.97
+[MainCircuit]
+RegenerationLimit = 0
+NotchDelay = 0
+;BrakePriority = true
+[Dynamics]
+MotorcarWeight = 37450		; ‹óŽÔ
+MotorcarCount = 2
+TrailerWeight = 39000		; ‹óŽÔ
+TrailerCount = 2
+CarLength = 20
+RunningResistanceFactor = 0.26, 8, 500
+[Cab]
+BrakeNotchCount = 24
+PowerNotchCount = 4
+AtsCancelNotch = 8
+MotorBrakeNotch = 4
+[ViewPoint]
+X = -0.73
+Y = 2.7
+Z = -1

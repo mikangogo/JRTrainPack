@@ -1,0 +1,89 @@
+Version 1.0
+
+[Run]
+0 = ..\..\..\Vehicle\103\Sound\Run0.wav
+1 = ..\..\..\Vehicle\103\Sound\Run0.wav
+2 = ..\..\..\Vehicle\103\Sound\Run4.wav
+3 = ..\..\..\Vehicle\103\Sound\Run2.wav
+4 = ..\..\..\Vehicle\103\Sound\Run3.wav
+
+[Flange]
+0 = ..\..\..\Vehicle\115\Sound\Flange0.wav
+;1 = ..\..\..\Vehicle\115\Sound\Flange1.wav
+
+[Motor]
+1 = ..\..\..\Vehicle\103\Sound\Motor1.wav
+2 = ..\..\..\Vehicle\103\Sound\Motor2.wav
+3 = ..\..\..\Vehicle\103\Sound\Motor3.wav
+
+[Switch]
+0 = ..\..\..\Vehicle\103\Sound\Point.wav
+
+[Brake]
+BC Release High = ..\..\..\Vehicle\103\Sound\AirHigh.wav
+BC Release Full = ..\..\..\Vehicle\103\Sound\Air.wav
+BC Release = ..\..\..\Vehicle\103\Sound\Air.wav
+Emergency = ..\..\..\Vehicle\115\Sound\EmrBrk.wav
+
+[Horn]
+Primary = ..\..\..\Vehicle\103\Sound\horn.wav
+PrimaryRelease = ..\..\..\Vehicle\103\Sound\hornrelease.wav
+
+[Door]
+Open Left = ..\..\..\Vehicle\103\Sound\DoorOpn.wav
+Open Right = ..\..\..\Vehicle\103\Sound\DoorOpn.wav
+Close Left = ..\..\..\Vehicle\103\Sound\DoorCls.wav
+Close Right = ..\..\..\Vehicle\103\Sound\DoorCls.wav
+
+[Others]
+Shoe = ..\..\..\Vehicle\115\Sound\Rub.wav
+
+[Breaker]
+Off = ..\..\..\Vehicle\115\Sound\lboff.wav
+
+[Ats]
+0 = ..\..\..\Vehicle\103\Sound\Ats.wav
+2 = ..\..\..\Vehicle\common\Sound\P.wav
+20 = ..\..\..\Vehicle\103\Sound\BellOff.wav
+21 = ..\..\..\Vehicle\103\Sound\ATSCnt_L.wav
+22 = ..\..\..\Vehicle\103\Sound\ATSCnt_R.wav
+23 = ..\..\..\Vehicle\common\sound\P.wav
+180 = ..\..\..\Vehicle\common\sound\buzzer.wav
+;193 = ..\..\..\Vehicle\115\Sound_Tc\shock_stop.wav
+;194 = ..\..\..\Vehicle\115\Sound_Tc\shock_stop.wav
+;195 = ..\..\..\Vehicle\115\Sound_Tc\shock_stop.wav
+;196 = ..\..\..\Vehicle\115\Sound_Tc\shock_elec.wav
+;197 = ..\..\..\Vehicle\115\Sound_Tc\shock_elec.wav
+;198 = ..\..\..\Vehicle\115\Sound_Tc\shock_elec.wav
+199 = ..\..\..\Vehicle\115\Sound_Tc\runningnoise.wav
+;211 = ..\..\..\Vehicle\113\Sound\LbOn.wav
+212 = ..\..\..\Vehicle\115\Sound\LbOff.wav
+;220 = ..\..\..\Vehicle\103\sound_300\Brake.wav
+;221 = ..\..\..\Vehicle\103\sound\brake.wav
+;222 = ..\..\..\Vehicle\103\sound\brake2.wav
+230 = ..\..\..\Vehicle\103\Sound\bm_on.wav
+231 = ..\..\..\Vehicle\103\Sound\bm_off.wav
+232 = ..\..\..\Vehicle\103\Sound\bm_loop.wav
+
+240 = ..\..\..\Vehicle\119\Sound\bv\verylow.wav
+241 = ..\..\..\Vehicle\119\Sound\bv\verylow.wav
+242 = ..\..\..\Vehicle\119\Sound\bv\verylow.wav
+
+243 = ..\..\..\Vehicle\119\Sound\bv\low.wav
+244 = ..\..\..\Vehicle\119\Sound\bv\low.wav
+245 = ..\..\..\Vehicle\119\Sound\bv\low.wav
+
+246 = ..\..\..\Vehicle\119\Sound\bv\low2.wav
+247 = ..\..\..\Vehicle\119\Sound\bv\low2.wav
+248 = ..\..\..\Vehicle\119\Sound\bv\low2.wav
+
+249 = ..\..\..\Vehicle\119\Sound\bv\high.wav
+250 = ..\..\..\Vehicle\119\Sound\bv\high.wav
+251 = ..\..\..\Vehicle\119\Sound\bv\high.wav
+
+252 = ..\..\..\Vehicle\119\Sound\bv\high2.wav
+253 = ..\..\..\Vehicle\119\Sound\bv\high2.wav
+254 = ..\..\..\Vehicle\119\Sound\bv\high2.wav
+
+[Buzzer]
+Correct = ..\..\..\Vehicle\103\Sound\Adjust.wav
