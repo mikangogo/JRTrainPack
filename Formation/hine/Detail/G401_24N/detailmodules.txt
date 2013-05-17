@@ -3,7 +3,7 @@
 ..\..\..\..\Plugin\MC53.dll
 ..\..\..\..\Plugin\ME48_24N.dll
 ..\..\..\..\Plugin\EB.dll
-..\..\..\..\Plugin\ATS_West\swp2.dll
+..\..\..\..\Plugin\ATS_West\113-5000\swp2.dll
 ..\..\..\..\Plugin\B1.dll
 ..\..\..\..\Plugin\DIR.dll
 ..\..\..\..\Plugin\Conductor.dll
