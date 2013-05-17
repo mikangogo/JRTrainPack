@@ -39,7 +39,7 @@ Close Right = ..\..\..\Vehicle\103\Sound\DoorCls.wav
 Shoe = ..\..\..\Vehicle\115\Sound\Rub.wav
 
 [Breaker]
-Off = ..\..\..\Vehicle\115\Sound\lboff.wav
+;Off = ..\..\..\Vehicle\115\Sound\lboff.wav
 
 [Ats]
 0 = ..\..\..\Vehicle\103\Sound\Ats.wav
@@ -57,7 +57,7 @@ Off = ..\..\..\Vehicle\115\Sound\lboff.wav
 ;198 = ..\..\..\Vehicle\115\Sound_Tc\shock_elec.wav
 199 = ..\..\..\Vehicle\115\Sound_Tc\runningnoise.wav
 ;211 = ..\..\..\Vehicle\113\Sound\LbOn.wav
-212 = ..\..\..\Vehicle\115\Sound\LbOff.wav
+;212 = ..\..\..\Vehicle\115\Sound\LbOff.wav
 ;220 = ..\..\..\Vehicle\103\sound_300\Brake.wav
 ;221 = ..\..\..\Vehicle\103\sound\brake.wav
 ;222 = ..\..\..\Vehicle\103\sound\brake2.wav
@@ -84,6 +84,14 @@ Off = ..\..\..\Vehicle\115\Sound\lboff.wav
 252 = ..\..\..\Vehicle\119\Sound\bv\high2.wav
 253 = ..\..\..\Vehicle\119\Sound\bv\high2.wav
 254 = ..\..\..\Vehicle\119\Sound\bv\high2.wav
+
+183 = ..\..\..\Vehicle\103\Sound\sokuuke0.wav
+184 = ..\..\..\Vehicle\103\Sound\sokuuke1.wav
+185 = ..\..\..\Vehicle\103\Sound\sokuuke2.wav
+186 = ..\..\..\Vehicle\103\Sound\sokuuke3.wav
+187 = ..\..\..\Vehicle\103\Sound\sokuuke4.wav
+188 = ..\..\..\Vehicle\103\Sound\sokuuke5.wav
+189 = ..\..\..\Vehicle\103\Sound\sokuuke6.wav
 
 [Buzzer]
 Correct = ..\..\..\Vehicle\103\Sound\Adjust.wav

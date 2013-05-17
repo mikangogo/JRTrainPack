@@ -32,7 +32,7 @@ LeverDelay = 0.6
 SapBcOffset = 0
 SapBcRatio = 0.97
 [MainCircuit]
-RegenerationLimit = 0
+RegenerationLimit = 5
 NotchDelay = 0
 ;BrakePriority = true
 [Dynamics]
