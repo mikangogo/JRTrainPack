@@ -65,5 +65,13 @@ Off = ..\..\..\Vehicle\115\Sound\lboff.wav
 231 = ..\..\..\Vehicle\103\Sound\bm_off.wav
 232 = ..\..\..\Vehicle\103\Sound\bm_loop.wav
 
+183 = ..\..\..\Vehicle\103\Sound\sokuuke0.wav
+184 = ..\..\..\Vehicle\103\Sound\sokuuke1.wav
+185 = ..\..\..\Vehicle\103\Sound\sokuuke2.wav
+186 = ..\..\..\Vehicle\103\Sound\sokuuke3.wav
+187 = ..\..\..\Vehicle\103\Sound\sokuuke4.wav
+188 = ..\..\..\Vehicle\103\Sound\sokuuke5.wav
+189 = ..\..\..\Vehicle\103\Sound\sokuuke6.wav
+
 [Buzzer]
 Correct = ..\..\..\Vehicle\103\Sound\Adjust.wav
