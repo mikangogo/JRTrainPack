@@ -1,0 +1,7 @@
+Bvets Vehicle 0.03
+PerformanceCurve = ..\..\Vehicle\113\notch\notch.txt
+Parameters = Param\K61.txt
+Panel = ..\..\Vehicle\113\panel\panel2.cfg
+Sound = Sound\Tc111-2157.txt
+Ats = Detail\K61\DetailManager.dll
+MotorNoise = ..\..\Vehicle\115\motornoise\motornoise.txt
