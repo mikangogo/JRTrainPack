@@ -1,0 +1,6 @@
+Bvets Vehicle 0.03
+PerformanceCurve = ..\..\Vehicle\485\notch\notch.txt
+Parameters = Param\B61_24N.txt
+Sound = Sound\Tc183-706_24N.txt
+Ats = Detail\B61_24N\DetailManager.dll
+MotorNoise = ..\..\Vehicle\485\motornoise\motornoise.txt
