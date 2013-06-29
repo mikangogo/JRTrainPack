@@ -1,7 +1,7 @@
 Bvets Vehicle 0.03
 PerformanceCurve = ..\..\Vehicle\701\Notch\Notch.txt
 Parameters = Param\N18.txt
-Panel = ..\..\Vehicle\701\Panel\panel.txt
+Panel = ..\..\Vehicle\701\Panel\panel_1M1T.txt
 Sound = Sound\Mc701-18.txt
 Ats = Detail\N18\DetailManager.dll
 MotorNoise = ..\..\Vehicle\701\MotorNoise\MotorNoise.txt

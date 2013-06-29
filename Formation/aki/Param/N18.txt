@@ -13,12 +13,12 @@ ApplySpeed = 751.064
 ReleaseSpeed = 395.8455
 PistonArea = 0.5763657
 [AirSupplement]
-MaximumPressure = 314000
-RegenerationLimit = 16
+MaximumPressure = 340000
+RegenerationLimit = 17
 MotorcarRate = 0.3
-InitialPressure = 50000
+InitialPressure = 0
 [ECB]
-MaximumPressure = 314000
+MaximumPressure = 340000
 PressureRates = 0, 0, 0.125, 0.25, 0.375, 0.5, 0.625, 0.75, 0.875, 1
 LeverDelay = 0
 [MainCircuit]
