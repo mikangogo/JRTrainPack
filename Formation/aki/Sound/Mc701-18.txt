@@ -1,0 +1,66 @@
+Version 1.0
+
+[Run]
+0 = ..\..\..\Vehicle\701\Sound\Run0.wav
+1 = ..\..\..\Vehicle\701\Sound\Run0.wav
+2 = ..\..\..\Vehicle\701\Sound\Run4.wav
+3 = ..\..\..\Vehicle\701\Sound\Run2.wav
+4 = ..\..\..\Vehicle\701\Sound\Run3.wav
+
+[Flange]
+0 = ..\..\..\Vehicle\701\Sound\Flange0.wav
+
+[Motor]
+0 = ..\..\..\Vehicle\701\Sound\Motor0.wav
+1 = ..\..\..\Vehicle\701\Sound\Motor1.wav
+2 = ..\..\..\Vehicle\701\Sound\Motor2.wav
+3 = ..\..\..\Vehicle\701\Sound\Motor3.wav
+4 = ..\..\..\Vehicle\701\Sound\Motor4.wav
+5 = ..\..\..\Vehicle\701\Sound\Motor5.wav
+6 = ..\..\..\Vehicle\701\Sound\Motor6.wav
+7 = ..\..\..\Vehicle\701\Sound\Motor7.wav
+8 = ..\..\..\Vehicle\701\Sound\Motor8.wav
+9 = ..\..\..\Vehicle\701\Sound\Motor9.wav
+10 = ..\..\..\Vehicle\701\Sound\Motor10.wav
+11 = ..\..\..\Vehicle\701\Sound\Motor11.wav
+12 = ..\..\..\Vehicle\701\Sound\Motor12.wav
+13 = ..\..\..\Vehicle\701\Sound\Motor13.wav
+14 = ..\..\..\Vehicle\701\Sound\Motor14.wav
+15 = ..\..\..\Vehicle\701\Sound\Motor15.wav
+16 = ..\..\..\Vehicle\701\Sound\AC50Hz.wav
+
+[Switch]
+0 = ..\..\..\Vehicle\701\Sound\Point.wav
+
+[Master Controller]
+
+[Horn]
+Primary = ..\..\..\Vehicle\701\Sound\horn.wav
+PrimaryRelease = ..\..\..\Vehicle\701\Sound\hornrelease.wav
+
+[Brake]
+BC Release Full = ..\..\..\Vehicle\701\Sound\AirZero.wav
+
+[Horn]
+
+[Door]
+Open Left = ..\..\..\Vehicle\701\Sound\DoorOpnL.wav
+Open Right = ..\..\..\Vehicle\701\Sound\DoorOpnR.wav
+Close Left = ..\..\..\Vehicle\701\Sound\DoorClsL.wav
+Close Right = ..\..\..\Vehicle\701\Sound\DoorClsR.wav
+
+[Brake Handle]
+
+[Others]
+Noise = ..\..\..\Vehicle\701\Sound\Loop.wav
+Shoe = ..\..\..\Vehicle\701\Sound\Rub.wav
+
+[Ats]
+0 = ..\..\..\Vehicle\701\Sound\Ats.wav
+3 = ..\..\..\Vehicle\701\Sound\Eb.wav
+20 = ..\..\..\Vehicle\701\Sound\BellOff.wav
+21 = ..\..\..\Vehicle\701\Sound\ATSCnt_L.wav
+22 = ..\..\..\Vehicle\701\Sound\ATSCnt_R.wav
+
+[Buzzer]
+Correct = ..\..\..\Vehicle\701\Sound\Adjust.wav

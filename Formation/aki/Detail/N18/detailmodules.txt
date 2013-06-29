@@ -1,0 +1,7 @@
+..\..\..\..\Plugin\ATSN.dll
+..\..\..\..\Plugin\MC.dll
+..\..\..\..\Plugin\BV.dll
+..\..\..\..\Plugin\EB.dll
+..\..\..\..\Plugin\VVVF.dll
+..\..\..\..\Plugin\ATS_East\sn.dll
+..\..\..\..\Plugin\DIR.dll
