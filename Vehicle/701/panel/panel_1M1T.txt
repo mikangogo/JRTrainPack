@@ -1,0 +1,231 @@
+Version 1.0
+
+[This]
+Resolution       = 1820
+Left             = 10
+Top              = 10
+Right            = 2038
+Bottom           = 2038
+DaytimeImage     = panel_1M1T.png
+NighttimeImage   = panel_n_1M1T.png
+Center           = 824, 1100
+Origin           = 900, 935
+
+;速度計
+
+[Needle]
+Subject          = kmph
+Location         = 678, 1792
+DaytimeImage     = needle\d_needle.png
+NighttimeImage   = needle\n_needle.png
+TransparentColor = #000000
+Origin           = 16, 220
+Layer            = 1
+Radius           = 98
+InitialAngle     = -118
+LastAngle        = 115
+Minimum          = 1
+Maximum          = 120
+NaturalFreq      = 5
+DampingRatio     = 0.8
+
+[Pilotlamp]
+Subject          = true
+Location         = 611,1725
+DaytimeImage     = smc.png
+NighttimeImage   = smc_n.png
+Layer            = 2
+
+;圧力計
+
+[Needle]
+Subject          = bc
+Location         = 1121, 1791
+DaytimeImage     = needle\d_prs_up.png
+NighttimeImage   = needle\n_prs_up.png
+TransparentColor = #000000
+Origin           = 32, 173
+Layer            = 2
+Radius           = 92
+InitialAngle     = -129
+LastAngle        = 134
+Minimum          = 10
+Maximum          = 1000
+NaturalFreq      = 80
+DampingRatio     = 0.1
+
+
+[Needle]
+Subject          = mr
+Location         = 1121, 1791
+DaytimeImage     = needle\d_prs_low.png
+NighttimeImage   = needle\n_prs_low.png
+TransparentColor = #000000
+Origin           = 32, 173
+Layer            = 1
+Radius           = 92 
+InitialAngle     = -129
+LastAngle        = 134
+Minimum          = 10
+Maximum          = 1000
+NaturalFreq      = 0
+
+;知らせ灯
+[Pilotlamp]
+Subject          = door
+Location         = 839,1637
+DaytimeImage     = dooron.png
+NighttimeImage   = dooron_n.png
+Layer            = 1
+
+;【運転台表示灯】
+
+;事故表示灯
+;[Pilotlamp]
+;Subject          = 
+;Location         = 615,1491
+;DaytimeImage     = s1.png
+;NighttimeImage   = s1_n.png
+;Layer            = 1
+
+;ATS電源
+[Pilotlamp]
+Subject          = ats0
+Location         = 731,1491
+DaytimeImage     = s3.png
+NighttimeImage   = s3_n.png
+Layer            = 1
+
+;ATS動作
+[Pilotlamp]
+Subject          = ats1
+Location         = 789,1491
+DaytimeImage     = s4.png
+NighttimeImage   = s4_n.png
+Layer            = 1
+
+;耐雪B
+;[Pilotlamp]
+;Subject          = 
+;Location         = 848,1491
+;DaytimeImage     = s5.png
+;NighttimeImage   = s5_n.png
+;Layer            = 1
+
+;(EB)
+[Pilotlamp]
+Subject          = ats10
+Location         = 963,1491
+DaytimeImage     = s7.png
+NighttimeImage   = s7_n.png
+Layer            = 1
+
+
+;【簡易モニタ】
+
+;戸閉表示
+[Pilotlamp]
+Subject          = door
+Location         = 346,1585
+DaytimeImage     = mndooron.png
+NighttimeImage   = mndooron_n.png
+Layer            = 1
+
+;3号車ドア
+[Pilotlamp]
+Subject          = doorr2
+Location         = 298,1572
+DaytimeImage     = mndr3.png
+NighttimeImage   = mndr3_n.png
+Layer            = 1
+
+[Pilotlamp]
+Subject          = doorl2
+Location         = 263,1572
+DaytimeImage     = mndl3.png
+NighttimeImage   = mndl3_n.png
+Layer            = 1
+
+;2号車ドア
+[Pilotlamp]
+Subject          = doorr1
+Location         = 298,1603
+DaytimeImage     = mndr2.png
+NighttimeImage   = mndr2_n.png
+Layer            = 1
+
+[Pilotlamp]
+Subject          = doorl1
+Location         = 263,1603
+DaytimeImage     = mndl2.png
+NighttimeImage   = mndl2_n.png
+Layer            = 1
+
+;1号車ドア
+;[Pilotlamp]
+;Subject          = doorr0
+;Location         = 298,1635
+;DaytimeImage     = mndr1.png
+;NighttimeImage   = mndr1_n.png
+;Layer            = 1
+
+;[Pilotlamp]
+;Subject          = doorl0
+;Location         = 263,1635
+;DaytimeImage     = mndl1.png
+;NighttimeImage   = mndl1_n.png
+;Layer            = 1
+
+;11表示灯
+[Pilotlamp]
+Subject          = ats41
+Location         = 248,1859
+DaytimeImage     = 11p.png
+NighttimeImage   = 11p_n.png
+Layer            = 1
+
+;22表示灯
+;[Pilotlamp]
+;Subject          = 
+;Location         = 294,1859
+;DaytimeImage     = 22p.png
+;NighttimeImage   = 22p_n.png
+;Layer            = 2
+
+;33表示灯
+;[Pilotlamp]
+;Subject          = 
+;Location         = 342,1859
+;DaytimeImage     = 33p.png
+;NighttimeImage   = 33p_n.png
+;Layer            = 3
+
+;44表示灯
+;[Pilotlamp]
+;Subject          = 
+;Location         = 389,1859
+;DaytimeImage     = 44p.png
+;NighttimeImage   = 44p_n.png
+;Layer            = 4
+
+;【ブレーキ表示灯】
+[DigitalNumber]
+Subject          = brake
+Location         = 1288,1636
+DaytimeImage     = blp.png
+NighttimeImage   = blp_n.png
+Layer            = 1
+Interval         = 200
+
+
+
+
+
+
+
+
+
+
+
+
+
