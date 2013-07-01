@@ -123,9 +123,9 @@ Layer            = 1
 
 ;【簡易モニタ】
 
-;戸閉表示
+;戸開表示
 [Pilotlamp]
-Subject          = door
+Subject          = ats20
 Location         = 346,1585
 DaytimeImage     = mndooron.png
 NighttimeImage   = mndooron_n.png

@@ -10,6 +10,11 @@ Version 1.0
 [Flange]
 0 = ..\..\..\Vehicle\701\Sound\Flange0.wav
 
+[Compressor]
+Attack = ..\..\..\Vehicle\701\Sound\CpStart.wav
+Loop = ..\..\..\Vehicle\701\Sound\CpLoop.wav
+Release = ..\..\..\Vehicle\701\Sound\CpEnd.wav
+
 [Motor]
 0 = ..\..\..\Vehicle\701\Sound\Motor0.wav
 1 = ..\..\..\Vehicle\701\Sound\Motor1.wav
@@ -63,3 +68,6 @@ Shoe = ..\..\..\Vehicle\701\Sound\Rub.wav
 
 [Buzzer]
 Correct = ..\..\..\Vehicle\701\Sound\Adjust.wav
+
+[Pilot Lamp]
+On = ..\..\..\Vehicle\701\Sound\leave.wav
