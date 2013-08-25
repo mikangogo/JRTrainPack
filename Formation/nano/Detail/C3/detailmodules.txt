@@ -1,5 +1,5 @@
 ..\..\..\..\Plugin\ATSN.dll
-..\..\..\..\Pluguin\MC53.dll
+..\..\..\..\Plugin\MC53.dll
 ..\..\..\..\Plugin\ME48.dll
 ..\..\..\..\Plugin\MH2019_FK.dll
 ..\..\..\..\Plugin\ATS_East\115\snp.dll
