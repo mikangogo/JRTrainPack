@@ -19,6 +19,7 @@ Version 1.0
 1 = ..\..\..\Vehicle\115\Sound\Motor1.wav
 2 = ..\..\..\Vehicle\115\Sound\Motor2.wav
 3 = ..\..\..\Vehicle\115\Sound\Motor3.wav
+4 = ..\..\..\Vehicle\115\Sound\Motor4.wav
 
 [Switch]
 0 = ..\..\..\Vehicle\115\Sound_iida\Point.wav
