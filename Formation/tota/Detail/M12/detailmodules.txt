@@ -7,3 +7,4 @@
 ..\..\..\..\Plugin\ATS_East\115\snp.dll
 ..\..\..\..\Plugin\DIR.dll
 ..\..\..\..\Plugin\CS15F_115CR.dll
+..\..\..\..\Plugin\Shock.dll

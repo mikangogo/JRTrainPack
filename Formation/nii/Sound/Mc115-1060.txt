@@ -67,6 +67,7 @@ Shoe = ..\..\..\Vehicle\115\Sound\Rub.wav
 20 = ..\..\..\Vehicle\115\Sound\BellOff.wav
 21 = ..\..\..\Vehicle\115\Sound\ATSCnt_L.wav
 22 = ..\..\..\Vehicle\115\Sound\ATSCnt_R.wav
+199 = ..\..\..\Vehicle\115\Sound_Tc\runningnoise.wav
 ;200 = ..\..\..\Vehicle\115\Sound\Shock0.wav
 ;201 = ..\..\..\Vehicle\115\Sound\Shock1.wav
 ;202 = ..\..\..\Vehicle\115\Sound\Shock2.wav
