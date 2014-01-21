@@ -6,12 +6,12 @@ UpperPressure = 784000
 LowerPressure = 686000
 CompressionSpeed = 5300
 [Bc]
-ApplyStart = 20000
+ApplyStart = 0
 ApplyStop = 0
-ReleaseStart = 20000
+ReleaseStart = 0
 ReleaseStop = 0
 ApplySpeed = 623.1827
-ReleaseSpeed = 190
+ReleaseSpeed = 500
 ;PistonArea = 0.562415		; C編成 (ブレーキ力改造車)
 PistonArea = 0.5		; N編成 (ブレーキ力未改造車)
 VolumeRatio = 20
