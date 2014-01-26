@@ -113,6 +113,7 @@ Shoe = ..\..\..\Vehicle\115\Sound\Rub.wav
 252 = ..\..\..\Vehicle\119\Sound\bv\high2.wav
 253 = ..\..\..\Vehicle\119\Sound\bv\high2.wav
 254 = ..\..\..\Vehicle\119\Sound\bv\high2.wav
+237 = ..\..\..\Vehicle\115\Sound_N\lov.wav
 
 [Buzzer]
 Correct = ..\..\..\Vehicle\115\Sound\Adjust.wav

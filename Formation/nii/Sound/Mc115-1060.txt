@@ -80,6 +80,7 @@ Shoe = ..\..\..\Vehicle\115\Sound\Rub.wav
 230 = ..\..\..\Vehicle\115\Sound_niigata\bm_on.wav
 231 = ..\..\..\Vehicle\115\Sound_niigata\bm_off.wav
 233 = ..\..\..\Vehicle\115\Sound_niigata\bm_loop.wav
+237 = ..\..\..\Vehicle\115\Sound_N\lov.wav
 
 [Buzzer]
 Correct = ..\..\..\Vehicle\115\Sound\Adjust.wav
