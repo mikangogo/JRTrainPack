@@ -70,8 +70,8 @@ Noise = ..\..\..\Vehicle\119\Sound\MG.wav
 201 = ..\..\..\Vehicle\119\Sound\Shock1.wav
 202 = ..\..\..\Vehicle\119\Sound\Shock2.wav
 220 = ..\..\..\Vehicle\119\Sound\EmrBrakeRelease.wav
-221 = ..\..\..\Vehicle\119\Sound\Brake.wav
-222 = ..\..\..\Vehicle\119\Sound\Brake2.wav
+;221 = ..\..\..\Vehicle\119\Sound\Brake.wav
+;222 = ..\..\..\Vehicle\119\Sound\Brake2.wav
 
 240 = ..\..\..\Vehicle\119\Sound\bv\verylow.wav
 241 = ..\..\..\Vehicle\119\Sound\bv\verylow.wav
