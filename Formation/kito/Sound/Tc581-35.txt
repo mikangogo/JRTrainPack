@@ -1,0 +1,81 @@
+Version 1.0
+
+[Run]
+0 = ..\..\..\Vehicle\485\Sound\Run0.wav
+1 = ..\..\..\Vehicle\485\Sound\Run0.wav
+2 = ..\..\..\Vehicle\485\Sound\Run4.wav
+3 = ..\..\..\Vehicle\485\Sound\Run2.wav
+4 = ..\..\..\Vehicle\485\Sound\Run3.wav
+
+[Flange]
+0 = ..\..\..\Vehicle\485\Sound\Flange0.wav
+;1 = ..\..\..\Vehicle\485\Sound\Flange1.wav
+
+[Motor]
+0 = ..\..\..\Vehicle\485\Sound\Motor0.wav
+1 = ..\..\..\Vehicle\485\Sound\Motor1.wav
+2 = ..\..\..\Vehicle\485\Sound\Motor2.wav
+
+[Switch]
+0 = ..\..\..\Vehicle\485\Sound\Point.wav
+
+[Master Controller]
+Max = ..\..\..\Vehicle\485\Sound\mcfull.wav
+Min = ..\..\..\Vehicle\485\Sound\mcoff.wav
+Up = ..\..\..\Vehicle\485\Sound\mcup.wav
+Down = ..\..\..\Vehicle\485\Sound\mcdown.wav
+
+[Brake]
+BC Release High = ..\..\..\Vehicle\183\Sound\Air.wav
+BC Release Full = ..\..\..\Vehicle\183\Sound\AirZero.wav
+BC Release = ..\..\..\Vehicle\183\Sound\Air.wav
+Emergency = ..\..\..\Vehicle\485\Sound\EmrBrk.wav
+
+
+[Horn]
+Primary = ..\..\..\Vehicle\485\Sound\horn.wav
+PrimaryRelease = ..\..\..\Vehicle\485\Sound\hornrelease.wav
+
+[Door]
+Open Left = ..\..\..\Vehicle\583\Sound\DoorOpn.wav
+Open Right = ..\..\..\Vehicle\583\Sound\DoorOpn.wav
+Close Left = ..\..\..\Vehicle\583\Sound\DoorCls.wav
+Close Right = ..\..\..\Vehicle\583\Sound\DoorCls.wav
+
+[Brake Handle]
+;Apply = ..\..\..\Vehicle\485\Sound\Brake3.wav
+;Release = ..\..\..\Vehicle\485\Sound\Brake.wav
+;Min = ..\..\..\Vehicle\485\Sound\Brake.wav
+
+[Others]
+Noise = ..\..\..\Vehicle\583\Sound\Loop.wav
+;Shoe = ..\..\..\Vehicle\485\Sound\Rub.wav
+
+[Pilot Lamp]
+On = ..\..\..\Vehicle\485\Sound\leave.wav
+
+[Ats]
+0 = ..\..\..\Vehicle\485\Sound\Ats.wav
+2 = ..\..\..\Vehicle\485\Sound\P.wav
+3 = ..\..\..\Vehicle\485\Sound\Eb.wav
+4 = ..\..\..\Vehicle\485\Sound\P.wav
+20 = ..\..\..\Vehicle\485\Sound\BellOff.wav
+21 = ..\..\..\Vehicle\485\Sound\ATSCnt_L.wav
+22 = ..\..\..\Vehicle\485\Sound\ATSCnt_R.wav
+180 = ..\..\..\Vehicle\common\sound\buzzer.wav
+200 = ..\..\..\Vehicle\485\Sound\Shock.wav
+201 = ..\..\..\Vehicle\485\Sound\Shock.wav
+202 = ..\..\..\Vehicle\485\Sound\Shock.wav
+213 = ..\..\..\Vehicle\485\Sound\dc.wav
+214 = ..\..\..\Vehicle\485\Sound\ac60hz.wav
+215 = ..\..\..\Vehicle\485\Sound\ac50hz.wav
+216 = ..\..\..\Vehicle\485\Sound\trans60.wav
+217 = ..\..\..\Vehicle\485\Sound\trans50.wav
+221 = ..\..\..\Vehicle\583\Sound\Brake.wav
+222 = ..\..\..\Vehicle\583\Sound\Brake.wav
+230 = ..\..\..\Vehicle\485\Sound\bm_on.wav
+231 = ..\..\..\Vehicle\485\Sound\bm_off.wav
+233 = ..\..\..\Vehicle\485\Sound\bm_loop.wav
+
+[Buzzer]
+Correct = ..\..\..\Vehicle\485\Sound\Adjust.wav
