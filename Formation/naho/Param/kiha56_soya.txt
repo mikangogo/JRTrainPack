@@ -36,9 +36,9 @@ LeverDelay = 0.2
 BrakePriority = false
 [Dynamics]
 MotorcarWeight = 36000
-MotorcarCount = 5
+MotorcarCount = 4.5
 TrailerWeight = 36000
-TrailerCount = 1
+TrailerCount = 1.5
 CarLength = 21
 [Cab]
 PowerNotchCount = 5
