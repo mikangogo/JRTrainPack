@@ -11,11 +11,11 @@ Version 1.0
 
 0 = ..\..\..\Vehicle\kiha58\Sound\Run4.wav
 1 = ..\..\..\Vehicle\kiha58\Sound\Run2.wav
-2 = ..\..\..\Vehicle\kiha58\Sound\Run2.wav
-3 = ..\..\..\Vehicle\kiha58\Sound\Run3.wav
-4 = ..\..\..\Vehicle\kiha58\Sound\Run3.wav
-5 = ..\..\..\Vehicle\kiha58\Sound\Run3.wav
-6 = ..\..\..\Vehicle\kiha58\Sound\Run3.wav
+2 = ..\..\..\Vehicle\kiha58\Sound\Run3.wav
+3 = ..\..\..\Vehicle\kiha58\Sound\Run0.wav
+4 = ..\..\..\Vehicle\kiha58\Sound\Run4.wav
+5 = ..\..\..\Vehicle\kiha58\Sound\Run0.wav
+6 = ..\..\..\Vehicle\kiha58\Sound\Run4.wav
 
 ;0 = ..\..\..\Vehicle\kiha58\Sound\Run4.wav
 ;1 = ..\..\..\Vehicle\kiha58\Sound\Run0.wav
