@@ -22,7 +22,7 @@ ApplySpeed = 52.42742
 ReleaseSpeed = 990.2853
 [LockoutValve]
 InitialPressure = 40000
-MaximumPressure = 440000
+MaximumPressure = 320000
 RegenerationLimit = 6
 [SMEE]
 MaximumPressure = 440000
