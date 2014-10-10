@@ -1,0 +1,9 @@
+..\..\..\..\Plugin\ATSN.dll
+..\..\..\..\Plugin\MC53.dll
+..\..\..\..\Plugin\ME48_24N.dll
+..\..\..\..\Plugin\B1.dll
+..\..\..\..\Plugin\MH2019_FK.dll
+..\..\..\..\Plugin\ATS_East\165\sn.dll
+..\..\..\..\Plugin\DIR.dll
+..\..\..\..\Plugin\CS15F_165.dll
+..\..\..\..\Plugin\Shock.dll
