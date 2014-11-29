@@ -39,6 +39,7 @@ Close Right = ..\..\..\Vehicle\103\Sound\DoorCls.wav
 Shoe = ..\..\..\Vehicle\115\Sound\Rub.wav
 
 [Breaker]
+On = ..\..\..\Vehicle\103\Sound\LbOn.wav
 ;Off = ..\..\..\Vehicle\115\Sound\lboff.wav
 
 [Ats]
@@ -57,7 +58,10 @@ Shoe = ..\..\..\Vehicle\115\Sound\Rub.wav
 ;197 = ..\..\..\Vehicle\115\Sound_Tc\shock_elec.wav
 ;198 = ..\..\..\Vehicle\115\Sound_Tc\shock_elec.wav
 199 = ..\..\..\Vehicle\115\Sound_Tc\runningnoise.wav
-;211 = ..\..\..\Vehicle\113\Sound\LbOn.wav
+200 = ..\..\..\Vehicle\103\Sound\Shock0.wav
+201 = ..\..\..\Vehicle\103\Sound\Shock1.wav
+202 = ..\..\..\Vehicle\103\Sound\Shock2.wav
+;211 = ..\..\..\Vehicle\103\Sound\LbOn.wav
 ;212 = ..\..\..\Vehicle\115\Sound\LbOff.wav
 ;220 = ..\..\..\Vehicle\103\sound_300\Brake.wav
 221 = ..\..\..\Vehicle\103\sound\brake.wav
