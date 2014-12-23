@@ -1,4 +1,4 @@
-Bvets Vehicle Parameters 0.04
+BveTs Vehicle Parameters 2.01
 FirstCar = T
 LoadCompensating = false
 [Compressor]
@@ -10,7 +10,7 @@ ApplyStart = 0
 ApplyStop = 0
 ReleaseStart = 0
 ReleaseStop = 0
-ApplySpeed = 623.1827
+ApplySpeed = 823.1827
 ReleaseSpeed = 500
 PistonArea = 0.562415		; C編成 (ブレーキ力改造車)
 ;PistonArea = 0.5		; N編成 (ブレーキ力未改造車)
@@ -32,8 +32,8 @@ LeverDelay = 0.6
 SapBcOffset = 0
 SapBcRatio = 0.97
 [MainCircuit]
-RegenerationLimit = 0
-NotchDelay = 0
+RegenerationLimit = 7
+LeverDelay = 0.25
 [Dynamics]
 MotorcarWeight = 43800		; 空車
 ;MotorcarWeight = 50390		; 積車 (定員)
