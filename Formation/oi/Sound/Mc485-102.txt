@@ -72,7 +72,7 @@ On = ..\..\..\Vehicle\485\Sound\leave.wav
 222 = ..\..\..\Vehicle\583\Sound\Brake.wav
 230 = ..\..\..\Vehicle\485\Sound\bm_on.wav
 231 = ..\..\..\Vehicle\485\Sound\bm_off.wav
-233 = ..\..\..\Vehicle\485\Sound\bm_loop.wav
+234 = ..\..\..\Vehicle\485\Sound\bm_loop.wav
 
 [Buzzer]
 Correct = ..\..\..\Vehicle\485\Sound\Adjust.wav
