@@ -3,7 +3,7 @@
 ..\..\..\..\Plugin\ME48.dll
 ..\..\..\..\Plugin\B1.dll
 ..\..\..\..\Plugin\EB.dll
-..\..\..\..\Plugin\ATS_East\snp.dll
+..\..\..\..\Plugin\ATS_West\381\swp2.dll
 ..\..\..\..\Plugin\DIR.dll
 ..\..\..\..\Plugin\Conductor.dll
 ..\..\..\..\Plugin\CS43_381.dll
