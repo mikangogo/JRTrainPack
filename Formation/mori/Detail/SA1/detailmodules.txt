@@ -1,0 +1,11 @@
+..\..\..\..\Plugin\ATSN.dll
+..\..\..\..\Plugin\MH2019_FK.dll
+..\..\..\..\Plugin\MC53.dll
+..\..\..\..\Plugin\ME48.dll
+..\..\..\..\Plugin\EB.dll
+..\..\..\..\Plugin\ATS_West\swp2.dll
+..\..\..\..\Plugin\B1.dll
+..\..\..\..\Plugin\DIR.dll
+..\..\..\..\Plugin\Conductor.dll
+..\..\..\..\Plugin\CR2.dll
+..\..\..\..\Plugin\Shock.dll
