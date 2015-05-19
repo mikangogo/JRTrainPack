@@ -18,6 +18,10 @@ Version 1.0
 
 [Switch]
 0 = ..\..\..\Vehicle\103\Sound\Point.wav
+10 = ..\..\..\Vehicle\115\Sound_tc\joint.wav
+20 = ..\..\..\Vehicle\115\Sound_tc\fumikiri.wav
+21 = ..\..\..\Vehicle\115\Sound_tc\fumikiri.wav
+22 = ..\..\..\Vehicle\115\Sound_tc\fumikiri.wav
 
 [Brake]
 BC Release High = ..\..\..\Vehicle\103\Sound\Air.wav
