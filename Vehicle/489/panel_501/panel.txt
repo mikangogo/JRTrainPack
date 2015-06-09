@@ -167,7 +167,7 @@ NighttimeImage = image\OwVMCo_n.png
 Layer = 4
 
 [Needle]
-Subject = kmph
+Subject = ats48
 Location = 1416, 1123
 DaytimeImage = image\needle_d.png
 NighttimeImage = image\needle_n.png
@@ -213,16 +213,16 @@ NighttimeImage = image\PLm_n.png
 Layer = 2
 
 ; 耐雪ブレーキ
-[PilotLamp]
-Subject = door
-Location = 741, 654
-DaytimeImage = image\snow_brake_d.png
-NighttimeImage = image\snow_brake_n.png
-Layer = 1
+;[PilotLamp]
+;Subject = door
+;Location = 741, 654
+;DaytimeImage = image\snow_brake_d.png
+;NighttimeImage = image\snow_brake_n.png
+;Layer = 1
 
 ; ATS電源
 [PilotLamp]
-Subject = door
+Subject = ats0
 Location = 885, 963
 DaytimeImage = image\ATS_power_d.png
 NighttimeImage = image\ATS_power_n.png
@@ -230,23 +230,23 @@ Layer = 1
 
 ; ATSランプ
 [PilotLamp]
-Subject = door
+Subject = ats1
 Location = 935, 953
 DaytimeImage = image\ATS_d.png
 NighttimeImage = image\ATS_n.png
 Layer = 1
 
 ; EBスイッチ
-[PilotLamp]
-Subject = door
-Location = 1175, 863
-DaytimeImage = image\EBsw_d.png
-NighttimeImage = image\EBsw_n.png
-Layer = 1
+;[PilotLamp]
+;Subject = door
+;Location = 1175, 863
+;DaytimeImage = image\EBsw_d.png
+;NighttimeImage = image\EBsw_n.png
+;Layer = 1
 
 ; EBランプ
 [PilotLamp]
-Subject = door
+Subject = ats10
 Location = 1278, 826
 DaytimeImage = image\EB_d.png
 NighttimeImage = image\EB_n.png
@@ -254,24 +254,24 @@ Layer = 1
 
 ; 表示灯
 ; 事故表示灯
-[PilotLamp]
-Subject = door
-Location = 1110, 947
-DaytimeImage = image\trouble_d.png
-NighttimeImage = image\trouble_n.png
-Layer = 1
+;[PilotLamp]
+;Subject = door
+;Location = 1110, 947
+;DaytimeImage = image\trouble_d.png
+;NighttimeImage = image\trouble_n.png
+;Layer = 1
 
 ; 三相
-[PilotLamp]
-Subject = door
-Location = 1167, 947
-DaytimeImage = image\sanso_d.png
-NighttimeImage = image\sanso_n.png
-Layer = 2
+;[PilotLamp]
+;Subject = door
+;Location = 1167, 947
+;DaytimeImage = image\sanso_d.png
+;NighttimeImage = image\sanso_n.png
+;Layer = 2
 
 ; 直通
 [PilotLamp]
-Subject = door
+Subject = ats35
 Location = 1204, 947
 DaytimeImage = image\stb_d.png
 NighttimeImage = image\stb_n.png
@@ -279,7 +279,7 @@ Layer = 1
 
 ; 発電
 [PilotLamp]
-Subject = door
+Subject = ats210
 Location = 1241, 947
 DaytimeImage = image\dyd_d.png
 NighttimeImage = image\dyd_n.png
@@ -287,7 +287,7 @@ Layer = 1
 
 ; 抑速
 [PilotLamp]
-Subject = door
+Subject = ats211
 Location = 1278, 947
 DaytimeImage = image\sup_d.png
 NighttimeImage = image\sup_n.png
@@ -295,7 +295,7 @@ Layer = 1
 
 ; ユニット1
 [PilotLamp]
-Subject = door
+Subject = ats41
 Location = 1316, 947
 DaytimeImage = image\unit1_d.png
 NighttimeImage = image\unit1_n.png
@@ -303,7 +303,7 @@ Layer = 1
 
 ; ユニット2
 [PilotLamp]
-Subject = door
+Subject = ats42
 Location = 1354, 947
 DaytimeImage = image\unit2_d.png
 NighttimeImage = image\unit2_n.png
@@ -311,43 +311,43 @@ Layer = 1
 
 ; ユニット3
 [PilotLamp]
-Subject = door
+Subject = ats43
 Location = 1391, 947
 DaytimeImage = image\unit3_d.png
 NighttimeImage = image\unit3_n.png
 Layer = 1
 
 ; ユニット4
-[PilotLamp]
-Subject = door
-Location = 1428, 947
-DaytimeImage = image\unit4_d.png
-NighttimeImage = image\unit4_n.png
-Layer = 1
+;[PilotLamp]
+;Subject = ats44
+;Location = 1428, 947
+;DaytimeImage = image\unit4_d.png
+;NighttimeImage = image\unit4_n.png
+;Layer = 1
 
 ; ABB全切
-[PilotLamp]
-Subject = door
-Location = 1467, 947
-DaytimeImage = image\ABB_off_d.png
-NighttimeImage = image\ABB_off_n.png
-Layer = 1
+;[PilotLamp]
+;Subject = door
+;Location = 1467, 947
+;DaytimeImage = image\ABB_off_d.png
+;NighttimeImage = image\ABB_off_n.png
+;Layer = 1
 
 ; ABB全入
 [PilotLamp]
-Subject = door
+Subject = true
 Location = 1504, 947
 DaytimeImage = image\ABB_on_d.png
 NighttimeImage = image\ABB_on_n.png
 Layer = 1
 
 ; 空気バネパンク
-[PilotLamp]
-Subject = door
-Location = 1542, 947
-DaytimeImage = image\air_sus_d.png
-NighttimeImage = image\air_sus_n.png
-Layer = 1
+;[PilotLamp]
+;Subject = door
+;Location = 1542, 947
+;DaytimeImage = image\air_sus_d.png
+;NighttimeImage = image\air_sus_n.png
+;Layer = 1
 
 
 ; 時計
