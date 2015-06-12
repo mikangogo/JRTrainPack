@@ -23,8 +23,8 @@ Version 1.0
 0 = ..\..\..\Vehicle\kiha58\Sound\Point.wav
 
 [Horn]
-Primary = ..\..\..\Vehicle\kiha58\Sound\AW5HLLoop.wav
-PrimaryRelease = ..\..\..\Vehicle\kiha58\Sound\AW5HLStop.wav
+Primary = ..\..\..\Vehicle\kiha58\Sound\horn_start.wav
+PrimaryRelease = ..\..\..\Vehicle\kiha58\Sound\horn_end.wav
 
 [Door]
 Open Left = ..\..\..\Vehicle\kiha58\Sound\DoorOpn.wav
