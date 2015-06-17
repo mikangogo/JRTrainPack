@@ -15,6 +15,7 @@ Version 1.0
 0 = ..\..\..\Vehicle\485\Sound\Motor0.wav
 1 = ..\..\..\Vehicle\485\Sound\Motor1.wav
 2 = ..\..\..\Vehicle\485\Sound\Motor2.wav
+4 = ..\..\..\Vehicle\485\Sound\Motor4.wav
 
 [Switch]
 0 = ..\..\..\Vehicle\485\Sound\Point.wav
