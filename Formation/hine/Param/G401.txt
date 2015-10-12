@@ -32,7 +32,7 @@ SapBcOffset = 0
 SapBcRatio = 0.97
 [MainCircuit]
 RegenerationLimit = 0
-NotchDelay = 0.5
+NotchDelay = 0
 ;BrakePriority = true
 [Dynamics]
 MotorcarWeight = 36350		; ‹óŽÔ
