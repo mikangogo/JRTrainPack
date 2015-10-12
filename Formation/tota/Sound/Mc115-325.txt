@@ -12,6 +12,7 @@ Version 1.0
 ;1 = ..\..\..\Vehicle\115\Sound\Flange1.wav
 
 [Motor]
+0 = ..\..\..\Vehicle\115\Sound\Motor0.wav
 1 = ..\..\..\Vehicle\115\Sound\Motor1.wav
 2 = ..\..\..\Vehicle\115\Sound\Motor2.wav
 3 = ..\..\..\Vehicle\115\Sound\Motor3.wav
