@@ -6,12 +6,12 @@ UpperPressure = 784000
 LowerPressure = 686000
 CompressionSpeed = 5300
 [Bc]
-ApplyStart = 0
-ApplyStop = 0
-ReleaseStart = 0
-ReleaseStop = 0
+ApplyStart = 1000
+ApplyStop = 5000
+ReleaseStart = 10000
+ReleaseStop = 5000
 ApplySpeed = 623.1827
-ReleaseSpeed = 500
+ReleaseSpeed = 190
 PistonArea = 0.47
 VolumeRatio = 20
 [Sap]
@@ -32,7 +32,7 @@ SapBcOffset = 0
 SapBcRatio = 0.97
 [MainCircuit]
 RegenerationLimit = 0
-NotchDelay = 0
+NotchDelay = 0.5
 ;BrakePriority = true
 [Dynamics]
 MotorcarWeight = 36350		; ‹óŽÔ
