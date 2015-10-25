@@ -3,7 +3,7 @@
 ..\..\..\..\Plugin\MC53.dll
 ..\..\..\..\Plugin\ME48.dll
 ..\..\..\..\Plugin\EB.dll
-..\..\..\..\Plugin\ATS_East\115\snpST.dll
+..\..\..\..\Plugin\ATS_East\113-2000\snpST.dll
 ..\..\..\..\Plugin\B1.dll
 ..\..\..\..\Plugin\DIR.dll
 ..\..\..\..\Plugin\CS12_113.dll
