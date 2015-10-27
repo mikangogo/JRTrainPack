@@ -2,12 +2,10 @@ Version 1.0
 
 [Run]
 0 = ..\..\..\Vehicle\485\Sound\Run0.wav
-1 = ..\..\..\Vehicle\485\Sound\Run4.wav
-2 = ..\..\..\Vehicle\485\Sound\Run2.wav
-3 = ..\..\..\Vehicle\485\Sound\Run4.wav
-4 = ..\..\..\Vehicle\485\Sound\Run0.wav
-5 = ..\..\..\Vehicle\485\Sound\Run3.wav
-6 = ..\..\..\Vehicle\485\Sound\Run0.wav
+1 = ..\..\..\Vehicle\485\Sound\Run0.wav
+2 = ..\..\..\Vehicle\485\Sound\Run4.wav
+3 = ..\..\..\Vehicle\485\Sound\Run2.wav
+4 = ..\..\..\Vehicle\485\Sound\Run3.wav
 
 [Flange]
 0 = ..\..\..\Vehicle\485\Sound\Flange0.wav
