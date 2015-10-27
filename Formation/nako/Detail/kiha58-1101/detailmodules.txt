@@ -1,6 +1,6 @@
-..\..\..\..\Plugin\ATSN.dll
-..\..\..\..\Plugin\MC53.dll
-..\..\..\..\Plugin\ME23.dll
-..\..\..\..\Plugin\EB.dll
-..\..\..\..\Plugin\ATS_S.dll
+..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\ATSN.dll
+..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\MC53.dll
+..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\ME23.dll
+..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\EB.dll
+..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\ATS_S.dll
 ..\..\..\..\Plugin\DMH17H_kiha58\Summer\DMH17H_58.dll

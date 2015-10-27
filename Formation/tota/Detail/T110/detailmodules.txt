@@ -1,7 +1,7 @@
-..\..\..\..\Plugin\ATSN.dll
-..\..\..\..\Plugin\MC53.dll
-..\..\..\..\Plugin\ME48.dll
-..\..\..\..\Plugin\B1.dll
-..\..\..\..\Plugin\ATS_East\115\snp.dll
-..\..\..\..\Plugin\DIR.dll
-..\..\..\..\Plugin\CH.dll
+..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\ATSN.dll
+..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\MC53.dll
+..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\ME48.dll
+..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\B1.dll
+..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\ATS_East\115\snp.dll
+..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\DIR.dll
+..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\CH.dll

@@ -1,8 +1,8 @@
 ..\..\..\..\Plugin\ATSN_iida.dll
-..\..\..\..\Plugin\B1.dll
-..\..\..\..\Plugin\MH2019_FK.dll
-..\..\..\..\Plugin\ME48.dll
-..\..\..\..\Plugin\ATS_S.dll
-..\..\..\..\Plugin\DIR.dll
-..\..\..\..\Plugin\CS15F_115.dll
-..\..\..\..\Plugin\Shock.dll
+..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\B1.dll
+..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\MH2019_FK.dll
+..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\ME48.dll
+..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\ATS_S.dll
+..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\DIR.dll
+..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\CS15F_115.dll
+..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\Shock.dll
