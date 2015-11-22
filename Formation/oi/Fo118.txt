@@ -1,7 +1,7 @@
 Bvets Vehicle 0.03
 PerformanceCurve = ..\..\Vehicle\113\notch\notch_4.txt
 Parameters = Param\Fo118.txt
-Panel = ..\..\Vehicle\113\panel\panel.txt
+Panel = ..\..\Vehicle\415\panel_Q\panel.txt
 Sound = Sound\Tc411-218.txt
 Ats = Detail\Fo118\DetailManager.dll
 MotorNoise = ..\..\Vehicle\115\motornoise\motornoise.txt
