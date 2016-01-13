@@ -3,7 +3,7 @@ FirstCar = M
 LoadCompensating = false
 [Compressor]
 UpperPressure = 784000
-LowerPressure = 686000
+LowerPressure = 690000
 CompressionSpeed = 5600
 [Bc]
 ApplyStart = 0
