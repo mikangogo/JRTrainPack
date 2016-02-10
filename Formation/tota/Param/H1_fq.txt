@@ -16,7 +16,7 @@ PistonArea = 0.5065568
 ApplySpeed = 162.7467
 ReleaseSpeed = 270
 [Bp]
-ApplySpeed = 31.35
+ApplySpeed = 70
 ReleaseSpeed = 990.2853
 [LockoutValve]
 MaximumPressure = 440000
@@ -31,9 +31,9 @@ LeverDelay = 0
 BrakePriority = true
 [Dynamics]
 MotorcarWeight = 41600
-MotorcarCount = 6
+MotorcarCount = 2
 TrailerWeight = 32600
-TrailerCount = 4
+TrailerCount = 2
 CarLength = 20
 [Cab]
 BrakeNotchCount = 8
