@@ -17,6 +17,7 @@ Version 1.0
 2 = ..\..\..\Vehicle\115\Sound\Motor2.wav
 3 = ..\..\..\Vehicle\115\Sound\Motor3.wav
 4 = ..\..\..\Vehicle\115\Sound\Motor4.wav
+5 = ..\..\..\Vehicle\115\Sound\Motor5.wav
 
 [Switch]
 0 = ..\..\..\Vehicle\115\Sound\Point.wav
@@ -79,7 +80,7 @@ Shoe = ..\..\..\Vehicle\115\Sound\Rub.wav
 222 = ..\..\..\Vehicle\115\Sound_takasaki\BrakeOff.wav
 230 = ..\..\..\Vehicle\115\Sound_takasaki\bm_on.wav
 231 = ..\..\..\Vehicle\115\Sound_takasaki\bm_off.wav
-232 = ..\..\..\Vehicle\115\Sound_takasaki\bm_loop.wav
+233 = ..\..\..\Vehicle\115\Sound_takasaki\bm_loop.wav
 237 = ..\..\..\Vehicle\115\Sound_N\lov.wav
 
 [Buzzer]
