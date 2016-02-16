@@ -12,7 +12,7 @@ ReleaseStart = 10000
 ReleaseStop = 5000
 ApplySpeed = 623.1827
 ReleaseSpeed = 190
-PistonArea = 0.47
+PistonArea = 0.56
 VolumeRatio = 20
 [Sap]
 ApplySpeed = 180.7957
