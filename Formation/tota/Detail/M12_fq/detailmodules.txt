@@ -9,4 +9,3 @@
 ..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\DIR.dll
 ..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\CS15F_115CR.dll
 ..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\Shock.dll
-..\..\..\..\Plugin\Communication\Communication.dll
