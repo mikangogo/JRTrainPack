@@ -8,3 +8,4 @@
 ..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\DIR.dll
 ..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\Conductor.dll
 ..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\Shock.dll
+..\..\..\..\Plugin\Communication\Communication.dll

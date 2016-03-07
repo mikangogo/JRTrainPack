@@ -1,0 +1,81 @@
+Version 1.0
+
+[Run]
+0 = ..\..\..\Vehicle\381\Sound\Run0.wav
+1 = ..\..\..\Vehicle\381\Sound\Run1.wav
+2 = ..\..\..\Vehicle\381\Sound\Run4.wav
+3 = ..\..\..\Vehicle\381\Sound\Run2.wav
+4 = ..\..\..\Vehicle\381\Sound\Run3.wav
+
+[Flange]
+0 = ..\..\..\Vehicle\381\Sound\Flange0.wav
+;1 = ..\..\..\Vehicle\381\Sound\Flange1.wav
+
+[Motor]
+0 = ..\..\..\Vehicle\381\Sound\Motor0.wav
+1 = ..\..\..\Vehicle\381\Sound\Motor1.wav
+2 = ..\..\..\Vehicle\381\Sound\Motor2.wav
+3 = ..\..\..\Vehicle\381\Sound\Motor3.wav
+4 = ..\..\..\Vehicle\381\Sound\Motor4.wav
+
+[Switch]
+0 = ..\..\..\Vehicle\381\Sound\Point.wav
+
+[Brake]
+BC Release High = ..\..\..\Vehicle\381\Sound\Air.wav
+BC Release Full = ..\..\..\Vehicle\381\Sound\AirZero.wav
+BC Release = ..\..\..\Vehicle\381\Sound\Air.wav
+Emergency = ..\..\..\Vehicle\381\Sound\EmrBrk.wav
+
+[Horn]
+Primary = ..\..\..\Vehicle\381\Sound\horn.wav
+PrimaryRelease = ..\..\..\Vehicle\381\Sound\hornrelease.wav
+
+[Door]
+;Open Left = ..\..\..\Vehicle\381\Sound\DoorOpn.wav
+;Open Right = ..\..\..\Vehicle\381\Sound\DoorOpn.wav
+;Close Left = ..\..\..\Vehicle\381\Sound\DoorCls.wav
+;Close Right = ..\..\..\Vehicle\381\Sound\DoorCls.wav
+
+[Pilot Lamp]
+On = ..\..\..\Vehicle\381\Sound\leave.wav
+
+[Ats]
+0 = ..\..\..\Vehicle\381\Sound\Ats.wav
+2 = ..\..\..\Vehicle\common\Sound\P.wav
+3 = ..\..\..\Vehicle\381\Sound\Eb.wav
+;4 = ..\..\..\Vehicle\115\Sound\P.wav
+;10 = ..\..\..\Vehicle\115\Sound\Spp1.wav
+;11 = ..\..\..\Vehicle\115\Sound\Spp2.wav
+21 = ..\..\..\Vehicle\381\Sound\ATSCnt_L.wav
+22 = ..\..\..\Vehicle\381\Sound\ATSCnt_R.wav
+23 = ..\..\..\Vehicle\common\sound\P.wav
+180 = ..\..\..\Vehicle\common\sound\buzzer.wav
+;221 = ..\..\..\Vehicle\381\Sound\Brake.wav
+;222 = ..\..\..\Vehicle\381\Sound\Brake2.wav
+
+240 = ..\..\..\Vehicle\119\Sound\bv\verylow.wav
+241 = ..\..\..\Vehicle\119\Sound\bv\verylow.wav
+242 = ..\..\..\Vehicle\119\Sound\bv\verylow.wav
+
+243 = ..\..\..\Vehicle\119\Sound\bv\low.wav
+244 = ..\..\..\Vehicle\119\Sound\bv\low.wav
+245 = ..\..\..\Vehicle\119\Sound\bv\low.wav
+
+246 = ..\..\..\Vehicle\119\Sound\bv\low2.wav
+247 = ..\..\..\Vehicle\119\Sound\bv\low2.wav
+248 = ..\..\..\Vehicle\119\Sound\bv\low2.wav
+
+249 = ..\..\..\Vehicle\119\Sound\bv\high.wav
+250 = ..\..\..\Vehicle\119\Sound\bv\high.wav
+251 = ..\..\..\Vehicle\119\Sound\bv\high.wav
+
+252 = ..\..\..\Vehicle\119\Sound\bv\high2.wav
+253 = ..\..\..\Vehicle\119\Sound\bv\high2.wav
+254 = ..\..\..\Vehicle\119\Sound\bv\high2.wav
+
+[Buzzer]
+Correct = ..\..\..\Vehicle\381\Sound\Adjust.wav
+
+[Others]
+Noise = ..\..\..\Vehicle\381\Sound\Loop.wav

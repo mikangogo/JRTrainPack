@@ -9,3 +9,4 @@
 ..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\Conductor.dll
 ..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\CS12_113.dll
 ..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\Shock.dll
+..\..\..\..\Plugin\Communication\Communication.dll

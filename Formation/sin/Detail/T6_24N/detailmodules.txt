@@ -7,3 +7,4 @@
 ..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\DIR.dll
 ..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\CS15F_165.dll
 ..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\Shock.dll
+..\..\..\..\Plugin\Communication\Communication.dll

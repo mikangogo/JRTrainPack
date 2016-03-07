@@ -21,8 +21,8 @@ Version 1.0
 0 = ..\..\..\Vehicle\103\Sound\Point.wav
 
 [Brake]
-BC Release High = ..\..\..\Vehicle\103\Sound\AirHigh.wav
-BC Release Full = ..\..\..\Vehicle\103\Sound\Air.wav
+BC Release High = ..\..\..\Vehicle\103\Sound\Air.wav
+BC Release Full = ..\..\..\Vehicle\103\Sound\AirZero.wav
 BC Release = ..\..\..\Vehicle\103\Sound\Air.wav
 Emergency = ..\..\..\Vehicle\115\Sound\EmrBrk.wav
 
