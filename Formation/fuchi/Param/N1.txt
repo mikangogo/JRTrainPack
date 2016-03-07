@@ -45,7 +45,7 @@ RunningResistanceFactor = 0.26, 8, 500
 BrakeNotchCount = 8
 PowerNotchCount = 4
 AtsCancelNotch = 3
-MotorBrakeNotch = 2
+MotorBrakeNotch = 3
 [ViewPoint]
 X = -0.73
 Y = 2.7
