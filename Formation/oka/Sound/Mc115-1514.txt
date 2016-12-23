@@ -60,16 +60,19 @@ Shoe = ..\..\..\Vehicle\115\Sound\Rub1.wav
 
 [Ats]
 0 = ..\..\..\Vehicle\115\Sound\Ats.wav
-;1 = ..\..\..\Vehicle\115\Sound\AtsCnt.wav
-2 = ..\..\..\Vehicle\115\Sound\P.wav
+2 = ..\..\..\Vehicle\common\Sound\P.wav
 3 = ..\..\..\Vehicle\115\Sound\Eb.wav
-4 = ..\..\..\Vehicle\115\Sound\P.wav
+;4 = ..\..\..\Vehicle\115\Sound\P.wav
 ;10 = ..\..\..\Vehicle\115\Sound\Spp1.wav
 ;11 = ..\..\..\Vehicle\115\Sound\Spp2.wav
 20 = ..\..\..\Vehicle\115\Sound\BellOff.wav
 21 = ..\..\..\Vehicle\115\Sound\ATSCnt_L.wav
 22 = ..\..\..\Vehicle\115\Sound\ATSCnt_R.wav
+23 = ..\..\..\Vehicle\common\sound\P.wav
 180 = ..\..\..\Vehicle\common\sound\buzzer.wav
+196 = ..\..\..\Vehicle\115\Sound_Tc\shock_elec.wav
+197 = ..\..\..\Vehicle\115\Sound_Tc\shock_elec.wav
+198 = ..\..\..\Vehicle\115\Sound_Tc\shock_elec.wav
 199 = ..\..\..\Vehicle\115\Sound_Tc\runningnoise.wav
 200 = ..\..\..\Vehicle\115\Sound\Shock_low.wav
 201 = ..\..\..\Vehicle\115\Sound\Shock_low.wav
@@ -81,7 +84,7 @@ Shoe = ..\..\..\Vehicle\115\Sound\Rub1.wav
 222 = ..\..\..\Vehicle\115\Sound_N\Brake_38.wav
 230 = ..\..\..\Vehicle\115\Sound_niigata\bm_on.wav
 231 = ..\..\..\Vehicle\115\Sound_niigata\bm_off.wav
-232 = ..\..\..\Vehicle\115\Sound_niigata\bm_loop.wav
+233 = ..\..\..\Vehicle\115\Sound_niigata\bm_loop.wav
 237 = ..\..\..\Vehicle\115\Sound_N\lov.wav
 
 [Buzzer]
