@@ -37,8 +37,8 @@ Emergency = ..\..\..\Vehicle\115\Sound\EmrBrk.wav
 ;Release = ..\..\..\Vehicle\115\Sound\CpEnd.wav
 
 [Horn]
-Primary = ..\..\..\Vehicle\113\Sound\horn.wav
-PrimaryRelease = ..\..\..\Vehicle\113\Sound\hornrelease.wav
+Primary = ..\..\..\Vehicle\113\Sound\horn_aw5.wav
+PrimaryRelease = ..\..\..\Vehicle\113\Sound\hornrelease_aw5.wav
 
 [Door]
 Open Left = ..\..\..\Vehicle\113\Sound\DoorOpn.wav
