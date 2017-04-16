@@ -1,0 +1,87 @@
+Version 1.0
+
+[Flange]
+0 = ..\..\..\Vehicle\373\Sound\Flange0.wav
+1 = ..\..\..\Vehicle\373\Sound\Flange1.wav
+
+[Run]
+0 = ..\..\..\Vehicle\373\Sound\Run0.wav
+1 = ..\..\..\Vehicle\373\Sound\Run1.wav
+2 = ..\..\..\Vehicle\373\Sound\Run4.wav
+3 = ..\..\..\Vehicle\373\Sound\Run2.wav
+4 = ..\..\..\Vehicle\373\Sound\Run3.wav
+5 = ..\..\..\Vehicle\373\Sound\Run3.wav
+6 = ..\..\..\Vehicle\373\Sound\Run3.wav
+
+[Motor]
+0 = ..\..\..\Vehicle\373\Sound\Motor0.wav
+1 = ..\..\..\Vehicle\373\Sound\Motor1.wav
+2 = ..\..\..\Vehicle\373\Sound\Motor2.wav
+3 = ..\..\..\Vehicle\373\Sound\Motor3.wav
+4 = ..\..\..\Vehicle\373\Sound\Motor4.wav
+5 = ..\..\..\Vehicle\373\Sound\Motor5.wav
+6 = ..\..\..\Vehicle\373\Sound\Motor6.wav
+7 = ..\..\..\Vehicle\373\Sound\Motor7.wav
+8 = ..\..\..\Vehicle\373\Sound\Motor8.wav
+9 = ..\..\..\Vehicle\373\Sound\Motor9.wav
+10 = ..\..\..\Vehicle\373\Sound\Motor10.wav
+11 = ..\..\..\Vehicle\373\Sound\Motor11.wav
+12 = ..\..\..\Vehicle\373\Sound\Motor12.wav
+13 = ..\..\..\Vehicle\373\Sound\Motor13.wav
+14 = ..\..\..\Vehicle\373\Sound\Motor14.wav
+15 = ..\..\..\Vehicle\373\Sound\Motor15.wav
+
+[Brake Handle]
+Apply = ..\..\..\Vehicle\373\Sound\notch.wav
+Release = ..\..\..\Vehicle\373\Sound\notch.wav
+Min = ..\..\..\Vehicle\373\Sound\notch.wav
+Max = ..\..\..\Vehicle\373\Sound\notch.wav
+
+[Master Controller]
+Up = ..\..\..\Vehicle\373\Sound\notch.wav
+Down = ..\..\..\Vehicle\373\Sound\notch.wav
+Max = ..\..\..\Vehicle\373\Sound\notch.wav
+Min = ..\..\..\Vehicle\373\Sound\notch.wav
+
+[Switch]
+0 = ..\..\..\Vehicle\373\Sound\Point.wav
+
+[Buzzer]
+Correct = ..\..\..\Vehicle\373\Sound\Adjust.wav
+
+[Brake]
+BC Release High = ..\..\..\Vehicle\373\Sound\AirHigh.wav
+BC Release = ..\..\..\Vehicle\373\Sound\Air.wav
+BC Release Full = ..\..\..\Vehicle\373\Sound\AirZero.wav
+
+[Compressor]
+
+[Door]
+Open Left = ..\..\..\Vehicle\373\Sound\DoorOpnL.wav
+Open Right = ..\..\..\Vehicle\373\Sound\DoorOpnR.wav
+Close Left = ..\..\..\Vehicle\373\Sound\DoorClsL.wav
+Close Right = ..\..\..\Vehicle\373\Sound\DoorClsR.wav
+
+[Ats]
+0 = ..\..\..\Vehicle\373\Sound\ATS.wav
+;1 = ..\..\..\Vehicle\373\Sound\ATSCnt.wav
+2 = ..\..\..\Vehicle\373\Sound\Ding.wav
+3 = ..\..\..\Vehicle\373\Sound\Eb.wav
+21 = ..\..\..\Vehicle\373\Sound\ATSCnt_L.wav
+22 = ..\..\..\Vehicle\373\Sound\ATSCnt_R.wav
+200 = ..\..\..\Vehicle\373\Sound\Cooler.wav
+
+[Horn]
+Primary = ..\..\..\Vehicle\373\Sound\Klaxon0.wav
+
+[Suspension]
+Left  = ..\..\..\Vehicle\373\Sound\SpringL.wav
+Right = ..\..\..\Vehicle\373\Sound\SpringR.wav
+
+[Others]
+Noise = ..\..\..\Vehicle\373\Sound\Loop.wav
+Shoe = ..\..\..\Vehicle\373\Sound\Rub.wav
+
+[Breaker]
+
+[Pilot Lamp]

@@ -1,0 +1,7 @@
+..\..\..\..\Plugin\MC.dll
+..\..\..\..\Plugin\BV.dll
+..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\EB.dll
+..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\ATS_East\485\snpST.dll
+..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\DIR.dll
+..\..\..\..\..\..\..\GeneralAtsPlugin\Unicorn\MON.dll
+..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\Conductor.dll
