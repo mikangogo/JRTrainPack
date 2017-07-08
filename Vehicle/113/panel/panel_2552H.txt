@@ -1,5 +1,68 @@
 BveTs Instrument Panel 2.00:shift_jis
 
+;///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+[PilotLamp]
+Subject = ats125
+Location = 450, 820
+DaytimeImage = panel\outside\light.png
+Layer = 0
+
+[PilotLamp]
+Subject = ats126
+Location = 450, 1020
+DaytimeImage = panel\outside\light.png
+Layer = 0
+
+;0///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+[PilotLamp]
+Subject = ats130
+Location = 680, 1564
+DaytimeImage   = panel\113meteroff1.png
+NighttimeImage = panel\113meteroff1n.png
+Layer = 3
+
+[PilotLamp]
+Subject = ats130
+Location = 1421, 1564
+DaytimeImage   = panel\113meteroff2.png
+NighttimeImage = panel\113meteroff2n.png
+Layer = 3
+
+[PilotLamp]
+Subject = ats130
+Location = 899, 176
+DaytimeImage   = panel\113meteroff3.png
+NighttimeImage = panel\113meteroff3n.png
+Layer = 3
+
+
+;1///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+;ÉXÉ^Étë}Çµè∆ñæ
+[PilotLamp]
+Subject = ats131
+Location = 1588, 540
+DaytimeImage   = panel\timetable.png
+NighttimeImage = panel\timetablen.png
+Layer = 4
+
+[Needle]
+Layer = 5
+Subject = ats131
+Location = 1782, 2466
+DaytimeImage   = ..\..\..\..\..\..\iz_hanwa_5X\iz_ç„òaÅEä÷êºãÛç`ê¸_5\TimeTable\W4\2552h.png
+NighttimeImage = ..\..\..\..\..\..\iz_hanwa_5X\iz_ç„òaÅEä÷êºãÛç`ê¸_5\TimeTable\W4\2552hN.png
+Origin = 0, 2306
+Radius = 1824
+InitialAngle = 180
+LastAngle = 0
+Minimum = 0
+NaturalFreq = 10000
+DampingRatio = 1
+
+;///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 [This]
 Resolution = 1770
 Left   = 10
@@ -30,6 +93,7 @@ Location = 1003, 681
 DaytimeImage   = panel\outside\wiper.png
 NighttimeImage = panel\outside\wipern.png
 Layer = 1
+
 
 ;ÉJÉÅÉâPOWER
 [PilotLamp]
@@ -328,7 +392,7 @@ DampingRatio = 0.5
 ;Location = 677, 1940
 ;DaytimeImage   = panel\red.png
 ;NighttimeImage = panel\redn.png
-;Layer = 2
+;Layer = 4
 
 ;íºí 
 [PilotLamp]
@@ -429,7 +493,7 @@ Subject = ats4
 Location = 2149, 1349
 DaytimeImage   = panel\p_release.png
 NighttimeImage = panel\p_releasen.png
-Layer = 2
+Layer = 4
 
 ;ATS-P
 [PilotLamp]
