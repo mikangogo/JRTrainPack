@@ -1,0 +1,52 @@
+﻿BveTs Vehicle Parameters 2.01
+FirstCar = M
+LoadCompensating = false
+[Compressor]
+UpperPressure = 686000
+LowerPressure = 607600
+CompressionSpeed = 10000
+[Bc]
+ApplyStart = 0
+ApplyStop = 0
+ReleaseStart = 0
+ReleaseStop = 0
+ApplySpeed = 3000
+ReleaseSpeed = 500
+VolumeRatio = 99999
+[Brake]
+PistonArea = 0.55
+ShoeFriction = 0.32, 0.01, 0.05
+[Bp]
+ApplySpeed = 1000
+ReleaseSpeed = 120
+RapidReleaseSpeed = 2200000
+VolumeRatio = 9
+[Er]
+ApplySpeed = 120
+ReleaseSpeed = 30
+VolumeRatio = 11
+RapidReleaseSpeed = 2000
+
+[CL]
+MaximumPressure = 350000
+LeverDelay = 0.15
+[MainCircuit]
+RegenerationLimit = 200
+LeverDelay = 0.2
+BrakePriority = false
+[Dynamics]
+MotorcarWeight = 38200
+MotorcarCount = 1
+TrailerWeight = 38200
+TrailerCount = 0
+CarLength = 21
+[Cab]
+PowerNotchCount = 5
+PowerText = 切,１,２,３,４,５
+BrakeNotchCount = 2
+BrakeText = 弛め込め,重なり,常用制動,非常制動
+ReverserText = 後退,中立,前進
+[ViewPoint]
+X = -0.73
+Y = 2.5
+Z = -1
