@@ -1,6 +1,7 @@
 Bvets Vehicle 0.03
 PerformanceCurve = ..\..\Vehicle\115\notch\notch.txt
 Parameters = Param\N10_iida.txt
+Panel = ..\..\Vehicle\119\panel3_119\panel_119.cfg
 Sound = Sound\Mc115-1038_iida.txt
 Ats = Detail\N10_iida\DetailManager.dll
 MotorNoise = ..\..\Vehicle\115\motornoise\motornoise.txt
