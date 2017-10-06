@@ -1,4 +1,4 @@
-Version 1.0
+BveTs Vehicle Sound 3.00:shift_jis
 
 [Run]
 0 = ..\..\..\Vehicle\381\Sound\Run0.wav
@@ -73,6 +73,30 @@ On = ..\..\..\Vehicle\381\Sound\leave.wav
 252 = ..\..\..\Vehicle\119\Sound\bv\high2.wav
 253 = ..\..\..\Vehicle\119\Sound\bv\high2.wav
 254 = ..\..\..\Vehicle\119\Sound\bv\high2.wav
+
+;ƒXƒCƒbƒ`‰¹//////////////////////////////////////////////////////////////////////////////////////////
+
+100 = ..\..\..\..\..\..\iz_hanwa_5X\iz_ã˜aEŠÖ¼‹ó`ü_5\sounds\iz_hanwa\noise\sta\0L.wav
+101 = ..\..\..\..\..\..\iz_hanwa_5X\iz_ã˜aEŠÖ¼‹ó`ü_5\sounds\iz_hanwa\noise\sta\1L.wav
+102 = ..\..\..\..\..\..\iz_hanwa_5X\iz_ã˜aEŠÖ¼‹ó`ü_5\sounds\iz_hanwa\noise\sta\2L.wav
+103 = ..\..\..\..\..\..\iz_hanwa_5X\iz_ã˜aEŠÖ¼‹ó`ü_5\sounds\iz_hanwa\noise\sta\3L.wav
+104 = ..\..\..\..\..\..\iz_hanwa_5X\iz_ã˜aEŠÖ¼‹ó`ü_5\sounds\iz_hanwa\noise\sta\4L.wav
+105 = ..\..\..\..\..\..\iz_hanwa_5X\iz_ã˜aEŠÖ¼‹ó`ü_5\sounds\iz_hanwa\noise\sta\5L.wav
+106 = ..\..\..\..\..\..\iz_hanwa_5X\iz_ã˜aEŠÖ¼‹ó`ü_5\sounds\iz_hanwa\noise\sta\6L.wav
+107 = ..\..\..\..\..\..\iz_hanwa_5X\iz_ã˜aEŠÖ¼‹ó`ü_5\sounds\iz_hanwa\noise\sta\7L.wav
+108 = ..\..\..\..\..\..\iz_hanwa_5X\iz_ã˜aEŠÖ¼‹ó`ü_5\sounds\iz_hanwa\noise\sta\8L.wav
+109 = ..\..\..\..\..\..\iz_hanwa_5X\iz_ã˜aEŠÖ¼‹ó`ü_5\sounds\iz_hanwa\noise\sta\9L.wav
+
+110 = ..\..\..\..\..\..\iz_hanwa_5X\iz_ã˜aEŠÖ¼‹ó`ü_5\sounds\iz_hanwa\noise\sta\0R.wav
+111 = ..\..\..\..\..\..\iz_hanwa_5X\iz_ã˜aEŠÖ¼‹ó`ü_5\sounds\iz_hanwa\noise\sta\1R.wav
+112 = ..\..\..\..\..\..\iz_hanwa_5X\iz_ã˜aEŠÖ¼‹ó`ü_5\sounds\iz_hanwa\noise\sta\2R.wav
+113 = ..\..\..\..\..\..\iz_hanwa_5X\iz_ã˜aEŠÖ¼‹ó`ü_5\sounds\iz_hanwa\noise\sta\3R.wav
+114 = ..\..\..\..\..\..\iz_hanwa_5X\iz_ã˜aEŠÖ¼‹ó`ü_5\sounds\iz_hanwa\noise\sta\4R.wav
+115 = ..\..\..\..\..\..\iz_hanwa_5X\iz_ã˜aEŠÖ¼‹ó`ü_5\sounds\iz_hanwa\noise\sta\5R.wav
+116 = ..\..\..\..\..\..\iz_hanwa_5X\iz_ã˜aEŠÖ¼‹ó`ü_5\sounds\iz_hanwa\noise\sta\6R.wav
+117 = ..\..\..\..\..\..\iz_hanwa_5X\iz_ã˜aEŠÖ¼‹ó`ü_5\sounds\iz_hanwa\noise\sta\7R.wav
+118 = ..\..\..\..\..\..\iz_hanwa_5X\iz_ã˜aEŠÖ¼‹ó`ü_5\sounds\iz_hanwa\noise\sta\8R.wav
+119 = ..\..\..\..\..\..\iz_hanwa_5X\iz_ã˜aEŠÖ¼‹ó`ü_5\sounds\iz_hanwa\noise\sta\9R.wav
 
 [Buzzer]
 Correct = ..\..\..\Vehicle\381\Sound\Adjust.wav

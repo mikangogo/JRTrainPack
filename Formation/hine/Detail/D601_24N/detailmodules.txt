@@ -7,4 +7,5 @@
 ..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\DIR.dll
 ..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\Conductor.dll
 ..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\CS43_381.dll
+..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\CR2.dll
 ..\..\..\..\Plugin\Communication\Communication.dll
