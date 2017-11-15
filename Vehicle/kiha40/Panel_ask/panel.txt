@@ -115,7 +115,7 @@ DaytimeImage =spt.png
 NighttimeImage =spt_N.png
 Layer =2
 [Pilotlamp]
-Subject          = ats20 ;door
+Subject          = door
 Location         = 331,1152
 DaytimeImage     = light.png
 Layer            = 8
