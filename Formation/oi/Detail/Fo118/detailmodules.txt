@@ -7,5 +7,5 @@
 ..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\B1.dll
 ..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\DIR.dll
 ..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\Conductor.dll
-..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\CS12_113.dll
+..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\CS12_415.dll
 ..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\Shock.dll
