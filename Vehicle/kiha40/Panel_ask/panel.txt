@@ -127,13 +127,13 @@ NighttimeImage =Tojime_N.png
 Layer =1
 
 [PilotLamp]
-Subject = ats10
+Subject = ats8
 Location = 857,1215
 DaytimeImage =F.png
 NighttimeImage =F_N.png
 Layer =1
 [PilotLamp]
-Subject = ats11
+Subject = ats9
 Location = 857,1215
 DaytimeImage =R.png
 NighttimeImage =R_N.png

@@ -1,0 +1,227 @@
+﻿Version 1.0
+
+[This]
+Resolution       = 1400
+Left             = 32
+Top              = 0
+Right            = 2036
+Bottom           = 1530
+DaytimeImage     = panel2.png
+NighttimeImage   = panel2_n.png
+Center           = 960, 768
+Origin           = 926, 720
+
+
+[Pilotlamp]
+Subject          = true
+Location         = 0,512
+DaytimeImage     = panel1.png
+NighttimeImage   = panel1_n.png
+Layer            = 1
+
+
+[Pilotlamp]
+Subject          = true
+Location         = 295,1221
+DaytimeImage     = center.png
+NighttimeImage   = center_n.png
+Layer            = 6
+
+
+[Pilotlamp]
+Subject          = door
+Location         = 0,512
+DaytimeImage     = pilot.png
+NighttimeImage   = pilot_n.png
+Layer            = 10
+
+[Needle]
+;Subject = kmph
+Subject = ATS30
+Location = 580, 1285
+DaytimeImage = needle\spd.png
+NighttimeImage = needle\spd_n.png
+Origin = 16, 124
+layer = 5
+Radius = 126
+InitialAngle = -122
+LastAngle = 120
+Minimum = 0
+Maximum = 120000
+NaturalFreq = 6.3
+DampingRatio = 0.5
+
+[Needle]
+Subject = er
+Location = 839, 1289
+DaytimeImage = needle\prs.png
+NighttimeImage = needle\prs_n.png
+Origin = 32, 85
+layer = 5
+Radius = 85
+InitialAngle = -132
+LastAngle = 132
+Minimum = 0
+Maximum = 980
+NaturalFreq = 0
+
+[Needle]
+Subject = mr
+Location = 839, 1289
+DaytimeImage = needle\prsr.png
+NighttimeImage = needle\prsr_n.png
+Origin = 32, 85
+layer = 5
+Radius = 85
+InitialAngle = -132
+LastAngle = 132
+Minimum = 0
+Maximum = 980
+NaturalFreq = 0
+
+[Needle]
+Subject = bp
+Location = 1060, 1289
+DaytimeImage = needle\prs.png
+NighttimeImage = needle\prs_n.png
+Origin = 32, 85
+layer = 5
+Radius = 85
+InitialAngle = -132
+LastAngle = 132
+Minimum = 0
+Maximum = 980
+NaturalFreq = 0
+
+[Needle]
+Subject = bc
+Location = 1060, 1289
+DaytimeImage = needle\prsr.png
+NighttimeImage = needle\prsr_n.png
+Origin = 32, 85
+layer = 5
+Radius = 85
+InitialAngle = -132
+LastAngle = 132
+Minimum = 0
+Maximum = 980
+NaturalFreq = 0
+
+[Pilotlamp]
+Subject          = true
+Location         = 1729,719
+DaytimeImage     = ATS\ATS.png
+NighttimeImage   = ATS\ATS_n.png
+Layer            = 11
+
+[Pilotlamp]
+Subject          = ATS0
+Location         = 1752,742
+DaytimeImage     = ATS\white_lamp.png
+NighttimeImage   = ATS\white_lamp_n.png
+Layer            = 10
+
+[Pilotlamp]
+Subject          = ATS1
+Location         = 1807,704
+DaytimeImage     = ATS\red_lamp.png
+;NighttimeImage   = ATS\red_lamp_n.png
+Layer            = 10
+
+[Pilotlamp]
+Subject          = ATS2
+Location         = 1509,716
+DaytimeImage     = ATS\P.png
+;NighttimeImage   = ATS\P_n.png
+Layer            = 10
+
+[Pilotlamp]
+Subject          = ATS3
+Location         = 1560,718
+DaytimeImage     = ATS\P_approach.png
+;NighttimeImage   = ATS\P_approach_n.png
+Layer            = 10
+
+[Pilotlamp]
+Subject          = ATS4
+Location         = 1660,720
+DaytimeImage     = ATS\brake_release.png
+;NighttimeImage   = ATS\brake_release_n.png
+Layer            = 10
+
+[Pilotlamp]
+Subject          = ATS5
+Location         = 1610,719
+DaytimeImage     = ATS\brake_behavior.png
+;NighttimeImage   = ATS\brake_behavior_n.png
+Layer            = 10
+
+[Pilotlamp]
+Subject          = ATS6
+Location         = 1697,718
+DaytimeImage     = ATS\ATS-P.png
+NighttimeImage   = ATS\ATS-P_n.png
+Layer            = 10
+
+[Pilotlamp]
+Subject          = ATS10
+Location         = 577,1441
+DaytimeImage     = ATS\EB.png
+NighttimeImage   = ATS\EB_n.png
+Layer            = 10
+
+[Pilotlamp]
+Subject          = door
+Location         = 745,1100
+DaytimeImage     = door.png
+NighttimeImage   = door_n.png
+Layer            = 10
+
+[pilotlamp]
+subject = ats8
+location = 811,1100
+daytimeimage = up.png
+nighttimeimage = up_n.png
+layer = 10
+
+[pilotlamp]
+subject = ats9
+location = 862,1101
+daytimeimage = dn.png
+nighttimeimage = dn_n.png
+layer = 10
+
+[pilotlamp]
+subject = ats12
+location = 926,1100
+daytimeimage = engine.png
+nighttimeimage = engine_n.png
+layer = 10
+
+[pilotlamp]
+subject = ats13
+location = 988,1100
+daytimeimage = tyokketsu.png
+nighttimeimage = tyokketsu_n.png
+layer = 10
+
+[pilotlamp]
+subject = ats14
+location = 1042,1100
+daytimeimage = churitsu.png
+nighttimeimage = churitsu_n.png
+layer = 10
+
+[pilotlamp]
+subject = ats15
+location = 1096,1101
+daytimeimage = hensoku.png
+nighttimeimage = hensoku_n.png
+layer = 10
+
+[pilotlamp]
+subject = ats18
+location = 1160,1100
+daytimeimage = B.png
+nighttimeimage = B_n.png
+layer = 10
