@@ -26,9 +26,9 @@ Version 1.0
 ;Down = ..\..\..\Vehicle\115\Sound\mcdown.wav
 
 [Brake]
-BC Release High = ..\..\..\Vehicle\415\Sound_Q\Air.wav
-BC Release Full = ..\..\..\Vehicle\415\Sound_Q\AirZero.wav
-BC Release = ..\..\..\Vehicle\415\Sound_Q\Air.wav
+BC Release High = ..\..\..\Vehicle\115\Sound_N\Air.wav
+BC Release Full = ..\..\..\Vehicle\115\Sound_N\AirZero.wav
+BC Release = ..\..\..\Vehicle\115\Sound_N\Air.wav
 Emergency = ..\..\..\Vehicle\115\Sound\EmrBrk.wav
 
 [Compressor]
