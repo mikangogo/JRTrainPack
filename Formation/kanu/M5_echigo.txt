@@ -1,7 +1,0 @@
-Bvets Vehicle 0.03
-PerformanceCurve = ..\..\Vehicle\457\notch\notch.txt
-Parameters = Param\M5_echigo.txt
-Panel = ..\..\Vehicle\165\Panel\panel2.cfg
-Sound = Sound\Mc165-130.txt
-Ats = Detail\M5\DetailManager.dll
-MotorNoise = ..\..\Vehicle\165\motornoise\motornoise.txt

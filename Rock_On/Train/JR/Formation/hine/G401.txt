@@ -1,0 +1,7 @@
+Bvets Vehicle 0.03
+PerformanceCurve = ..\..\Vehicle\113\notch\notch_4.txt
+Parameters = Param\G401.txt
+Panel = ..\..\Vehicle\113\panel\panel.txt
+Sound = Sound\Tc111-5568.txt
+Ats = Detail\G401\DetailManager.dll
+MotorNoise = ..\..\Vehicle\115\motornoise\motornoise.txt

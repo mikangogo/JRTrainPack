@@ -1,0 +1,52 @@
+Bvets Vehicle Parameters 0.04
+FirstCar = T
+LoadCompensating = true
+[Compressor]
+UpperPressure = 784000
+LowerPressure = 686000
+CompressionSpeed = 5300
+[Bc]
+ApplyStart = 1000
+ApplyStop = 5000
+ReleaseStart = 10000
+ReleaseStop = 5000
+ApplySpeed = 623.1827
+ReleaseSpeed = 190
+PistonArea = 0.46
+VolumeRatio = 20
+[Sap]
+ApplySpeed = 180.7957
+ReleaseSpeed = 239.4975
+[Bp]
+ApplySpeed = 52.42742
+ReleaseSpeed = 990.2853
+[LockoutValve]
+InitialPressure = 40000
+MaximumPressure = 320000
+RegenerationLimit = 0
+[SMEE]
+MaximumPressure = 440000
+PressureRates = 0, 0.11038961, 0.220779221, 0.331168831, 0.441558442, 0.551948052, 0.662337662, 0.772727273, 1, 1
+LeverDelay = 0.6
+SapBcOffset = 0
+SapBcRatio = 0.97
+[MainCircuit]
+RegenerationLimit = 0
+NotchDelay = 0
+;BrakePriority = true
+[Dynamics]
+MotorcarWeight = 41000		; ‹óŽÔ
+MotorcarCount = 8
+TrailerWeight = 35000		; ‹óŽÔ
+TrailerCount = 7
+CarLength = 20
+RunningResistanceFactor = 0.26, 8, 500
+[Cab]
+BrakeNotchCount = 8
+PowerNotchCount = 4
+AtsCancelNotch = 3
+MotorBrakeNotch = 2
+[ViewPoint]
+X = -0.73
+Y = 2.7
+Z = -1

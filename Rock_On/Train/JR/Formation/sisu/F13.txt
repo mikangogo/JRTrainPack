@@ -1,0 +1,7 @@
+BveTs Vehicle 1.00
+PerformanceCurve = ..\..\Vehicle\373\Notch\Notch.txt
+Parameters = Param\F13.txt
+Panel = ..\..\Vehicle\373\Panel\Panel2.cfg
+Sound = Sound\Mc373-13.txt
+Ats = Detail\F13\DetailManager.dll
+MotorNoise = ..\..\Vehicle\373\MotorNoise\MotorNoise.txt

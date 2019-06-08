@@ -1,0 +1,10 @@
+..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\ATSN.dll
+..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\MH2019_FK.dll
+..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\MC53.dll
+..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\ME38.dll
+..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\B1.dll
+..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\EB.dll
+..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\ATS_East\sn.dll
+..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\DIR.dll
+..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\CS15F_115CRN.dll
+..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\Shock.dll

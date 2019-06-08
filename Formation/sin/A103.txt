@@ -1,7 +1,0 @@
-BveTs Vehicle 1.00
-PerformanceCurve = ..\..\Vehicle\383\Notch\Notch.txt
-Parameters = Param\A103.txt
-Panel = ..\..\Vehicle\383\Panel\panel2.cfg
-Sound = Sound\Mc383-12_ooito.txt
-Ats = Detail\A103\DetailManager.dll
-MotorNoise = ..\..\Vehicle\383\MotorNoise\MotorNoise.txt

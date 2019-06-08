@@ -1,0 +1,57 @@
+Bvets Vehicle Parameters 0.04
+FirstCar = M
+LoadCompensating = false
+[Compressor]
+UpperPressure = 784000
+LowerPressure = 686000
+CompressionSpeed = 5300
+[Bc]
+ApplyStart = 0
+ApplyStop = 0
+ReleaseStart = 0
+ReleaseStop = 0
+ApplySpeed = 623.1827
+ReleaseSpeed = 500
+;PistonArea = 0.562415		; C編成 (ブレーキ力改造車)
+PistonArea = 0.5		; N編成 (ブレーキ力未改造車)
+VolumeRatio = 20
+[Sap]
+ApplySpeed = 180.7957
+ReleaseSpeed = 239.4975
+[Bp]
+ApplySpeed = 52.42742
+ReleaseSpeed = 990.2853
+[LockoutValve]
+InitialPressure = 40000
+MaximumPressure = 320000
+RegenerationLimit = 0
+[SMEE]
+MaximumPressure = 440000
+PressureRates = 0, 0.11038961, 0.220779221, 0.331168831, 0.441558442, 0.551948052, 0.662337662, 0.772727273, 1, 1
+LeverDelay = 0.6
+SapBcOffset = 0
+SapBcRatio = 0.97
+[MainCircuit]
+RegenerationLimit = 0
+NotchDelay = 0
+BrakePriority = false
+[Dynamics]
+MotorcarWeight = 43900		; 空車
+;MotorcarWeight = 50390		; 積車 (定員)
+MotorcarCount = 2
+TrailerWeight = 34000		; 空車
+;TrailerWeight = 40490		; 積車 (定員)
+TrailerCount = 1
+CarLength = 20
+;RunningResistanceFactor = 0.1, 2, 763.2
+RunningResistanceFactor = 0.26, 8, 500
+[Cab]
+HoldingSpeedNotchCount = 5
+BrakeNotchCount = 8
+PowerNotchCount = 5
+AtsCancelNotch = 3
+MotorBrakeNotch = 3
+[ViewPoint]
+X = -0.73
+Y = 2.7
+Z = -1

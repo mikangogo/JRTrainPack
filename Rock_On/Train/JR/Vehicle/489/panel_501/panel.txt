@@ -1,0 +1,395 @@
+BveTs Instrument Panel 2.00:shift_jis
+
+[This]
+Resolution = 1200
+Left = 1
+Top = 1
+Right = 2047
+Bottom = 1237
+DaytimeImage = image\panel_d.png
+NighttimeImage = image\panel_n.png
+
+Center = 1045, 600
+Origin = 1045, 520
+
+; 速度計
+[PilotLamp]
+Subject = door
+Location = 594, 773
+DaytimeImage = image\PLs_d.png 
+NighttimeImage = image\PLs_n.png
+Layer = 1
+
+[needle]
+Subject = kmph
+Location = 696, 907
+DaytimeImage = image\needle_d.png
+NighttimeImage = image\needle_n.png
+Origin = 16, 254
+Layer = 2
+Radius = 58
+InitialAngle = -123.5
+LastAngle = 106.7
+Minimum = 0
+Maximum = 160
+NaturalFreq = 6.3
+DampingRatio = 0.5
+
+[PilotLamp]
+Subject = true
+Location = 671, 882
+DaytimeImage = image\spd_co_d.png
+NighttimeImage = image\spd_co_n.png
+Layer = 3
+
+[PilotLamp]
+Subject = door
+Location = 671, 882
+DaytimeImage = image\spd_co_on_d.png
+NighttimeImage = image\spd_co_on_n.png
+Layer = 4
+
+; 圧力計目隠し
+[PilotLamp]
+Subject = true
+Location = 845, 1157
+DaytimeImage = image\cover1_d.png
+NighttimeImage = image\cover1_n.png
+Layer = 5
+
+[PilotLamp]
+Subject = true
+Location = 1038, 1151
+DaytimeImage = image\cover2_d.png
+NighttimeImage = image\cover2_n.png
+Layer = 5
+
+[PilotLamp]
+Subject = true
+Location = 1204, 1136
+DaytimeImage = image\cover3_d.png
+NighttimeImage = image\cover3_n.png
+Layer = 5
+
+; 圧力計(黒:ツリアイ空気ダメ 赤:元空気ダメ)
+[Needle]; 元空気ダメ
+Subject = mr
+Location = 901, 1141
+DaytimeImage = image\prs_low_d.png
+NighttimeImage = image\prs_low_n.png
+Origin = 32, 174
+Layer = 3
+Radius = 51
+InitialAngle = -131.7
+LastAngle = 131.7
+Minimum = 0
+Maximum = 1500
+NaturalFreq = 0
+
+[Needle]; ツリアイ空気ダメ
+Subject = er
+Location = 901, 1141
+DaytimeImage = image\prs_up_d.png
+NighttimeImage = image\prs_up_n.png
+Origin = 32, 174
+Layer = 4
+Radius = 51
+InitialAngle = -131.7
+LastAngle = 131.7
+Minimum = 0
+Maximum = 1500
+NaturalFreq = 0
+
+; 圧力計(黒:直通管 赤:ブレーキシリンダ)
+[Needle]; ブレーキシリンダ
+Subject = bc
+Location = 1097, 1141
+DaytimeImage = image\prs_low_d.png
+NighttimeImage = image\prs_low_n.png
+Origin = 32, 174
+Layer = 3
+Radius = 52
+InitialAngle = -134.3
+LastAngle = 134.3
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 0
+
+[Needle]; 直通管
+Subject = sap
+Location = 1097, 1141
+DaytimeImage = image\prs_up_d.png
+NighttimeImage = image\prs_up_n.png
+Origin = 32, 174
+Layer = 4
+Radius = 52
+InitialAngle = -134.3
+LastAngle = 134.3
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 0
+
+; 圧力計(黒:ブレーキ管 赤:制御空気ダメ)
+[Needle]; 制御空気ダメ
+Subject = true ; (仮)
+Location = 1262, 1139
+DaytimeImage = image\prs_low_d.png
+NighttimeImage = image\prs_low_n.png
+Origin = 32, 174
+Layer = 3
+Radius = 51
+InitialAngle = -2.6 ; (仮)
+LastAngle = -2.6 ; (仮)
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 0
+
+[Needle]; ブレーキ管
+Subject = bp
+Location = 1262, 1139
+DaytimeImage = image\prs_up_d.png
+NighttimeImage = image\prs_up_n.png
+Origin = 32, 174
+Layer = 4
+Radius = 51
+InitialAngle = -132.9
+LastAngle = 132.9
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 0
+
+; 架線電圧計
+[Pilotlamp]
+Subject = true
+Location = 1395, 1102
+DaytimeImage = image\OwVMCo_d.png
+NighttimeImage = image\OwVMCo_n.png
+Layer = 4
+
+[Needle]
+Subject = ats48
+Location = 1416, 1123
+DaytimeImage = image\needle_d.png
+NighttimeImage = image\needle_n.png
+Origin = 16, 254
+Layer = 3
+Radius = 51
+InitialAngle = -120
+LastAngle = 120
+Minimum = 0
+Maximum = 3000
+NaturalFreq = 6.3
+DampingRatio = 0.5
+
+; 低圧電圧計
+[Pilotlamp]
+Subject = true
+Location = 1548, 1102
+DaytimeImage = image\LvVMCo_d.png
+NighttimeImage = image\LvVMCo_n.png
+Layer = 4
+
+[Needle]
+Subject = kmph
+Location = 1569, 1123
+DaytimeImage = image\needle_d.png
+NighttimeImage = image\needle_n.png
+Origin = 16, 254
+Layer = 3
+Radius = 51
+InitialAngle = 40.2
+LastAngle = 40.2
+Minimum = 0
+Maximum = 150
+NaturalFreq = 6.3
+DampingRatio = 0.5
+
+;PL
+[PilotLamp]
+Subject = door
+Location = 836, 1003
+DaytimeImage = image\PLm_d.png
+NighttimeImage = image\PLm_n.png
+Layer = 2
+
+; 耐雪ブレーキ
+;[PilotLamp]
+;Subject = door
+;Location = 741, 654
+;DaytimeImage = image\snow_brake_d.png
+;NighttimeImage = image\snow_brake_n.png
+;Layer = 1
+
+; ATS電源
+[PilotLamp]
+Subject = ats0
+Location = 885, 963
+DaytimeImage = image\ATS_power_d.png
+NighttimeImage = image\ATS_power_n.png
+Layer = 1
+
+; ATSランプ
+[PilotLamp]
+Subject = ats1
+Location = 935, 953
+DaytimeImage = image\ATS_d.png
+NighttimeImage = image\ATS_n.png
+Layer = 1
+
+; EBスイッチ
+;[PilotLamp]
+;Subject = door
+;Location = 1175, 863
+;DaytimeImage = image\EBsw_d.png
+;NighttimeImage = image\EBsw_n.png
+;Layer = 1
+
+; EBランプ
+[PilotLamp]
+Subject = ats10
+Location = 1278, 826
+DaytimeImage = image\EB_d.png
+NighttimeImage = image\EB_n.png
+Layer = 1
+
+; 表示灯
+; 事故表示灯
+;[PilotLamp]
+;Subject = door
+;Location = 1110, 947
+;DaytimeImage = image\trouble_d.png
+;NighttimeImage = image\trouble_n.png
+;Layer = 1
+
+; 三相
+;[PilotLamp]
+;Subject = door
+;Location = 1167, 947
+;DaytimeImage = image\sanso_d.png
+;NighttimeImage = image\sanso_n.png
+;Layer = 2
+
+; 直通
+[PilotLamp]
+Subject = ats35
+Location = 1204, 947
+DaytimeImage = image\stb_d.png
+NighttimeImage = image\stb_n.png
+Layer = 1
+
+; 発電
+[PilotLamp]
+Subject = ats210
+Location = 1241, 947
+DaytimeImage = image\dyd_d.png
+NighttimeImage = image\dyd_n.png
+Layer = 1
+
+; 抑速
+[PilotLamp]
+Subject = ats211
+Location = 1278, 947
+DaytimeImage = image\sup_d.png
+NighttimeImage = image\sup_n.png
+Layer = 1
+
+; ユニット1
+[PilotLamp]
+Subject = ats41
+Location = 1316, 947
+DaytimeImage = image\unit1_d.png
+NighttimeImage = image\unit1_n.png
+Layer = 1
+
+; ユニット2
+[PilotLamp]
+Subject = ats42
+Location = 1354, 947
+DaytimeImage = image\unit2_d.png
+NighttimeImage = image\unit2_n.png
+Layer = 1
+
+; ユニット3
+[PilotLamp]
+Subject = ats43
+Location = 1391, 947
+DaytimeImage = image\unit3_d.png
+NighttimeImage = image\unit3_n.png
+Layer = 1
+
+; ユニット4
+;[PilotLamp]
+;Subject = ats44
+;Location = 1428, 947
+;DaytimeImage = image\unit4_d.png
+;NighttimeImage = image\unit4_n.png
+;Layer = 1
+
+; ABB全切
+;[PilotLamp]
+;Subject = door
+;Location = 1467, 947
+;DaytimeImage = image\ABB_off_d.png
+;NighttimeImage = image\ABB_off_n.png
+;Layer = 1
+
+; ABB全入
+[PilotLamp]
+Subject = true
+Location = 1504, 947
+DaytimeImage = image\ABB_on_d.png
+NighttimeImage = image\ABB_on_n.png
+Layer = 1
+
+; 空気バネパンク
+;[PilotLamp]
+;Subject = door
+;Location = 1542, 947
+;DaytimeImage = image\air_sus_d.png
+;NighttimeImage = image\air_sus_n.png
+;Layer = 1
+
+
+; 時計
+[Needle]
+Location = 1000, 1186
+Subject = hour
+DaytimeImage = image\hour_d.png
+NighttimeImage = image\hour_n.png
+Origin = 16, 190
+Layer = 2
+Radius = 21
+InitialAngle = 0
+LastAngle = 360
+Minimum = 0
+Maximum = 12
+NaturalFreq = 0
+
+[Needle]
+Location = 1000, 1186
+Subject = min
+DaytimeImage = image\min_d.png
+NighttimeImage = image\min_n.png
+Origin = 16, 207
+Layer = 3
+Radius = 26
+InitialAngle = 0
+LastAngle = 360
+Minimum = 0
+Maximum = 60
+NaturalFreq = 0
+
+[Needle]
+Location = 1000, 1186
+Subject = sec
+DaytimeImage = image\sec_d.png
+NighttimeImage = image\sec_n.png
+Origin = 15, 166
+Layer = 4
+Radius = 24
+InitialAngle = 0
+LastAngle = 360
+Minimum = 0
+Maximum = 60
+NaturalFreq = 63
+DampingRatio = 0.5

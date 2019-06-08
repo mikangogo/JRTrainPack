@@ -1,0 +1,7 @@
+Bvets Vehicle 0.03
+PerformanceCurve = ..\..\Vehicle\485\notch\notch.txt
+Parameters = Param\Do2.txt
+Panel = ..\..\Vehicle\485\panel_Q\2M.txt
+Sound = Sound\Mc485-102.txt
+Ats = Detail\Do2\DetailManager.dll
+MotorNoise = ..\..\Vehicle\485\motornoise\motornoise.txt

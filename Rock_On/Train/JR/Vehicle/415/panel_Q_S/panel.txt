@@ -1,0 +1,540 @@
+BveTs Instrument Panel 2.00:shift_jis
+
+;ぱねる
+[This]
+Resolution = 1890
+Left   = 130
+Top    = 11
+Right  = 4085
+Bottom = 2749
+DaytimeImage   = panel\panel1.png
+NighttimeImage = panel\panel1_n.png
+Center = 2315, 1310
+Origin = 2312, 1310
+
+[PilotLamp]
+Subject = true
+Location = 2048, 0
+DaytimeImage   = panel\panel2.png
+NighttimeImage = panel\panel2_n.png
+Layer = 0
+
+[PilotLamp]
+Subject = true
+Location = 0, 2048
+DaytimeImage   = panel\panel3.png
+NighttimeImage = panel\panel3_n.png
+Layer = 0
+
+[PilotLamp]
+Subject = true
+Location = 2048, 2048
+DaytimeImage   = panel\panel4.png
+NighttimeImage = panel\panel4_n.png
+Layer = 0
+
+;圧力計1
+[PilotLamp]
+Subject = true
+Location = 1369,2065
+DaytimeImage   = panel\prs1cover.png
+NighttimeImage = panel\prs1cover_n.png
+Layer = 4
+
+[Needle]
+Layer = 2
+Subject = mr
+Location = 1385, 2081
+DaytimeImage   = panel\prs_r0.png
+NighttimeImage = panel\prs_r0n.png
+Color            = E02020
+Origin = 33, 175
+Radius = 123
+InitialAngle = -133
+LastAngle = 133
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 60
+DampingRatio = 0.02
+
+[Needle]
+Layer = 3
+Subject = er
+Location = 1385, 2081
+DaytimeImage   = panel\prs_b0.png
+NighttimeImage = panel\prs_b0n.png
+Color = 303030
+Origin = 33, 175
+Radius = 123
+InitialAngle = -133
+LastAngle = 133
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 60
+DampingRatio = 0.02
+
+;圧力計2
+[PilotLamp]
+Subject = true
+Location = 1711,2063
+DaytimeImage   = panel\prs2cover.png
+NighttimeImage = panel\prs2cover_n.png
+Layer = 4
+
+[Needle]
+Layer = 2
+Subject = bc
+Location = 1727, 2079
+DaytimeImage   = panel\prs_r0.png
+NighttimeImage = panel\prs_r0n.png
+Color            = E02020
+Origin = 33, 175
+Radius = 123
+InitialAngle = -133
+LastAngle = 133
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 60
+DampingRatio = 0.02
+
+[Needle]
+Layer = 3
+Subject = sap
+Location = 1727, 2079
+DaytimeImage   = panel\prs_b0.png
+NighttimeImage = panel\prs_b0n.png
+Color = 303030
+Origin = 33, 175
+Radius = 123
+InitialAngle = -133
+LastAngle = 133
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 60
+DampingRatio = 0.02
+
+;速度計
+[PilotLamp]
+Subject = true
+Location = 1948, 1948
+DaytimeImage   = panel\spdcover.png
+NighttimeImage = panel\spdcover_n.png
+Layer = 4
+
+[Needle]
+Layer = 2
+Subject = kmph
+Location = 2076, 2079
+DaytimeImage   = panel\needle_ty0.png
+NighttimeImage = panel\needle_ty0n.png
+Color = 303030
+Origin = 32, 256
+Radius = 124
+InitialAngle = -122
+LastAngle = 121
+Minimum = 0
+Maximum = 124
+NaturalFreq = 5
+DampingRatio = 0.5
+
+;圧力計3
+[PilotLamp]
+Subject = true
+Location = 2650, 2068
+DaytimeImage   = panel\prs3cover.png
+NighttimeImage = panel\prs3cover_n.png
+Layer = 4
+
+[Needle]
+Layer = 2
+Subject = true
+Location = 2667, 2085
+DaytimeImage   = panel\prs_r0.png
+NighttimeImage = panel\prs_r0n.png
+Color            = E02020
+Origin = 33, 175
+Radius = 123
+InitialAngle = -3
+LastAngle = -3
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 60
+DampingRatio = 0.02
+
+[Needle]
+Layer = 3
+Subject = bp
+Location = 2667, 2085
+DaytimeImage   = panel\prs_b0.png
+NighttimeImage = panel\prs_b0n.png
+Color = 303030
+Origin = 33, 175
+Radius = 123
+InitialAngle = -133
+LastAngle = 133
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 60
+DampingRatio = 0.02
+
+;高圧電圧計
+[PilotLamp]
+Subject = true
+Location = 2948, 2019
+DaytimeImage   = panel\vltcover1.png
+NighttimeImage = panel\vltcover1_n.png
+Layer = 4
+
+[Needle]
+Layer = 2
+Subject = ats48
+Location = 3013, 2084
+DaytimeImage   = panel\needle_ty0.png
+NighttimeImage = panel\needle_ty0n.png
+Color = 303030
+Origin = 32, 256
+Radius = 124
+InitialAngle = 58
+LastAngle = 58
+InitialAngle = -121
+LastAngle = 121
+Minimum = 0
+Maximum = 2580
+NaturalFreq = 5
+DampingRatio = 0.5
+
+;低圧電圧計
+[PilotLamp]
+Subject = true
+Location = 3289, 2014
+DaytimeImage   = panel\vltcover.png
+NighttimeImage = panel\vltcover_n.png
+Layer = 4
+
+[Needle]
+Layer = 2
+Subject = true
+Location = 3355, 2079
+DaytimeImage   = panel\needle_ty0.png
+NighttimeImage = panel\needle_ty0n.png
+Color = 303030
+Origin = 32, 256
+Radius = 123
+InitialAngle = 38
+LastAngle = 38
+Minimum = 0
+Maximum = 150
+NaturalFreq = 5
+DampingRatio = 0.5
+
+;PL
+[PilotLamp]
+Subject = door
+Location = 2244, 1810
+DaytimeImage   = panel\plon.png
+NighttimeImage = panel\plon_n.png
+Layer = 1
+
+;赤色灯
+;[PilotLamp]
+;Subject = 
+;Location = 1724, 2382
+;DaytimeImage   = panel\red.png
+;NighttimeImage = panel\red_n.png
+;Layer = 1
+
+;直通
+[PilotLamp]
+Subject = ats35
+Location = 1984, 2384
+DaytimeImage   = panel\direct.png
+NighttimeImage = panel\direct_n.png
+Layer = 1
+
+;発電
+[PilotLamp]
+Subject = ats210
+Location = 2075, 2384
+DaytimeImage   = panel\generation.png
+NighttimeImage = panel\generation_n.png
+Layer = 1
+
+;EB
+[Pilotlamp]
+Subject = ats10
+Location = 2170, 2384
+DaytimeImage = panel\eb.png
+NighttimeImage = panel\eb_n.png
+Layer = 4
+
+;三相
+;[PilotLamp]
+;Subject = 
+;Location = 2511, 2384
+;DaytimeImage   = panel\threephase.png
+;NighttimeImage = panel\threephase_n.png
+;Layer = 1
+
+
+;ATS
+[PilotLamp]
+Subject = ats0
+Location = 2685, 2384
+DaytimeImage   = panel\ats.png
+NighttimeImage = panel\ats_n.png
+Layer = 1
+
+;ATS動作
+[PilotLamp]
+Subject = ats1
+Location = 2769, 2384
+DaytimeImage = panel\atswork.png
+NighttimeImage = panel\atswork_n.png
+Layer = 1
+
+;ABB全入
+[PilotLamp]
+Subject = true
+Location = 2853, 2384
+DaytimeImage = panel\abbon.png
+NighttimeImage = panel\abbon_n.png
+Layer = 1
+
+;ABB全切
+;[PilotLamp]
+;Subject = true
+;Location = 2936, 2384
+;DaytimeImage = panel\abboff.png
+;NighttimeImage = panel\abboff_n.png
+;Layer = 1
+
+;誤通過防止
+[Pilotlamp]
+Subject = ats22
+Location = 1120, 1500
+DaytimeImage = panel\halt.png
+NighttimeImage = panel\halt_n.png
+Layer = 4
+
+;以下DK端子台
+;DK位置確定
+[Pilotlamp]
+Subject = ats13
+Location = 2911, 1530
+DaytimeImage = panel\dkposition.png
+NighttimeImage = panel\dkposition_n.png
+Layer = 4
+
+;ATS-SK
+[Pilotlamp]
+Subject = ats0
+Location = 3030, 1530
+DaytimeImage = panel\sk.png
+NighttimeImage = panel\sk_n.png
+Layer = 4
+
+;数字
+[Pilotlamp]
+Subject = ats14
+Location = 3140, 1542
+DaytimeImage = panel\num.png
+NighttimeImage = panel\num.png
+Layer = 4
+
+;数字88
+;[Pilotlamp]
+;Subject = 
+;Location = 3140, 1542
+;DaytimeImage = panel\num88.png
+;NighttimeImage = panel\num88.png
+;Layer = 4
+
+;DK端子台ATS動作
+[Pilotlamp]
+Subject = ats1
+Location = 3015, 1635
+DaytimeImage = panel\dk_atswork.png
+NighttimeImage = panel\dk_atswork_n.png
+Layer = 4
+
+;故障
+[Pilotlamp]
+Subject = ats15
+Location = 3130, 1635
+DaytimeImage = panel\scheitern.png
+NighttimeImage = panel\scheitern_n.png
+Layer = 4
+
+;信号P発生
+[Pilotlamp]
+Subject = ats16
+Location = 2620, 1635
+DaytimeImage = panel\sigps.png
+NighttimeImage = panel\sigps_n.png
+Layer = 4
+
+;信号P接近
+[Pilotlamp]
+Subject = ats17
+Location = 2750, 1635
+DaytimeImage = panel\sigp_a.png
+NighttimeImage = panel\sigp_a_n.png
+Layer = 4
+
+;DK開放
+[Pilotlamp]
+Subject = ats9
+Location = 3350, 1520
+DaytimeImage = panel\dkfree.png
+NighttimeImage = panel\dkfree_n.png
+Layer = 4
+
+;入標入換
+;[Pilotlamp]
+;Subject = ats10
+;Location = 3350, 1580
+;DaytimeImage = panel\shunting.png
+;NighttimeImage = panel\shunting_n.png
+;Layer = 4
+
+;非常運転
+[Pilotlamp]
+Subject = ats11
+Location = 3350, 1643
+DaytimeImage = panel\emr.png
+NighttimeImage = panel\emr_n.png
+Layer = 4
+
+;ダミー
+[Pilotlamp]
+Subject = ats15
+Location = 2843, 1562
+DaytimeImage = panel\dummy.png
+NighttimeImage = panel\dummy_n.png
+Layer = 4
+
+;直下/誤出発
+[Pilotlamp]
+Subject = ats4
+Location = 2650, 1550
+DaytimeImage = panel\dklamp1.png
+NighttimeImage = panel\dklamp1_n.png
+Layer = 4
+
+;確認遅れ
+[Pilotlamp]
+Subject = ats3
+Location = 2700, 1550
+DaytimeImage = panel\dklamp2.png
+NighttimeImage = panel\dklamp2.png
+Layer = 4
+
+;速度照査
+[Pilotlamp]
+Subject = ats5
+Location = 2750, 1550
+DaytimeImage = panel\dklamp3.png
+NighttimeImage = panel\dklamp3.png
+Layer = 4
+
+
+;信号P超過
+[Pilotlamp]
+Subject = ats6
+Location = 2800, 1550
+DaytimeImage = panel\dklamp4.png
+NighttimeImage = panel\dklamp4_n.png
+Layer = 4
+
+;制限P超過
+[Pilotlamp]
+Subject = ats7
+Location = 2850, 1550
+DaytimeImage = panel\dklamp5.png
+NighttimeImage = panel\dklamp5_n.png
+Layer = 4
+
+;頭打P超過
+[Pilotlamp]
+Subject = ats8
+Location = 2900, 1550
+DaytimeImage = panel\dklamp6.png
+NighttimeImage = panel\dklamp6_n.png
+Layer = 4
+
+
+;メニュー
+[Pilotlamp]
+Subject = true
+Location = 3573, 2621
+DaytimeImage = panel\menu.png
+Nighttimeimage = panel\menu.png
+Layer = 15
+
+;操作モード
+[DigitalNumber]
+Subject = ats234
+Location = 3580, 2720
+DaytimeImage = panel\state.png
+Nighttimeimage = panel\state.png
+Layer = 15
+Interval = 32
+
+
+;蓄電池
+[DigitalNumber]
+Subject = ats51
+Location = 3595, 2675
+DaytimeImage = panel\on_off.png
+Nighttimeimage = panel\on_off.png
+Layer = 15
+Interval = 32
+
+
+;VCB
+[DigitalNumber]
+Subject = ats52
+Location = 3661, 2675
+DaytimeImage = panel\on_off.png
+Nighttimeimage = panel\on_off.png
+Layer = 15
+Interval = 32
+
+
+;パンタ
+[DigitalNumber]
+Subject = ats53
+Location = 3722, 2675
+DaytimeImage = panel\pantograph.png
+Nighttimeimage = panel\pantograph.png
+Layer = 15
+Interval = 32
+
+;マスコンキー
+[DigitalNumber]
+Subject = ats54
+Location = 3805, 2675
+DaytimeImage = panel\on_off.png
+Nighttimeimage = panel\on_off.png
+Layer = 15
+Interval = 32
+
+;エンド
+[DigitalNumber]
+Subject = ats235
+Location = 3925, 2675
+DaytimeImage = panel\end.png
+Nighttimeimage = panel\end.png
+Layer = 15
+Interval = 32
+
+
+;ATS電源
+[DigitalNumber]
+Subject = ats70
+Location = 4015, 2675
+DaytimeImage = panel\on_off.png
+Nighttimeimage = panel\on_off.png
+Layer = 15
+Interval = 32
+

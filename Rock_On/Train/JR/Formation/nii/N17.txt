@@ -1,0 +1,7 @@
+Bvets Vehicle 0.03
+PerformanceCurve = ..\..\Vehicle\115\notch\notch.txt
+Parameters = Param\N17.txt
+Panel = ..\..\Vehicle\115\panel_niigata\panel2_r.cfg
+Sound = Sound\Mc115-1064.txt
+Ats = Detail\N17\DetailManager.dll
+MotorNoise = ..\..\Vehicle\115\motornoise\motornoise.txt

@@ -1,7 +1,0 @@
-Bvets Vehicle 0.03
-PerformanceCurve = ..\..\vehicle\kiha54\Notch\Notch.txt
-Parameters = Param\kiha54-501.txt
-;panel = 
-Sound = sound\kiha54-501.txt
-Ats = Detail\kiha54-501\DetailManager.dll
-;MotorNoise = MotorNoise\MotorNoise.txt

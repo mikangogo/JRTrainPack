@@ -1,0 +1,3 @@
+[submodule "GeneralAtsPlugin"]
+	path = GeneralAtsPlugin
+	url = https://github.com/uifnm/GeneralAtsPlugin.git

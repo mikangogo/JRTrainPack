@@ -1,7 +1,0 @@
-Bvets Vehicle 0.03
-PerformanceCurve = ..\..\Vehicle\103\notch\notch_SA1.txt
-Parameters = Param\SA1_24N.txt
-Panel = ..\..\Vehicle\119\panel3_119\panel_119.cfg
-Sound = Sound\Tc103-823_24N.txt
-Ats = Detail\SA1_24N\DetailManager.dll
-MotorNoise = ..\..\Vehicle\103\motornoise\motornoise.txt

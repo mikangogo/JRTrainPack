@@ -1,7 +1,0 @@
-Bvets Vehicle 0.03
-PerformanceCurve = ..\..\Vehicle\115\notch\notch.txt
-Parameters = Param\C3.txt
-Panel = ..\..\Vehicle\115\panel_C\panel2.cfg
-Sound = Sound\Tc115-1077.txt
-Ats = Detail\C3\DetailManager.dll
-MotorNoise = ..\..\Vehicle\115\motornoise\motornoise.txt

@@ -1,7 +1,0 @@
-Bvets Vehicle 0.03
-PerformanceCurve = ..\..\Vehicle\189\notch\notch.txt
-Parameters = Param\H102.txt
-Panel = ..\..\Vehicle\189\panel\8M.txt
-Sound = Sound\Tc189-509.txt
-Ats = Detail\H102\DetailManager.dll
-MotorNoise = ..\..\Vehicle\485\motornoise\motornoise.txt

@@ -1,0 +1,7 @@
+Bvets Vehicle 0.03
+PerformanceCurve = ..\..\Vehicle\103\notch\notch.txt
+Parameters = Param\HK609.txt
+Panel = ..\..\Vehicle\103\panel_HK609\panel.txt
+Sound = Sound\Tc103-256.txt
+Ats = Detail\HK609\DetailManager.dll
+MotorNoise = ..\..\Vehicle\103\motornoise\motornoise.txt

@@ -1,7 +1,0 @@
-..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\ATSN.dll
-..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\MC.dll
-..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\BV.dll
-..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\EB.dll
-..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\ATS_East\sn.dll
-..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\DIR.dll
-..\..\..\..\Plugin\VVVF.dll

@@ -1,0 +1,175 @@
+BveTs Instrument Panel 2.00:shift_jis
+
+[This]
+Resolution = 2000
+Left = 0
+Top = 5
+Right = 2151
+Bottom = 1600
+DaytimeImage = Panel_A.png
+NighttimeImage =Panel_A_N.png
+Center = 1072,910
+Origin = 1000,750
+
+
+[PilotLamp]
+Subject = true
+Location = 2048,0
+DaytimeImage =Panel_B.png
+NighttimeImage =Panel_B_N.png
+Layer =0
+
+
+
+
+;[PilotLamp]
+;Subject = true
+;Location = 0,0
+;DaytimeImage =panel_z.png
+;NighttimeImage =Panel_N_z.png
+;Layer =0
+
+[Needle]
+Subject = ats30
+Location = 660,1415
+DaytimeImage = NeedleSpeed.png
+NighttimeImage =NeedleSpeed_N.png
+Origin = 16, 182
+Layer = 1
+Radius = 80
+InitialAngle = -125
+LastAngle = 120
+Minimum = 0
+Maximum = 120000
+NaturalFreq = 6.3
+DampingRatio = 0.5
+
+
+[Needle]
+Subject = mr
+Location = 910,1415
+DaytimeImage = NeedlePressLow.png
+NighttimeImage =NeedlePressLow_N.png
+Origin = 28,202
+Layer = 1
+Radius = 70
+InitialAngle = -135
+LastAngle = 135
+Minimum = 0
+Maximum = 1000
+NaturalFreq      = 150
+DampingRatio     = 0.01
+
+
+[Needle]
+Subject = er
+Location = 910,1415
+DaytimeImage = NeedlePressHigh.png
+NighttimeImage =NeedlePressHigh_N.png
+Origin = 30, 198
+Layer = 2
+Radius = 70
+InitialAngle = -135
+LastAngle = 135
+Minimum = 0
+Maximum = 1000
+NaturalFreq      = 150
+DampingRatio     = 0.01
+
+
+[Needle]
+Subject = bc
+Location = 1127,1415
+DaytimeImage = NeedlePressLow.png
+NighttimeImage =NeedlePressLow_N.png
+Origin = 28,202;57,404;
+Layer = 3
+Radius = 70
+InitialAngle = -135
+LastAngle = 135
+Minimum = 0
+Maximum = 1000
+NaturalFreq      = 150
+DampingRatio     = 0.01
+
+
+[Needle]
+Subject = bp
+Location = 1127,1415
+DaytimeImage = NeedlePressHigh.png
+NighttimeImage =NeedlePressHigh_N.png
+Origin =  30, 198;57,404 ;
+Layer = 2
+Radius = 70
+InitialAngle = -135
+LastAngle = 135
+Minimum = 0
+Maximum = 1000
+NaturalFreq      = 150
+DampingRatio     = 0.01
+
+[PilotLamp]
+Subject = true
+Location = 624,1382
+DaytimeImage =spt.png
+NighttimeImage =spt_N.png
+Layer =2
+[Pilotlamp]
+Subject          = door
+Location         = 331,1152
+DaytimeImage     = light.png
+Layer            = 8
+[PilotLamp]
+Subject = door
+Location = 793,1215
+DaytimeImage =Tojime.png
+NighttimeImage =Tojime_N.png
+Layer =1
+
+[PilotLamp]
+Subject = ats8
+Location = 857,1215
+DaytimeImage =F.png
+NighttimeImage =F_N.png
+Layer =1
+[PilotLamp]
+Subject = ats9
+Location = 857,1215
+DaytimeImage =R.png
+NighttimeImage =R_N.png
+Layer =2
+[PilotLamp]
+Subject = ats12
+Location = 974,1183
+DaytimeImage =ki.png
+NighttimeImage =ki_N.png
+Layer =3
+[PilotLamp]
+Subject = ats13
+Location = 1038,1183
+DaytimeImage =Dr.png
+NighttimeImage =Dr_N.png
+Layer =3
+[PilotLamp]
+Subject = ats14
+Location = 1095,1183
+DaytimeImage =N.png
+NighttimeImage =N_N.png
+Layer =4
+[PilotLamp]
+Subject = ats15
+Location = 1151,1183
+DaytimeImage =Sh.png
+NighttimeImage =Sh_N.png
+Layer =5
+[PilotLamp]
+Subject = ats0
+Location =1820,868
+DaytimeImage =ATS.png
+NighttimeImage =ATS_N.png
+[PilotLamp]
+Subject = ats1
+Location =1881,855
+DaytimeImage =ATS_R.png
+NighttimeImage =ATS_R_N.png
+

@@ -1,0 +1,385 @@
+BveTs Instrument Panel 2.00:shift_jis
+
+;ぱねる
+[This]
+Resolution = 1370
+Left   = 7
+Top    = 7
+Right  = 2041
+Bottom = 1372
+DaytimeImage   = D14panel.png
+NighttimeImage = D14panel_N.png
+Center = 1180, 639
+Origin = 1173, 638
+
+
+;圧力計1
+[PilotLamp]
+Subject = true
+Location = 684,1033
+DaytimeImage   = prs1cover.png
+NighttimeImage = prs1cover_N.png
+Layer = 4
+
+[Needle]
+Layer = 2
+Subject = mr
+Location = 692, 1041
+DaytimeImage   = prs_r0.png
+NighttimeImage = prs_r0n.png
+Color            = E02020
+Origin = 33, 175
+Radius = 62
+InitialAngle = -132
+LastAngle = 134
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 60
+DampingRatio = 0.02
+
+[Needle]
+Layer = 3
+Subject = er
+Location = 692, 1041
+DaytimeImage   = prs_b0.png
+NighttimeImage = prs_b0n.png
+Color = 191919
+Origin = 33, 175
+Radius = 63
+InitialAngle = -132
+LastAngle = 134
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 60
+DampingRatio = 0.02
+
+;圧力計2
+[PilotLamp]
+Subject = true
+Location = 856,1030
+DaytimeImage   = prs2cover.png
+NighttimeImage = prs2cover_N.png
+Layer = 4
+
+[Needle]
+Layer = 2
+Subject = bc
+Location = 864, 1038
+DaytimeImage   = prs_r0.png
+NighttimeImage = prs_r0n.png
+Color            = E02020
+Origin = 33, 175
+Radius = 65
+InitialAngle = -133
+LastAngle = 133
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 60
+DampingRatio = 0.02
+
+[Needle]
+Layer = 3
+Subject = sap
+Location = 864, 1038
+DaytimeImage   = prs_b0.png
+NighttimeImage = prs_b0n.png
+Color = 121212
+Origin = 33, 175
+Radius = 65
+InitialAngle = -133
+LastAngle = 133
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 60
+DampingRatio = 0.02
+
+;速度計
+[PilotLamp]
+Subject = true
+Location = 1006, 1001
+DaytimeImage   = spdcover.png
+NighttimeImage = spdcover_N.png
+Layer = 4
+
+[Needle]
+Layer = 2
+Subject = kmph
+Location = 1038, 1036
+DaytimeImage   = needle_ty0.png
+NighttimeImage = needle_ty0n.png
+Color = 0a0a0a
+Origin = 32, 256
+Radius = 62
+InitialAngle = -123
+LastAngle = 123
+Minimum = 0
+Maximum = 122
+NaturalFreq = 5
+DampingRatio = 0.5
+
+;圧力計3
+[PilotLamp]
+Subject = true
+Location = 1326, 1032
+DaytimeImage   = prs3cover.png
+NighttimeImage = prs3cover_N.png
+Layer = 4
+
+[Needle]
+Layer = 2
+Subject = true
+Location = 1334, 1040
+DaytimeImage   = prs_r0.png
+NighttimeImage = prs_r0n.png
+Color            = E02020
+Origin = 33, 175
+Radius = 65
+InitialAngle = -3
+LastAngle = -3
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 60
+DampingRatio = 0.02
+
+[Needle]
+Layer = 3
+Subject = bp
+Location = 1334, 1040
+DaytimeImage   = prs_b0.png
+NighttimeImage = prs_b0n.png
+Color = 121212
+Origin = 33, 175
+Radius = 65
+InitialAngle = -133
+LastAngle = 133
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 60
+DampingRatio = 0.02
+
+;高圧電圧計
+[PilotLamp]
+Subject = true
+Location = 1443, 977
+DaytimeImage   = vltcover1.png
+NighttimeImage = vltcover1_N.png
+Layer = 4
+
+[Needle]
+Layer = 2
+Subject = ats48
+Location = 1506, 1041
+DaytimeImage   = needle_ty0.png
+NighttimeImage = needle_ty0n.png
+Color = 191919
+Origin = 32, 256
+Radius = 66
+InitialAngle = 58
+LastAngle = 58
+InitialAngle = -120
+LastAngle = 121
+Minimum = 0
+Maximum = 2000
+NaturalFreq = 5
+DampingRatio = 0.5
+
+;低圧電圧計
+[PilotLamp]
+Subject = true
+Location = 1614, 977
+DaytimeImage   = vltcover.png
+NighttimeImage = vltcover_N.png
+Layer = 4
+
+[Needle]
+Layer = 2
+Subject = true
+Location = 1677, 1041
+DaytimeImage   = needle_ty0.png
+NighttimeImage = needle_ty0n.png
+Color = 191919
+Origin = 32, 256
+Radius = 65
+InitialAngle = 38
+LastAngle = 38
+Minimum = 0
+Maximum = 150
+NaturalFreq = 5
+DampingRatio = 0.5
+
+;PL
+[PilotLamp]
+Subject = door
+Location = 1155, 885
+DaytimeImage   = plon.png
+NighttimeImage = plon_N.png
+Layer = 1
+
+;赤色灯
+;[PilotLamp]
+;Subject = 
+;Location = 851, 1192
+;DaytimeImage   = red.png
+;NighttimeImage = red_N.png
+;Layer = 1
+
+;直通
+[PilotLamp]
+Subject = ats35
+Location = 990, 1197
+DaytimeImage   = direct.png
+NighttimeImage = direct_N.png
+Layer = 1
+
+;発電
+[PilotLamp]
+Subject = ats210
+Location = 1038, 1197
+DaytimeImage   = generation.png
+NighttimeImage = generation_N.png
+Layer = 1
+
+;抑速
+[Pilotlamp]
+Subject = ats211
+Location = 1085, 1197
+DaytimeImage = holdingbrake.png
+NighttimeImage = holdingbrake_N.png
+Layer = 4
+
+;三相
+;[PilotLamp]
+;Subject = 
+;Location = 1255, 1197
+;DaytimeImage   = threephase.png
+;NighttimeImage = threephase_N.png
+;Layer = 1
+
+
+;ATS
+[PilotLamp]
+Subject = ats0
+Location = 1343, 1197
+DaytimeImage   = ats.png
+NighttimeImage = ats_N.png
+Layer = 1
+
+;ATS動作
+[PilotLamp]
+Subject = ats1
+Location = 1385, 1197
+DaytimeImage = atswork.png
+NighttimeImage = atswork_N.png
+Layer = 1
+
+;耐雪ブレーキ
+;[PilotLamp]
+;Subject = true
+;Location = 1427, 1197
+;DaytimeImage = snow.png
+;NighttimeImage = snow_N.png
+;Layer = 1
+
+;予備
+;[PilotLamp]
+;Subject = true
+;Location = 1469, 1197
+;DaytimeImage = extra.png
+;NighttimeImage = extra_N.png
+;Layer = 1
+
+;以下ATS-P
+;P電源
+[PilotLamp]
+Subject = ats2
+Location = 1774, 578
+DaytimeImage   = p_power.png
+NighttimeImage = p_powerN.png
+Layer = 1
+
+;P接近
+[PilotLamp]
+Subject = ats3
+Location = 1774, 629
+DaytimeImage   = pattern.png
+NighttimeImage = pattern_N.png
+Layer = 1
+
+;B動作
+[PilotLamp]
+Subject = ats5
+Location = 1774, 673
+DaytimeImage   = p_apply.png
+NighttimeImage = p_applyN.png
+Layer = 1
+
+;B開放
+[PilotLamp]
+Subject = ats4
+Location = 1774, 716
+DaytimeImage   = p_release.png
+NighttimeImage = p_releaseN.png
+Layer = 1
+
+;ATS-P
+[PilotLamp]
+Subject = ats6
+Location = 1774, 762
+DaytimeImage   = p_atsp.png
+NighttimeImage = p_atspN.png
+Layer = 1
+
+;故障
+[PilotLamp]
+Subject = ats7
+Location = 1774, 802
+DaytimeImage   = p_failure.png
+NighttimeImage = p_failureN.png
+Layer = 1
+
+;時計
+[Needle]
+Location = 1185, 1095
+Subject = hour
+DaytimeImage   = watch_hour.png
+NighttimeImage = watch_hourn.png
+Color = 303030
+Origin = 16, 177
+Layer = 2
+Radius = 23
+InitialAngle = 0
+LastAngle = 360
+Minimum = 0
+Maximum = 12
+NaturalFreq = 0
+
+[Needle]
+Location = 1185, 1095
+Subject = min
+DaytimeImage   = watch_min.png
+NighttimeImage = watch_minn.png
+Color = 303030
+Origin = 16, 177
+Layer = 3
+Radius = 23
+InitialAngle = 0
+LastAngle = 360
+Minimum = 0
+Maximum = 60
+NaturalFreq = 0
+
+[Needle]
+Location = 1185, 1095
+Subject = sec
+DaytimeImage   = watch_sec.png
+NighttimeImage = watch_secn.png
+Color = 303030
+Origin = 16, 177
+Layer = 4
+Radius = 23
+InitialAngle = 0
+LastAngle = 360
+Minimum = 0
+Maximum = 60
+NaturalFreq = 63
+DampingRatio = 0.5

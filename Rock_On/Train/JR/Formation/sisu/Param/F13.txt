@@ -1,0 +1,65 @@
+BveTs Vehicle Parameters 2.01
+FirstCar = M
+LoadCompensating = true
+[OneLeverCab]
+BrakeNotchCount = 8
+PowerNotchCount = 5
+MotorBrakeNotch = 1
+AtsCancelNotch = 2
+HoldingSpeedBrake = true
+BrakeText = B0,HB,B1,B2,B3,B4,B5,B6,B7,EB
+[ConstantSpeedControl]
+Power = 1
+[MainCircuit]
+RegenerationLimit = 5
+LeverDelay = 0.5
+BrakePriority = true
+[ECB]
+MaximumPressure = 235000
+PressureRates = 0,0,0.142857143,0.285714286,0.428571429,0.571428571,0.714285714,0.857142857,1,1.212766
+LeverDelay = 0.5
+[AirSupplement]
+MaximumPressure = 235000
+RegenerationLimit = 6
+ShoeFriction = 0.13
+[BcServo]
+ApplyStart = 20000
+ApplyStop = 0
+ReleaseStart = 20000
+ReleaseStop = 0
+ApplySpeed = 510.928
+ReleaseSpeed = 399.8848
+[Brake]
+PistonArea = 1.014701
+[PowerReAdhesion]
+SlipVelocity = 2
+SlipAcceleration = 4
+BalanceAcceleration = -2
+HoldingTime = 0.5
+ReferenceAcceleration = 4
+ReferenceDeceleration = 5
+CurrentDecrease = 0
+CurrentIncrease = 0
+[BrakeReAdhesion]
+SlipVelocity = 10
+SlipDeceleration = 9
+BalanceDeceleration = 0
+HoldingTime = 0.5
+ReferenceDeceleration = 5
+BcReleaseSpeed = 0
+BcApplySpeed = 0
+[Compressor]
+UpperPressure = 880000
+LowerPressure = 790000
+[Dynamics]
+MotorcarWeight = 36000
+MotorcarCount = 3
+TrailerWeight = 29000
+TrailerCount = 6
+CarLength = 21.3
+[Passengers]
+Capacity = 59
+[ViewPoint]
+X = -0.73
+Y = 2.35
+Z = -1.3

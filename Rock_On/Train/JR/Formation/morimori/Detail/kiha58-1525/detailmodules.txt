@@ -1,0 +1,6 @@
+..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\ATSN.dll
+..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\MC53.dll
+..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\ME23.dll
+..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\EB.dll
+..\..\..\..\..\..\..\GeneralAtsPlugin\Rock_On\ATS_S.dll
+..\..\..\..\Plugin\DMF11HZ_kiha58\DMF11HZ.dll

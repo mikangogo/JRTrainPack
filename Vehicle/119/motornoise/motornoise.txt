@@ -1,7 +1,0 @@
-[Power]
-Volume = powervol.csv
-Frequency = powerfreq.csv
-
-[Brake]
-Volume = brakevol.csv
-Frequency = brakefreq.csv
