@@ -1,3 +1,7 @@
-﻿!*.*
+﻿*.*
+
+!Rock_On/*.*
+!GeneralAtsPlugin/*.*
+
 *.sfk
 *.bak
