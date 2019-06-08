@@ -3,6 +3,10 @@
 [Bve trainsim](http://bvets.net/) 用の、JR線の車両パックです。
 
 
+## ダウンロード
+[こちら](http://i2c.sakura.ne.jp/over25mb/TrainPack.zip)
+
+
 ## 対応している `Bve trainsim` のバージョン
 `Bve trainsim 5.7.6224.40815`
 
