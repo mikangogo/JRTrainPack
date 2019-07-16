@@ -1,6 +1,4 @@
-language: ruby
-rvm:
-  - 2.1.0
+language: minimal
 before_deploy:
   - mkdir deploy
   - mkdir deploy/Scenarios
