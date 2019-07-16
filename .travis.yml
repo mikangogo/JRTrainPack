@@ -4,8 +4,7 @@ before_deploy:
   - mkdir deploy/Scenarios
   - rsync -av --exclude 'deploy' ./ ./deploy/Scenarios
   - cd deploy
-  - echo 'JRTrainPack-$TRAVIS_TAG.zip' >> $ATS_ARCHIVE_NAME
-  - zip -q $ATS_ARCHIVE_NAME -r Scenarios
+  - zip -q JRTrainPack-${TRAVIS_TAG}.zip -r Scenarios
   - cd ..
 
 deploy:
