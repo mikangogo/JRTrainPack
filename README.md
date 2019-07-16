@@ -4,8 +4,9 @@
 
 
 ## ダウンロード
-[こちら](http://i2c.sakura.ne.jp/over25mb/TrainPack.zip)
+[こちら](https://github.com/mikangogo/JRTrainPack/releases) ... `Stable`の`JRTrainPack.zip`をダウンロードしてください。
 
+[![Build Status](https://travis-ci.org/mikangogo/JRTrainPack.svg?branch=Stable)](https://travis-ci.org/mikangogo/JRTrainPack)
 
 ## 対応している `Bve trainsim` のバージョン
 `Bve trainsim 5.7.6224.40815`
