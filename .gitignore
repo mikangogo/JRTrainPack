@@ -2,6 +2,7 @@
 
 !Rock_On/*.*
 !GeneralAtsPlugin/*.*
+!.travis.yml
 
 *.sfk
 *.bak
