@@ -2,7 +2,7 @@ language: minimal
 before_deploy:
   - mkdir deploy
   - mkdir deploy/Scenarios
-  - rsync -av --exclude 'deploy' ./ ./deploy/Scenarios
+  - rsync -av --exclude 'deploy' --exclude '.git' --exclude '.*' ./ ./deploy/Scenarios
   - cd deploy
   - zip -q "JRTrainPack-${TRAVIS_TAG}.zip" -r Scenarios
   - cd ..
@@ -13,5 +13,7 @@ deploy:
     secure: AyyMHT1x3c8aRNeELq/+Wity+CfqZBMzdYkdGfm1Ve+zA+TAvlnWG0L7miolk4lhGyI3ZFrIEMydBh+0rs7YphlX8LsiAAiIRs567k4o2UHigc36YXwZwo55u1W2r1HzR8KrAQtKNllgmGFb4XfYuJ9zPJOoQGzdYFQ8HWstiW88WT8V1uHsM7eL7Ls3H7ojXgantxSoOLCNOZtoa5pKurhnAyvuh5Vo4v8OVM9FG22LxQheHdi5n56MnLIzOb1HdqNUk7dBv2SyzJdt1uTSD0vPJt3bcKc+BBciflreppZAzKde6UHATXD3LZ/mPJy/UazyRb9CyA3qTV5jzBtY6g0Vw+oueEnT5XDC5BfBjPxq1FC8HxjHTA0KK5x5vzY9VzZq5HWlnqW/ieXCIw9TNGXwxWrz8U+/VW/1eae71raQ1cHxcnnRWZlSGlikJcyStX0kHdB0+cvnSFAvdbLZdAw5IjKJM0XRcrTVAnqVCN/n2romTibroNWzQSWlasjuCOnDVrTSuGicwg8pY0ffn0k33bjkD4UbQlgd0B5NDMJrfFPg40enroI6w9Zj2xgI2AI9+KE9Tqtu/AuQFRVZqluYxqgc4x2xKRGlxMsCWbyic/KfQ+Y4Bv5sDn8juN+Td2ZUA4eT3kXKZSezynv4otTLJszY4Yk4oUgknCffOSQ=
   file: deploy/JRTrainPack-$TRAVIS_TAG.zip
   on:
-    all_branches: true
     tags: true
+  branches:
+  only:
+    - /^tag-.*$/
