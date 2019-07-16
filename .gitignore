@@ -1,7 +1,20 @@
-﻿*
+﻿# Block all
+*
 
+# Ignored items
 !Rock_On/*.*
 !GeneralAtsPlugin/*.*
 
+# Blocked items
+# Meta files
 *.sfk
 *.bak
+
+# Generated from OS
+# macOS
+.DS_Store*
+.Trashes
+
+# Windows
+[Tt]humbs.db
+[Dd]esktop.ini
