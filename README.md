@@ -4,7 +4,7 @@
 
 
 ## ダウンロード
-[こちら](http://i2c.sakura.ne.jp/over25mb/TrainPack.zip)
+[こちら](https://github.com/mikangogo/JRTrainPack/releases) ... `Stable`の`JRTrainPack.zip`をダウンロードしてください。
 
 
 ## 対応している `Bve trainsim` のバージョン
