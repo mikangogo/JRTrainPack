@@ -4,6 +4,7 @@
 # Ignored items
 !Rock_On/*.*
 !GeneralAtsPlugin/*.*
+!.travis.yml
 
 # Blocked items
 # Meta files
