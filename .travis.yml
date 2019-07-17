@@ -1,7 +1,7 @@
 language: minimal
 before_install:
-  - git config core.autocrlf false
-  - git add --renormalize .
+  - git config core.autocrlf true
+  - git rm --cached -r .
   - git reset --hard
 before_deploy:
   - mkdir deploy
