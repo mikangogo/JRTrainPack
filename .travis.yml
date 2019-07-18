@@ -19,3 +19,11 @@ deploy:
   on:
     all_branches: true
     tags: true
+notifications:
+  webhooks:
+    urls:
+      - jDYUaN85y6e4MUYy3VjmANtkTspU8oW5BVAIsTuaCYZM/7I3pP07s2kgOl3YZ36sqq88S4i4eDqD9FnQHgbB1CCgdUd8WP/zLYnjfy7DfdI/9ggveiwDsAiqWGKr71utZWAh/WN4Db4qmOECzK2rXL1IfB3Pi4lglCY4zYyGBf8Oc9i428sJ6LSPQRp5RPpvnLnr8lNEsKxeSqfiywJLkgn1MMn/bZxo6huoH/f5xoileq0nbEgND7+9aUgHE2+at5N7u5a9/nSezJsBzOQaTm/WJS/vlQtJfRdZSnVK2nZ5Hy6tOu/NwAvh5AAWheazzznS1rT1OPOXrHJK95UTJ6W7s1+iUrPCXpOhFMNiYceeKNcF8o22gVWMYpWt/DqjRyKoNUHlJynrDbheVl6F3LSWq4Joy7IjYTg//k0K+LYha08NvGWOYj4faFrUPLSElvAvqjqXvX0upaOHcolihV3bVrvHJ54X7AHb3k0/x7aXW1VmYr+sfPVHkt7wssUVj9C9gKqxuvArx4a+YewjuDwy3XwjUW62MbM9WJnS2EpXQaaj5zICYRzdIsAbinqPINtPn/Nz8UKmOExLAAbKUnPtzESrwzOdmPg7N6ecBH4ZD07EOUHZ/YVP3Mnm1TfShIHHqmvQ9v47Xk0pEaqBaumFaw4iUIDaho3Tq1VzK3Y=
+    on_success: always
+branches:
+  only:
+  - Stable
