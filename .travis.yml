@@ -1,4 +1,8 @@
 language: minimal
+before_install:
+  - git config core.autocrlf true
+  - git rm --cached -r .
+  - git reset --hard
 before_deploy:
   - mkdir deploy
   - mkdir deploy/Scenarios
@@ -6,7 +10,6 @@ before_deploy:
   - cd deploy
   - zip -q JRTrainPack.zip -r Scenarios
   - cd ..
-
 deploy:
   skip_cleanup: true
   provider: releases
