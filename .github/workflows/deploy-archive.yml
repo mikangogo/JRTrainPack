@@ -9,6 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Archive the repository
-        run: sh ./ci/package.sh
+        run: sh ./.ci/package.sh
         shell: bash
       
