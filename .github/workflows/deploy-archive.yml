@@ -10,6 +10,11 @@ jobs:
     steps:
       - name: Check out the repository
         uses: actions/checkout@v2
+        with:
+          lfs: true
+          clean: true
+          fetch-depth: 1
+          submodules: true
       - name: Archive the repository
         run: ./.ci/package.sh
         shell: bash
