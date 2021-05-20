@@ -1,9 +1,8 @@
 name: Deploy the archive from Repository.
 on:
   push:
-    branches:
-      - master
-      - feature/github-actions
+    tags:
+      - stable
 jobs:
   deploy-arhive:
     runs-on: ubuntu-latest
@@ -18,8 +17,23 @@ jobs:
       - name: Archive the repository
         run: ./.ci/package.sh
         shell: bash
-      - name: Upload Artifact
-        uses: actions/upload-artifact@v2
-        with: 
-          name: JRTrainPack
-          path: ./deploy/JRTrainPack.zip
+      - name: Create release
+        id: create_release
+        uses: actions/create-release@v1.0.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: ${{ steps.date.outputs.date }} - ${{ github.ref }}
+          body:
+          draft: false
+          prerelease: false
+      - name: Upload the archive to release
+        uses: actions/upload-release-asset@v1.0.2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./deploy/JRTrainPack.zip
+          asset_name: ${{ steps.date.outputs.date }}_JRTrainPack.zip
+          asset_content_type: application/zip
