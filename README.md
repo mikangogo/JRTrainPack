@@ -4,7 +4,9 @@
 
 
 ## ダウンロード
-[こちら](https://github.com/mikangogo/JRTrainPack/actions) ... 一番上にある `Workflow` をクリックし、 `Artifacts` の中の `JRTrainPack` をクリックしてダウンロードしてください。
+[こちら](https://github.com/mikangogo/JRTrainPack/releases) ... `Stable`の`JRTrainPack.zip`をダウンロードしてください。
+
+[![Deploy the archive from Repository.](https://github.com/mikangogo/JRTrainPack/actions/workflows/deploy-archive.yml/badge.svg?branch=stable)](https://github.com/mikangogo/JRTrainPack/actions/workflows/deploy-archive.yml)
 
 ## 対応している `Bve trainsim` のバージョン
 `Bve trainsim 5.7.6224.40815`
