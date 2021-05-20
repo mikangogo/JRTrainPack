@@ -8,6 +8,8 @@ jobs:
   deploy-arhive:
     runs-on: ubuntu-latest
     steps:
+      - name: Check out the repository
+        uses: actions/checkout@v2
       - name: Archive the repository
         run: ./.ci/package.sh
         shell: bash
