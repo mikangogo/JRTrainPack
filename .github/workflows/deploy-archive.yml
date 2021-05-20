@@ -1,9 +1,9 @@
 name: Deploy the archive from Repository.
 on: push
-  branches: 
+  branches:
     - master
     - feature/github-actions
-jobs: 
+jobs:
   deploy-arhive:
     steps:
       - name: Archive the repository
