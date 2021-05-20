@@ -4,7 +4,7 @@
 
 
 ## ダウンロード
-[こちら](https://github.com/mikangogo/JRTrainPack/releases) ... `Stable`の`JRTrainPack.zip`をダウンロードしてください。
+[こちら](https://github.com/mikangogo/JRTrainPack/actions) ... 一番上にある `Workflow` をクリックし、 `Artifacts` の中の `JRTrainPack` をクリックしてダウンロードしてください。
 
 [![Build Status](https://travis-ci.org/mikangogo/JRTrainPack.svg?branch=Stable)](https://travis-ci.org/mikangogo/JRTrainPack)
 
