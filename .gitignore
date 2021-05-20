@@ -1,10 +1,12 @@
-﻿# Block all
 *
+!*/
 
 # Ignored items
-!Rock_On/*.*
-!GeneralAtsPlugin/*.*
+!Rock_On/Train/JR/**
+!GeneralAtsPlugin/**
 !.travis.yml
+!.github/**
+!.ci/**
 
 # Blocked items
 # Meta files
