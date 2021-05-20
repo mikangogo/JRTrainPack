@@ -6,6 +6,7 @@ on:
       - feature/github-actions
 jobs:
   deploy-arhive:
+    runs-on: ubuntu-latest
     steps:
       - name: Archive the repository
         run: echo "./ci/package.sh"
