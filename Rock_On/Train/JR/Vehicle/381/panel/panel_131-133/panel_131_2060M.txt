@@ -1,0 +1,619 @@
+﻿BveTs Instrument Panel 2.01:ISO_8859-1
+
+
+[This]
+Resolution = 1880
+Left   = 10
+Top    = 10
+Right  = 3062
+Bottom = 2038
+Center = 1330, 920
+Origin = 1330, 700
+Perspective = 1
+
+;【メーター消灯・時計無し】
+;	[PilotLamp]
+;	Subject = ats130
+;	Location = 440, 1309
+;	DaytimeImage   = meter_off.png
+;	NighttimeImage = meter_offn.png
+;	Layer = 10
+
+;	[PilotLamp]
+;	Subject = ats130
+;	Location = 1029, 1350
+;	DaytimeImage   = watch_off.png
+;	NighttimeImage = watch_offn.png
+;	Layer = 10
+
+;【時計無し・スタフ灯点灯】
+[PilotLamp]
+Subject = ats130
+Location = 1029, 1350
+DaytimeImage   = watch_off.png
+NighttimeImage = watch_offn.png
+Layer = 10
+[PilotLamp]
+Subject = ats130
+Location = 2508, 0
+DaytimeImage   = staff_on.png
+NighttimeImage = staff_onn.png
+Layer = 6
+
+;【スタフ】
+[Needle]
+Layer = 7
+Subject = ats131
+Location = 2517, 2048
+DaytimeImage   = ..\..\..\..\..\..\..\iz_hanwa_5X\iz_阪和・関西空港線_5\TimeTable\W1\2060m.png
+NighttimeImage = ..\..\..\..\..\..\..\iz_hanwa_5X\iz_阪和・関西空港線_5\TimeTable\W1\2060mN.png
+Color = ffffff
+Origin = 0, 1840
+Radius = 1820
+InitialAngle = -180
+LastAngle = 1.78
+Minimum = 0
+Maximum = 1
+NaturalFreq = 0
+DampingRatio = 0
+Tilt = 0.05, -9.5
+[PilotLamp]
+Subject = ats131
+Location = 2508, 0
+DaytimeImage   = staff_on.png
+NighttimeImage = staff_onn.png
+Layer = 6
+
+;【スタフ】
+[Needle]
+Layer = 7
+Subject = ats132
+Location = 2517, 2048
+DaytimeImage   = ..\..\..\..\..\..\..\iz_hanwa_5X\iz_阪和・関西空港線_5\TimeTable\W1\2060m.png
+NighttimeImage = ..\..\..\..\..\..\..\iz_hanwa_5X\iz_阪和・関西空港線_5\TimeTable\W1\2060mN.png
+Color = ffffff
+Origin = 0, 1840
+Radius = 1820
+InitialAngle = -180
+LastAngle = 1.78
+Minimum = 0
+Maximum = 1
+NaturalFreq = 0
+DampingRatio = 0
+Tilt = 0.05, -9.5
+[PilotLamp]
+Subject = ats132
+Location = 2508, 0
+DaytimeImage   = staff_on.png
+NighttimeImage = staff_onn.png
+Layer = 6
+
+
+;【パネル】
+[PilotLamp]
+Subject = true
+Location = 0, 0
+DaytimeImage   = panel_131-133_l.png
+NighttimeImage = panel_131-133_ln.png
+Layer = 4
+[PilotLamp]
+Subject = true
+Location = 512, 0
+DaytimeImage   = panel_131-133_c.png
+NighttimeImage = panel_131-133_cn.png
+Layer = 4
+[PilotLamp]
+Subject = true
+Location = 2560, 0
+DaytimeImage   = panel_131-133_r.png
+NighttimeImage = panel_131-133_rn.png
+Layer = 4
+;	[PilotLamp]
+;	Subject = true
+;	Location = 950, 0
+;	DaytimeImage   = number_tc133.png
+;	NighttimeImage = number_tc133n.png
+;	Layer = 5
+
+;【車体】
+[PilotLamp]
+Subject = true
+Location = 0, 900
+DaytimeImage   = panel_131-133_body.png
+NighttimeImage = panel_131-133_bodyn.png
+Layer = 1
+
+;【車外】
+;【ヘッドライト】
+;ハイビーム(125)
+[PilotLamp]
+Subject = ats125
+Location = 931, 492
+DaytimeImage   = ..\panel_common\headlight_front.png
+Color = f7d4a8
+Layer = 0
+[Needle]
+Layer = 0
+Subject = ats125
+Location = 900, 1850
+DaytimeImage   = ..\panel_common\headlight_side_l.png
+Color = f7d4a8
+Origin = 65, 256
+Radius = 1100
+InitialAngle = 120
+LastAngle = 5
+Minimum = 0
+Maximum = 1
+StopPin = true
+NaturalFreq = 20
+DampingRatio = 0
+Tilt = 20, -70
+
+;ロービーム(126)
+[PilotLamp]
+Subject = ats126
+Location = 931, 622
+DaytimeImage   = ..\panel_common\headlight_front.png
+Color =f7d4a8
+Layer = 0
+
+
+;【ワイパー】
+;ワイパー1L
+[Needle]
+Layer = 2
+Subject = true
+Location = 1150, 1120
+DaytimeImage   = ..\panel_common\wiper1.png
+NighttimeImage = ..\panel_common\wiper1n.png
+Color = ffffff
+Origin = 70, 480
+Radius = 565
+InitialAngle = -102
+LastAngle = 35
+Minimum = 1
+Maximum = 0
+StopPin = true
+NaturalFreq = 5
+DampingRatio = 0.01
+Tilt = 0, 0
+[Needle]
+Layer = 3
+Subject = true
+Location = 1150, 1120
+DaytimeImage   = ..\panel_common\wiper2.png
+NighttimeImage = ..\panel_common\wiper2n.png
+Color = ffffff
+Origin = -40, 680
+Radius = 670
+InitialAngle = -102
+LastAngle = 40
+Minimum = 1
+Maximum = 0
+StopPin = true
+NaturalFreq = 5
+DampingRatio = 0.01
+Tilt = 0, 0
+
+;ワイパー1R
+[Needle]
+Layer = 2
+Subject = true
+Location = 1550, 1045
+DaytimeImage   = ..\panel_common\wiper1.png
+NighttimeImage = ..\panel_common\wiper1n.png
+Color = ffffff
+Origin = 70, 480
+Radius = 530
+InitialAngle = -102
+LastAngle = 35
+Minimum = 1
+Maximum = 0
+StopPin = true
+NaturalFreq = 5
+DampingRatio = 0.01
+Tilt = 0, -20
+[Needle]
+Layer = 3
+Subject = true
+Location = 1550, 1045
+DaytimeImage   = ..\panel_common\wiper2.png
+NighttimeImage = ..\panel_common\wiper2n.png
+Color = ffffff
+Origin = -40, 680
+Radius = 610
+InitialAngle = -102
+LastAngle = 40
+Minimum = 1
+Maximum = 0
+StopPin = true
+NaturalFreq = 5
+DampingRatio = 0.01
+Tilt = 0, -20
+
+
+;【メーター】
+;圧力計(ツリアイ/元ダメ)
+[Needle]
+Layer = 11
+Subject = mr
+Location = 669, 1438
+DaytimeImage   = other\prs_r0.png
+NighttimeImage = other\prs_r0n.png
+Color = b73939
+Origin = 32, 175
+Radius = 105
+InitialAngle = -134
+LastAngle = 134
+Minimum = 0
+Maximum = 1500
+NaturalFreq = 40
+DampingRatio = 0.15
+
+[Needle]
+Layer = 12
+Subject = er
+Location = 669, 1438
+DaytimeImage   = other\prs_b0.png
+NighttimeImage = other\prs_b0n.png
+Color = 202020
+Origin = 32, 175
+Radius = 105
+InitialAngle = -134
+LastAngle = 134
+Minimum = 0
+Maximum = 1500
+NaturalFreq = 40
+DampingRatio = 0.15
+
+[PilotLamp]
+Subject = true
+Location = 656, 1425
+DaytimeImage   = prs_cov1.png
+NighttimeImage = prs_cov1n.png
+Layer = 13
+
+
+;速度計
+[Needle]
+Layer = 11
+Subject = kmph
+Location = 958, 1435
+DaytimeImage   = other\needle_ty0.png
+NighttimeImage = other\needle_ty0n.png
+Color = 2c2c2f
+Origin = 32, 256
+Radius = 110
+InitialAngle = -114
+LastAngle = 115
+Minimum = 6.5
+Maximum = 160
+StopPin = true
+NaturalFreq = 20
+DampingRatio = 0.002
+
+[PilotLamp]
+Subject = true
+Location = 895, 1368
+DaytimeImage   = spd_cov.png
+NighttimeImage = spd_covn.png
+Layer = 13
+
+
+;時計
+[Needle]
+Location = 1199, 1509
+Subject = hour
+DaytimeImage   = other\watch_hour.png
+NighttimeImage = other\watch_hourn.png
+Color = 2e2e2e
+Origin = 16, 177
+Layer = 7
+Radius = 47
+InitialAngle = 0
+LastAngle = 360
+Minimum = 0
+Maximum = 12
+NaturalFreq = 0
+
+[Needle]
+Location = 1199, 1509
+Subject = min
+DaytimeImage   = other\watch_min.png
+NighttimeImage = other\watch_minn.png
+Color = 2e2e2e
+Origin = 16, 177
+Layer = 8
+Radius = 47
+InitialAngle = 0
+LastAngle = 360
+Minimum = 0
+Maximum = 60
+NaturalFreq = 0
+
+[Needle]
+Location = 1199, 1509
+Subject = sec
+DaytimeImage   = other\watch_sec.png
+NighttimeImage = other\watch_secn.png
+Color = 2e2e2e
+Origin = 16, 177
+Layer = 9
+Radius = 47
+InitialAngle = 0
+LastAngle = 360
+Minimum = 0
+Maximum = 60
+NaturalFreq = 63
+DampingRatio = 0.5
+
+
+;圧力計(直通管/制動筒)
+[Needle]
+Layer = 11
+Subject = bc
+Location = 1443, 1438
+DaytimeImage   = other\prs_r0.png
+NighttimeImage = other\prs_r0n.png
+Color = b73939
+Origin = 32, 175
+Radius = 105
+InitialAngle = -135
+LastAngle = 135
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 40
+DampingRatio = 0.15
+
+[Needle]
+Layer = 12
+Subject = sap
+Location = 1443, 1438
+DaytimeImage   = other\prs_b0.png
+NighttimeImage = other\prs_b0n.png
+Color = 202020
+Origin = 32, 175
+Radius = 105
+InitialAngle = -135
+LastAngle = 135
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 40
+DampingRatio = 0.15
+
+[PilotLamp]
+Subject = true
+Location = 1429, 1425
+DaytimeImage   = prs_cov2.png
+NighttimeImage = prs_cov2n.png
+Layer = 13
+
+
+;圧力計(制御空気/制動管)
+[Needle]
+Layer = 11
+Subject = true
+Location = 1732, 1438
+DaytimeImage   = other\prs_r0.png
+NighttimeImage = other\prs_r0n.png
+Color = b73939
+Origin = 32, 175
+Radius = 105
+InitialAngle = -3
+LastAngle = -3
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 40
+DampingRatio = 0.15
+
+[Needle]
+Layer = 12
+Subject = bp
+Location = 1732, 1438
+DaytimeImage   = other\prs_b0.png
+NighttimeImage = other\prs_b0n.png
+Color = 202020
+Origin = 32, 175
+Radius = 105
+InitialAngle = -135
+LastAngle = 135
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 40
+DampingRatio = 0.15
+
+[PilotLamp]
+Subject = true
+Location = 1718, 1425
+DaytimeImage   = prs_cov3.png
+NighttimeImage = prs_cov3n.png
+Layer = 13
+
+
+;架線電圧計
+[Needle]
+Layer = 11
+Subject = ats48
+Location = 2020, 1440
+DaytimeImage   = other\needle_ty0.png
+NighttimeImage = other\needle_ty0n.png
+Color = 2c2c2f
+Origin = 32, 256
+Radius = 110
+InitialAngle = -118
+LastAngle = 118
+Minimum = 0
+Maximum = 2000
+StopPin = true
+NaturalFreq = 10
+DampingRatio = 0.20
+
+[PilotLamp]
+Subject = true
+Location = 1961, 1368
+DaytimeImage   = trolley_vlt_cov.png
+NighttimeImage = trolley_vlt_covn.png
+Layer = 13
+
+;制御電圧計
+[Needle]
+Layer = 11
+Subject = true
+Location = 2310, 1440
+DaytimeImage   = other\needle_ty0.png
+NighttimeImage = other\needle_ty0n.png
+Color = 2c2c2f
+Origin = 32, 256
+Radius = 110
+InitialAngle = 39
+LastAngle = 39
+Minimum = 0
+Maximum = 150
+StopPin = true
+NaturalFreq = 10
+DampingRatio = 0.20
+
+[PilotLamp]
+Subject = true
+Location = 2250, 1368
+DaytimeImage   = battery_vlt_cov.png
+NighttimeImage = battery_vlt_covn.png
+Layer = 13
+
+
+;戸閉灯
+[PilotLamp]
+Subject = door
+Location = 1101, 1202
+DaytimeImage   = plon.png
+NighttimeImage = plonn.png
+Layer = 5
+
+
+
+
+
+;EB
+[PilotLamp]
+Subject = ats10
+Location = 1024, 1730
+DaytimeImage   = eb.png
+NighttimeImage = ebn.png
+Layer = 7
+
+;ATS-S
+[Pilotlamp]
+Subject  = ats0
+Location = 1904, 1719
+DaytimeImage   = atss.png
+NighttimeImage = atssn.png
+Layer = 5
+
+;ATS動作
+[Pilotlamp]
+Subject  = ats1
+Location = 1982, 1719
+DaytimeImage   = atswork.png
+NighttimeImage = atsworkn.png
+Layer = 5
+
+;P　/　P電源
+[Pilotlamp]
+Subject  = ats2
+Location = 1803, 1013
+DaytimeImage   = ..\panel_common\p_power.png
+NighttimeImage = ..\panel_common\p_powern.png
+Layer = 5
+
+;P　/　パターン接近
+[Pilotlamp]
+Subject  = ats3
+Location = 1871, 1013
+DaytimeImage   = ..\panel_common\p_pattern.png
+NighttimeImage = ..\panel_common\p_patternn.png
+Layer = 5
+
+;P　/　ブレーキ動作
+[Pilotlamp]
+Subject  = ats5
+Location = 1938, 1013
+DaytimeImage   = ..\panel_common\p_apply.png
+NighttimeImage = ..\panel_common\p_applyn.png
+Layer = 5
+
+;P　/　ブレーキ開放
+[Pilotlamp]
+Subject  = ats4
+Location = 2006, 1013
+DaytimeImage   = ..\panel_common\p_release.png
+NighttimeImage = ..\panel_common\p_releasen.png
+Layer = 5
+
+;P　/　ATS-P
+[Pilotlamp]
+Subject  = ats6
+Location = 2072, 1013
+DaytimeImage   = ..\panel_common\p_atsp.png
+NighttimeImage = ..\panel_common\p_atspn.png
+Layer = 5
+
+;P　/　故障
+[Pilotlamp]
+Subject  = ats7
+Location = 2139, 1013
+DaytimeImage   = ..\panel_common\p_failure.png
+NighttimeImage = ..\panel_common\p_failuren.png
+Layer = 5
+
+
+
+
+
+
+;直通
+[PilotLamp]
+Subject = ats35
+Location = 1269, 1718
+DaytimeImage   = ..\panel_common\lamp_sap.png
+NighttimeImage = ..\panel_common\lamp_sapn.png
+Layer = 5
+
+;発電
+[PilotLamp]
+Subject = ats210
+Location = 1395, 1718
+DaytimeImage   = ..\panel_common\lamp_dyn.png
+NighttimeImage = ..\panel_common\lamp_dynn.png
+Layer = 5
+
+;抑速
+[PilotLamp]
+Subject = ats211
+Location = 1457, 1718
+DaytimeImage   = ..\panel_common\lamp_hld.png
+NighttimeImage = ..\panel_common\lamp_hldn.png
+Layer = 5
+
+;力行
+[PilotLamp]
+Subject = am
+Location = 1519, 1718
+DaytimeImage   = ..\panel_common\lamp_pow.png
+NighttimeImage = ..\panel_common\lamp_pown.png
+Layer = 5
+
+[DigitalNumber]
+Subject = power
+Location = 1519, 1730
+DaytimeImage   = ..\panel_common\lamp_pow_cov.png
+NighttimeImage = ..\panel_common\lamp_pow_covn.png
+Interval = 108
+Layer = 6
+
+[PilotLamp]
+Subject = ats211
+Location = 1519, 1718
+DaytimeImage   = ..\panel_common\lamp_pow_cov2.png
+NighttimeImage = ..\panel_common\lamp_pow_cov2n.png
+Layer = 6
+

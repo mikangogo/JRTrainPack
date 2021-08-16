@@ -28,8 +28,8 @@ BC Release = ..\..\..\Vehicle\381\Sound\Air.wav
 Emergency = ..\..\..\Vehicle\381\Sound\EmrBrk.wav
 
 [Horn]
-Primary = ..\..\..\Vehicle\381\Sound\horn.wav
-PrimaryRelease = ..\..\..\Vehicle\381\Sound\hornrelease.wav
+Primary = ..\..\..\Vehicle\485\Sound\horn.wav
+PrimaryRelease = ..\..\..\Vehicle\485\Sound\hornrelease.wav
 
 [Door]
 ;Open Left = ..\..\..\Vehicle\381\Sound\DoorOpn.wav
