@@ -14,24 +14,75 @@ Perspective = 1
 ;【メーター消灯・時計無し】
 ;	[PilotLamp]
 ;	Subject = ats130
-;	Location = 460, 1200
+;	Location = 440, 1309
 ;	DaytimeImage   = meter_off.png
 ;	NighttimeImage = meter_offn.png
 ;	Layer = 10
 
-;【時計無し・スタフ灯点灯】
 ;	[PilotLamp]
 ;	Subject = ats130
-;	Location = 1053, 1390
+;	Location = 1029, 1350
 ;	DaytimeImage   = watch_off.png
 ;	NighttimeImage = watch_offn.png
 ;	Layer = 10
-;	[PilotLamp]
-;	Subject = ats130
-;	Location = 2508, 0
-;	DaytimeImage   = staff_on.png
-;	NighttimeImage = staff_onn.png
-;	Layer = 6
+
+;【時計無し・スタフ灯点灯】
+[PilotLamp]
+Subject = ats130
+Location = 1029, 1350
+DaytimeImage   = watch_off.png
+NighttimeImage = watch_offn.png
+Layer = 10
+[PilotLamp]
+Subject = ats130
+Location = 2508, 0
+DaytimeImage   = staff_on.png
+NighttimeImage = staff_onn.png
+Layer = 6
+
+[PilotLamp]
+Subject = ats131
+Location = 1029, 1350
+DaytimeImage   = watch_off.png
+NighttimeImage = watch_offn.png
+Layer = 10
+[PilotLamp]
+Subject = ats131
+Location = 2508, 0
+DaytimeImage   = staff_on.png
+NighttimeImage = staff_onn.png
+Layer = 6
+
+;【スタフ】
+[Needle]
+Layer = 7
+Subject = ats132
+Location = 2517, 2048
+DaytimeImage   = ..\..\..\..\..\..\..\iz_hanwa_5X\iz_阪和・関西空港線_5\TimeTable\W1\2060m_9.png
+NighttimeImage = ..\..\..\..\..\..\..\iz_hanwa_5X\iz_阪和・関西空港線_5\TimeTable\W1\2060mN_9.png
+Color = ffffff
+Origin = 0, 3453
+Radius = 1850
+InitialAngle = -180
+LastAngle = 1.78
+Minimum = 0
+Maximum = 1
+NaturalFreq = 0
+DampingRatio = 0
+Tilt = 0.05, -9.5
+[PilotLamp]
+Subject = ats132
+Location = 2508, 0
+DaytimeImage   = staff_on.png
+NighttimeImage = staff_onn.png
+Layer = 6
+[PilotLamp]
+Subject = ats132
+Location = 2649, 1266
+DaytimeImage   = staff_hook.png
+NighttimeImage = staff_hookn.png
+Layer = 8
+
 
 ;【ATS切換表示】
 [DigitalNumber]
@@ -45,34 +96,34 @@ Layer = 15
 [PilotLamp]
 Subject = true
 Location = 0, 0
-DaytimeImage   = panel_111-106_l.png
-NighttimeImage = panel_111-106_ln.png
+DaytimeImage   = panel_131-133_l.png
+NighttimeImage = panel_131-133_ln.png
 Layer = 4
 [PilotLamp]
 Subject = true
 Location = 512, 0
-DaytimeImage   = panel_111_c.png
-NighttimeImage = panel_111_cn.png
+DaytimeImage   = panel_131-133_c.png
+NighttimeImage = panel_131-133_cn.png
 Layer = 4
 [PilotLamp]
 Subject = true
 Location = 2560, 0
-DaytimeImage   = panel_111-106_r.png
-NighttimeImage = panel_111-106_rn.png
+DaytimeImage   = panel_131-133_r.png
+NighttimeImage = panel_131-133_rn.png
 Layer = 4
-[PilotLamp]
-Subject = true
-Location = 950, 0
-DaytimeImage   = number_tsc106.png
-NighttimeImage = number_tsc106n.png
-Layer = 5
+;	[PilotLamp]
+;	Subject = true
+;	Location = 950, 0
+;	DaytimeImage   = number_tc133.png
+;	NighttimeImage = number_tc133n.png
+;	Layer = 5
 
 ;【車体】
 [PilotLamp]
 Subject = true
 Location = 0, 900
-DaytimeImage   = panel_111-106_body.png
-NighttimeImage = panel_111-106_bodyn.png
+DaytimeImage   = panel_131-133_body.png
+NighttimeImage = panel_131-133_bodyn.png
 Layer = 1
 
 ;【車外】
@@ -111,6 +162,42 @@ Layer = 0
 
 
 ;【ワイパー】
+;ワイパー1L
+[Needle]
+Layer = 2
+Subject = true
+Location = 1150, 1120
+DaytimeImage   = ..\panel_common\wiper1.png
+NighttimeImage = ..\panel_common\wiper1n.png
+Color = ffffff
+Origin = 70, 480
+Radius = 565
+InitialAngle = -102
+LastAngle = 35
+Minimum = 1
+Maximum = 0
+StopPin = true
+NaturalFreq = 5
+DampingRatio = 0.01
+Tilt = 0, 0
+[Needle]
+Layer = 3
+Subject = true
+Location = 1150, 1120
+DaytimeImage   = ..\panel_common\wiper2.png
+NighttimeImage = ..\panel_common\wiper2n.png
+Color = ffffff
+Origin = -40, 680
+Radius = 670
+InitialAngle = -102
+LastAngle = 40
+Minimum = 1
+Maximum = 0
+StopPin = true
+NaturalFreq = 5
+DampingRatio = 0.01
+Tilt = 0, 0
+
 ;ワイパー1R
 [Needle]
 Layer = 2
@@ -194,23 +281,23 @@ Layer = 13
 [Needle]
 Layer = 11
 Subject = kmph
-Location = 961, 1436
+Location = 958, 1435
 DaytimeImage   = other\needle_ty0.png
 NighttimeImage = other\needle_ty0n.png
 Color = 2c2c2f
 Origin = 32, 256
-Radius = 108
-InitialAngle = -119
-LastAngle = 116
-Minimum = 3
+Radius = 110
+InitialAngle = -114
+LastAngle = 115
+Minimum = 6.5
 Maximum = 160
 StopPin = true
 NaturalFreq = 20
-DampingRatio = 0.01
+DampingRatio = 0.002
 
 [PilotLamp]
 Subject = true
-Location = 897, 1370
+Location = 895, 1368
 DaytimeImage   = spd_cov.png
 NighttimeImage = spd_covn.png
 Layer = 13
@@ -218,7 +305,7 @@ Layer = 13
 
 ;時計
 [Needle]
-Location = 1198, 1534
+Location = 1199, 1509
 Subject = hour
 DaytimeImage   = other\watch_hour.png
 NighttimeImage = other\watch_hourn.png
@@ -233,7 +320,7 @@ Maximum = 12
 NaturalFreq = 0
 
 [Needle]
-Location = 1198, 1534
+Location = 1199, 1509
 Subject = min
 DaytimeImage   = other\watch_min.png
 NighttimeImage = other\watch_minn.png
@@ -248,7 +335,7 @@ Maximum = 60
 NaturalFreq = 0
 
 [Needle]
-Location = 1198, 1534
+Location = 1199, 1509
 Subject = sec
 DaytimeImage   = other\watch_sec.png
 NighttimeImage = other\watch_secn.png
@@ -400,7 +487,7 @@ Layer = 13
 ;戸閉灯
 [PilotLamp]
 Subject = door
-Location = 1125, 1170
+Location = 1101, 1202
 DaytimeImage   = plon.png
 NighttimeImage = plonn.png
 Layer = 5
@@ -420,7 +507,7 @@ Layer = 7
 ;ATS-S
 [Pilotlamp]
 Subject  = ats0
-Location = 1799, 1712
+Location = 1904, 1719
 DaytimeImage   = atss.png
 NighttimeImage = atssn.png
 Layer = 5
@@ -428,7 +515,7 @@ Layer = 5
 ;ATS動作
 [Pilotlamp]
 Subject  = ats1
-Location = 1880, 1712
+Location = 1982, 1719
 DaytimeImage   = atswork.png
 NighttimeImage = atsworkn.png
 Layer = 5

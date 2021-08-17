@@ -33,23 +33,12 @@ DaytimeImage   = staff_on.png
 NighttimeImage = staff_onn.png
 Layer = 6
 
-;【スタフ】
-[Needle]
-Layer = 7
+[PilotLamp]
 Subject = ats131
-Location = 2517, 2048
-DaytimeImage   = ..\..\..\..\..\..\..\iz_hanwa_5X\iz_阪和・関西空港線_5\TimeTable\W1\2060m.png
-NighttimeImage = ..\..\..\..\..\..\..\iz_hanwa_5X\iz_阪和・関西空港線_5\TimeTable\W1\2060mN.png
-Color = ffffff
-Origin = 0, 1840
-Radius = 1820
-InitialAngle = -180
-LastAngle = 1.78
-Minimum = 0
-Maximum = 1
-NaturalFreq = 0
-DampingRatio = 0
-Tilt = 0.05, -9.5
+Location = 1053, 1390
+DaytimeImage   = watch_off.png
+NighttimeImage = watch_offn.png
+Layer = 10
 [PilotLamp]
 Subject = ats131
 Location = 2508, 0
@@ -65,8 +54,8 @@ Location = 2517, 2048
 DaytimeImage   = ..\..\..\..\..\..\..\iz_hanwa_5X\iz_阪和・関西空港線_5\TimeTable\W1\2060m.png
 NighttimeImage = ..\..\..\..\..\..\..\iz_hanwa_5X\iz_阪和・関西空港線_5\TimeTable\W1\2060mN.png
 Color = ffffff
-Origin = 0, 1840
-Radius = 1820
+Origin = 0, 3453
+Radius = 1850
 InitialAngle = -180
 LastAngle = 1.78
 Minimum = 0
@@ -80,6 +69,21 @@ Location = 2508, 0
 DaytimeImage   = staff_on.png
 NighttimeImage = staff_onn.png
 Layer = 6
+[PilotLamp]
+Subject = ats132
+Location = 2649, 1266
+DaytimeImage   = staff_hook.png
+NighttimeImage = staff_hookn.png
+Layer = 8
+
+
+;【ATS切換表示】
+[DigitalNumber]
+Subject = ats34
+Location = 185, 1350
+DaytimeImage   = ..\panel_common\ats_ch.png
+Interval = 128
+Layer = 15
 
 ;【パネル】
 [PilotLamp]

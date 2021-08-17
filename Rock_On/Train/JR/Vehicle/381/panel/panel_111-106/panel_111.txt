@@ -33,30 +33,13 @@ Perspective = 1
 ;	NighttimeImage = staff_onn.png
 ;	Layer = 6
 
-;【スタフ】
-;	[Needle]
-;	Layer = 7
-;	Subject = 
-;	Location = 2517, 2048
-;	DaytimeImage   = 
-;	NighttimeImage = 
-;	Color = ffffff
-;	Origin = 0, 1840
-;	Radius = 1820
-;	InitialAngle = -180
-;	LastAngle = 1.78
-;	Minimum = 0
-;	Maximum = 1
-;	NaturalFreq = 0
-;	DampingRatio = 0
-;	Tilt = 0.05, -9.5
-;	[PilotLamp]
-;	Subject = ats131
-;	Location = 2508, 0
-;	DaytimeImage   = staff_on.png
-;	NighttimeImage = staff_onn.png
-;	Layer = 6
-
+;【ATS切換表示】
+[DigitalNumber]
+Subject = ats34
+Location = 185, 1350
+DaytimeImage   = ..\panel_common\ats_ch.png
+Interval = 128
+Layer = 15
 
 ;【パネル】
 [PilotLamp]

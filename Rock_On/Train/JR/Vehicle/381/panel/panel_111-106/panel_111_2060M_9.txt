@@ -20,18 +20,62 @@ Perspective = 1
 ;	Layer = 10
 
 ;【時計無し・スタフ灯点灯】
-;	[PilotLamp]
-;	Subject = ats130
-;	Location = 1053, 1390
-;	DaytimeImage   = watch_off.png
-;	NighttimeImage = watch_offn.png
-;	Layer = 10
-;	[PilotLamp]
-;	Subject = ats130
-;	Location = 2508, 0
-;	DaytimeImage   = staff_on.png
-;	NighttimeImage = staff_onn.png
-;	Layer = 6
+[PilotLamp]
+Subject = ats130
+Location = 1053, 1390
+DaytimeImage   = watch_off.png
+NighttimeImage = watch_offn.png
+Layer = 10
+[PilotLamp]
+Subject = ats130
+Location = 2508, 0
+DaytimeImage   = staff_on.png
+NighttimeImage = staff_onn.png
+Layer = 6
+
+[PilotLamp]
+Subject = ats131
+Location = 1053, 1390
+DaytimeImage   = watch_off.png
+NighttimeImage = watch_offn.png
+Layer = 10
+[PilotLamp]
+Subject = ats131
+Location = 2508, 0
+DaytimeImage   = staff_on.png
+NighttimeImage = staff_onn.png
+Layer = 6
+
+;【スタフ】
+[Needle]
+Layer = 7
+Subject = ats132
+Location = 2517, 2048
+DaytimeImage   = ..\..\..\..\..\..\..\iz_hanwa_5X\iz_阪和・関西空港線_5\TimeTable\W1\2060m_9.png
+NighttimeImage = ..\..\..\..\..\..\..\iz_hanwa_5X\iz_阪和・関西空港線_5\TimeTable\W1\2060mN_9.png
+Color = ffffff
+Origin = 0, 3453
+Radius = 1850
+InitialAngle = -180
+LastAngle = 1.78
+Minimum = 0
+Maximum = 1
+NaturalFreq = 0
+DampingRatio = 0
+Tilt = 0.05, -9.5
+[PilotLamp]
+Subject = ats132
+Location = 2508, 0
+DaytimeImage   = staff_on.png
+NighttimeImage = staff_onn.png
+Layer = 6
+[PilotLamp]
+Subject = ats132
+Location = 2649, 1266
+DaytimeImage   = staff_hook.png
+NighttimeImage = staff_hookn.png
+Layer = 8
+
 
 ;【ATS切換表示】
 [DigitalNumber]
@@ -60,12 +104,12 @@ Location = 2560, 0
 DaytimeImage   = panel_111-106_r.png
 NighttimeImage = panel_111-106_rn.png
 Layer = 4
-[PilotLamp]
-Subject = true
-Location = 950, 0
-DaytimeImage   = number_tsc106.png
-NighttimeImage = number_tsc106n.png
-Layer = 5
+;	[PilotLamp]
+;	Subject = true
+;	Location = 950, 0
+;	DaytimeImage   = number_tsc106.png
+;	NighttimeImage = number_tsc106n.png
+;	Layer = 5
 
 ;【車体】
 [PilotLamp]
@@ -111,6 +155,42 @@ Layer = 0
 
 
 ;【ワイパー】
+;ワイパー1L
+[Needle]
+Layer = 2
+Subject = true
+Location = 1150, 1120
+DaytimeImage   = ..\panel_common\wiper1.png
+NighttimeImage = ..\panel_common\wiper1n.png
+Color = ffffff
+Origin = 70, 480
+Radius = 565
+InitialAngle = -102
+LastAngle = 35
+Minimum = 1
+Maximum = 0
+StopPin = true
+NaturalFreq = 5
+DampingRatio = 0.01
+Tilt = 0, 0
+[Needle]
+Layer = 3
+Subject = true
+Location = 1150, 1120
+DaytimeImage   = ..\panel_common\wiper2.png
+NighttimeImage = ..\panel_common\wiper2n.png
+Color = ffffff
+Origin = -40, 680
+Radius = 670
+InitialAngle = -102
+LastAngle = 40
+Minimum = 1
+Maximum = 0
+StopPin = true
+NaturalFreq = 5
+DampingRatio = 0.01
+Tilt = 0, 0
+
 ;ワイパー1R
 [Needle]
 Layer = 2
