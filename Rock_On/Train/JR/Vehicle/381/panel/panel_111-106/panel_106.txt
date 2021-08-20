@@ -111,6 +111,42 @@ Layer = 0
 
 
 ;【ワイパー】
+;ワイパー1L
+[Needle]
+Layer = 2
+Subject = true
+Location = 1150, 1120
+DaytimeImage   = ..\panel_common\wiper1.png
+NighttimeImage = ..\panel_common\wiper1n.png
+Color = ffffff
+Origin = 70, 480
+Radius = 565
+InitialAngle = -102
+LastAngle = 35
+Minimum = 1
+Maximum = 0
+StopPin = true
+NaturalFreq = 5
+DampingRatio = 0.01
+Tilt = 0, 0
+[Needle]
+Layer = 3
+Subject = true
+Location = 1150, 1120
+DaytimeImage   = ..\panel_common\wiper2.png
+NighttimeImage = ..\panel_common\wiper2n.png
+Color = ffffff
+Origin = -40, 680
+Radius = 670
+InitialAngle = -102
+LastAngle = 40
+Minimum = 1
+Maximum = 0
+StopPin = true
+NaturalFreq = 5
+DampingRatio = 0.01
+Tilt = 0, 0
+
 ;ワイパー1R
 [Needle]
 Layer = 2
